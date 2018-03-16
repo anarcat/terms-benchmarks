@@ -1,0 +1,15 @@
+terminal,time (s),cpu (%),memory (k)
+urxvt,02.79,95,1824
+gnome,06.90,38,1944
+xterm,26.05,13,1876
+xvt,27.89,3,1804
+putty,18.67,14,1888
+kterm,24.17,29,1820
+mrxvt,02.71,99,2000
+mlterm,09.08,30,1984
+xfce4-terminal,06.94,38,1884
+eterm,55.65,5,1888
+st,03.15,79,1800
+alacritty,02.52,99,2000
+konsole,05.32,48,1880
+Terminator,07.18,39,1984
