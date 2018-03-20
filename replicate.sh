@@ -1,14 +1,11 @@
 #!/bin/sh
 
-# a hundred thousand lines yields 40ms in urxvt, but 2.5 in xterm,
-#
-# a single line takes rxvt 9ms, which is small enough to be ignored in
-# our tests, and is similar to xterm (10ms)
-#
-# ten times as much makes xterm take 30 seconds per test which meant
-# 100 tests took 40 minutes, which was way too long
 set -e
+
+# how many times to repeat the string
 lines=100000
+
+# how many tests to run
 samples=100
 
 echo "terminal,time,cpu,memory" >> times-${samples}x${lines}.csv
