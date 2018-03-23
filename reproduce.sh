@@ -8,6 +8,9 @@ lines=100000
 # how many tests to run
 samples=100
 
+echo "setting Xresources to defaults"
+xrdb -load /dev/null
+
 echo "terminal,time,cpu,memory" >> times-${samples}x${lines}.csv
 
 for terminal in uxterm xfce4-terminal konsole pterm ; do
@@ -28,3 +31,6 @@ for terminal in alacritty urxvt stterm mlterm; do
     done
     sed -n "/elapsed/{s/^.* 0:\([0-9]*.[0-9]*\)elapsed \([0-9?]*\)%CPU .*avgdata \([0-9]*\)maxresident.*\$/$terminal,\1,\2,\3/;p}" < $terminal-time.txt >> times-${samples}x${lines}.csv
 done
+
+echo "resetting Xresources"
+xrdb -load ~/.Xresources
