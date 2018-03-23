@@ -336,11 +336,11 @@ from the review, mostly because:
      confused with the Wayland rewrite of st (see below)
    * [xiterm+thai](https://linux.thai.net/projects/xiterm+thai/): inactive fork of (x)iterm, which is itself an
      inactive (removed from Debian in 2010) fork of aterm
-   * [xvt](https://tracker.debian.org/pkg/xvt): lightweight xterm fork, mostly inactive
+   * [xvt](https://tracker.debian.org/pkg/xvt): ancestor of rxvt, mostly inactive
  * not in Debian stable (might overlap with the above of course):
+   * [cool-retro-term](https://github.com/Swordfish90/cool-retro-term)
    * [cxterm](https://tracker.debian.org/pkg/cxterm): last seen in Debian in 2002, althouh upstream looked
      [alive in 2011](http://cxterm.sourceforge.net/)
-   * [cool-retro-term](https://github.com/Swordfish90/cool-retro-term)
    * [evilvte](http://www.calno.com/evilvte/): removed in Debian in 2017
    * [germinal](https://www.imagination-land.org/tags/germinal.html)
    * [kitty](https://github.com/kovidgoyal/kitty): same approach as Alacritty
@@ -361,21 +361,27 @@ from the review, mostly because:
    * [sakura](http://www.pleyades.net/david/projects/sakura): another vte-derivative
    * [termit](https://github.com/nonstop/termit): yet another vte terminal, with Lua scripting
    * [termite](https://github.com/thestinger/termite): another vte
-   * [tilix](https://tracker.debian.org/pkg/tilix): vte-based tiling term3
+   * [tilix](https://tracker.debian.org/pkg/tilix): vte-based tiling term
  * drop-down terminals went under my radar:
    * [guake](http://guake-project.org/): drop-down terminal for GNOME
    * [tilda](https://github.com/lanoxx/tilda): "Gtk based drop down terminal"
    * [Yakuake](https://yakuake.kde.org/): Konsole-based
  * were too big or hard to install
-   * [anyterm](https://anyterm.org/)
    * [Gate One](https://github.com/liftoff/GateOne)
+   * [anyterm](https://anyterm.org/)
    * [hyper](https://github.com/zeit/hyper)
    * [shellinabox](https://github.com/shellinabox/shellinabox)
-   * [upterm](https://github.com/railsware/upterm)
    * [terminus](https://github.com/Eugeny/terminus)
+   * [upterm](https://github.com/railsware/upterm)
    * ... or any Electron/web apps: adding those to the benchmarks
      would require me to change the Y scale to be logarithmic, which
      would be silly
 
 A more exhaustive [list of terminal emulators](https://wiki.archlinux.org/index.php/List_of_applications#Terminal_emulators) is also available on
 the Arch wiki.
+
+Final notes
+===========
+
+This would be hosted on GitLab, like my other repos, but they have
+[trouble rendering the images here](https://gitlab.com/gitlab-org/gitlab-ce/issues/32784#note_63703633) so this will have to do.
