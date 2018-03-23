@@ -114,7 +114,7 @@ Resources
    qualitative results of those are also visible below.
 
  * the `times-100x100000.csv` file was generated with
-   [replicate.sh](https://github.com/anarcat/terms-benchmarks/blob/master/replicate.sh), which starts each terminal with the above
+   [reproduce.sh](https://github.com/anarcat/terms-benchmarks/blob/master/reproduce.sh), which starts each terminal with the above
    benchmark (but only 100,000 loops instead of a million, to shorten
    the test time). this series of tests was performed on the same
    computer, but on Debian stretch 9.4 in March 2018.
