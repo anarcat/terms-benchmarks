@@ -38,13 +38,16 @@ Unicode rendering tests were performed in a Debian Stretch 9.4.0
 virtual machine, using the following procedure:
 
     vagrant up debian/stretch64
-    vagrant rsync
-    vagrant ssh sudo apt install xorg xterm rxvt-unicode mlterm kterm gnome-terminal blackbox
+    vagrant ssh -c "sudo apt install xorg xterm rxvt-unicode mlterm kterm gnome-terminal blackbox"
+    vagrant ssh -c "echo 'w6ksIM6ULCDQmSwg16cgLNmFLCDguZcsIOOBgizlj7YsIOiRiSwgYW5kIOunkAo=' | base64 -d > magicstring"
 
-Then start VirtualBox, login to GUI (vagrant/vagrant), start the
-terminal and show in the magic string:
+Then start VirtualBox, login (vagrant/vagrant) and start a GUI:
 
-    echo 'w6ksIM6ULCDQmSwg16cgLNmFLCDguZcsIOOBgizlj7YsIOiRiSwgYW5kIOunkAo=' | base64 -d
+    xinit blackbox
+
+In blackbox, start a terminal and cat the magic file:
+
+    cat magicstring
 
 Latency tests
 -------------
