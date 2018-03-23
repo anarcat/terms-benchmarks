@@ -63,6 +63,8 @@ The following procedure was used:
    4. switch back
    5. some font tweaks if typometer complains
 
+The results were saved in the `latency.csv` file.
+
 Some notes:
 
  * typometer wasn't configured in any special way: we used the default
@@ -94,6 +96,9 @@ I also contacted [Fatin on Twitter](https://twitter.com/pavelfatin/) (through a 
 his R sources to avoid duplicating work, but failed to get a
 response. He might have used this [jitter technique](http://zevross.com/blog/2014/05/05/unhide-hidden-data-using-jitter-in-the-r-package-ggplot2/) to get the
 diffuse effect.
+
+I have also mostly reproduced Fatin's results in the latency tests, as
+is shown in the `editors.csv` file.
 
 Resources
 ---------
