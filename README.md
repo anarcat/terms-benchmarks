@@ -136,14 +136,18 @@ To perform the test, the above two strings were stored in two distinct
 files ([magicstring](magicstring) and [sarah](sarah)) and displayed, one at a time,
 with two distinct `cat` commands:
 
-```
 [anarcat@curiehat terms-benchmarks]$ cat magicstring
 é, Δ, Й, ק ,م, ๗, あ,叶, 葉, and 말
-[anarcat@curiehat terms-benchmarks]$ cat sarah 
-שרה
-```
+[anarcat@curiehat terms-benchmarks]$ cat sarah
 
-Here are some results performed on Fedora 27 and Debian 9:
+שרה
+
+Note that the word "sarah" is surrounded by newlines otherwise it does
+not show up correctly in Emacs, which directions are per paragraph,
+not per line.
+
+Here are the results of a test performed on Debian 9 and verified on
+Fedora 27:
 
 | Terminal            | All | Order | From right |
 | ------------------- | --- | ----  | ---------- |
