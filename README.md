@@ -24,7 +24,7 @@ was `fr_CA.UTF-8` for all tests.
 
 | Terminal            | Debian        | Fedora  | Upstream | Notes                    |
 | ------------------- | ------------- | ------- | -------- | ------------------------ |
-| [Alacritty][]       | 3df394d       | N/A     | N/A      | No releases, git head    |
+| [Alacritty][]       | 6debc4f       | N/A     | N/A      | No releases, git head    |
 | [GNOME Terminal][]  | 3.22.2        | 3.26.2  | 3.28.0   | uses GTK3, [VTE][]       |
 | [Konsole][]         | 16.12.0       | 17.12.2 | 17.12.3  | uses KDE libraries       |
 | [mlterm][]          | 3.5.0         | 3.7.0   | 3.8.5    | uses VTE, "Multi-lingual terminal" |
@@ -51,7 +51,32 @@ was `fr_CA.UTF-8` for all tests.
  [XTerm]: http://invisible-island.net/xterm/
 
 Alacritty was only tested on Debian and doesn't have tagged releases
-yet.
+yet. The latest commit available at the time of writing was:
+
+    commit 6debc4f3351446417d0c4e38173cd9ef0faa71d5
+    Author: YOSHIOKA Takuma <lo48576@hard-wi.red>
+    Date:   Tue Mar 13 20:16:01 2018 +0900
+
+        Try to create window with different SRGB config when failed
+        
+        This may truly solve #921 (and issue caused by #1178)
+        <https://github.com/jwilm/alacritty/issues/921#issuecomment-372619121>.
+
+mlterm is not shipped with Fedora by default, so this [copr
+repository](https://copr.fedorainfracloud.org/coprs/rabiny/mlterm/) was used as an alternative. Because it only supports
+F26 out of the box, the `.repo` file was modified to hardcode the
+version number:
+
+    --- /etc/yum.repos.d/rabiny-mlterm.repo.orig	2018-03-28 17:06:43.048093670 -0400
+    +++ /etc/yum.repos.d/rabiny-mlterm.repo	2018-03-28 17:06:19.671757651 -0400
+    @@ -1,6 +1,6 @@
+     [rabiny-mlterm]
+     name=Copr repo for mlterm owned by rabiny
+    -baseurl=https://copr-be.cloud.fedoraproject.org/results/rabiny/mlterm/fedora-$releasever-$basearch/
+    +baseurl=https://copr-be.cloud.fedoraproject.org/results/rabiny/mlterm/fedora-26-$basearch/
+     type=rpm-md
+     skip_if_unavailable=True
+     gpgcheck=1
 
 Feature tests
 =============
