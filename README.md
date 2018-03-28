@@ -124,7 +124,7 @@ with two distinct `cat` commands:
 שרה
 ```
 
-Here are some results performed on Fedora 27:
+Here are some results performed on Fedora 27 and Debian 9:
 
 | Terminal            | All | Order | From right |
 | ------------------- | --- | ----  | ---------- |
@@ -133,9 +133,9 @@ Here are some results performed on Fedora 27:
 | [Konsole][]         |  ✓  |  ✓    |  x  |
 | [mlterm][]          |  ✓  |  ✓    |  ✓  |
 | [pterm][]           |  ✓  |  ✓    |  ✓  |
+| [rxvt-unicode][]    |  ✓  |  x    |  x  |
 | [st][]              |  ✓  |  x    |  x  |
 | [Terminator][]      |  ✓  |  x    |  x  |
-| [rxvt-unicode][]    |  ✓  |  x    |  x  |
 | [Xfce Terminal][]   |  ✓  |  x    |  x  |
 | [xterm][]           |  x  |  x    |  x  |
 
@@ -144,6 +144,9 @@ Details:
  * All: all characters are properly displayed in the default configuration
  * Order: The "mem" and "qoph" characters are in the proper order
  * From right: the "Sara" word is display from the right margin
+
+Note that mlterm 3.5, as packaged in Debian, does not render all
+characters properly.
 
 Paste protection
 ----------------
