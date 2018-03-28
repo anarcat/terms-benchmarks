@@ -15,10 +15,7 @@ Methodology
 
 Those tests were built over a period of 6 months, with variable
 methodology for different tests. Two main family of tests were
-performed: latency and resources tests. Latency tests aim at
-evaluating the input latency of the terminals, and resources looks at
-how much bandwidth can be dumped in the terminal, and how much CPU and
-memory it uses.
+performed: features and performance.
 
 Unless otherwise noted, all tests were performed in July 2017 using
 Debian packages, on Debian stretch 9.0 amd64 with the same hardware
@@ -279,7 +276,11 @@ but not validated on later versions with Fedora 27.
 Performance tests
 =================
 
-Those tests are for the second article in the series.
+Those tests are for the second article in the series. Two main kind of
+tests were performed here: latency and resources tests. Latency tests
+aim at evaluating the input latency of the terminals, and resources
+looks at how much bandwidth can be dumped in the terminal, and how
+much CPU and
 
 Latency
 -------
