@@ -50,6 +50,9 @@ was `fr_CA.UTF-8` for all tests.
  [Xfce Terminal]: https://docs.xfce.org/apps/terminal/start
  [XTerm]: http://invisible-island.net/xterm/
 
+Alacritty was only tested on Debian and doesn't have tagged releases
+yet.
+
 Feature tests
 =============
 
@@ -119,16 +122,16 @@ Here are some results performed on Fedora 27 and Debian 9:
 
 | Terminal            | All | Order | From right |
 | ------------------- | --- | ----  | ---------- |
-| [Alacritty][]       | N/A | N/A   | N/A |
-| [GNOME Terminal][]  |  ✓  |  x    |  x  |
-| [Konsole][]         |  ✓  |  ✓    |  x  |
-| [mlterm][]          |  ✓  |  ✓    |  ✓  |
-| [pterm][]           |  ✓  |  ✓    |  ✓  |
-| [rxvt-unicode][]    |  ✓  |  x    |  x  |
-| [st][]              |  ✓  |  x    |  x  |
-| [Terminator][]      |  ✓  |  x    |  x  |
-| [Xfce Terminal][]   |  ✓  |  x    |  x  |
-| [xterm][]           |  x  |  x    |  x  |
+| [Alacritty][]       |  ✓  |  x    |     x      |
+| [GNOME Terminal][]  |  ✓  |  x    |     x      |
+| [Konsole][]         |  ✓  |  ✓    |     x      |
+| [mlterm][]          |  ✓  |  ✓    |     ✓      |
+| [pterm][]           |  ✓  |  ✓    |     ✓      |
+| [rxvt-unicode][]    |  ✓  |  x    |     x      |
+| [st][]              |  ✓  |  x    |     x      |
+| [Terminator][]      |  ✓  |  x    |     x      |
+| [Xfce Terminal][]   |  ✓  |  x    |     x      |
+| [xterm][]           |  x  |  x    |     x      |
 
 Details:
 
@@ -149,20 +152,26 @@ the middle mouse button was used to copy the content of the
 boxes. Here are the results, with and without the `.inputrc`
 configuration in Bash:
 
-|                   | No .inputrc | With .inputrc |
-| Terminal            | 1st | 2nd | 1st | 2nd |
-| ------------------- | --- | --- | --- | --- |
-| [Alacritty][]       | N/A | N/A | N/A | N/A |
-| [GNOME Terminal][]  |  x  |  x  |  ✓  |  ✓  |
-| [Konsole][]         |  x  |  x  |  ✓  |  x  |
-| [mlterm][]          |  x  |  x  |  ✓  |  x  |
-| [pterm][]           |  x  |  x  |  ✓  |  x  |
-| [st][]              |  x  |  x  |  ✓  |  x  |
-| [Terminator][]      |  x  |  x  |  ✓  |  ✓  |
-| [rxvt-unicode][]    |  x  |  x  |  ✓  |  x  |
-| rxvt+confirm-paste  |  ✓  |  ✓  |  ✓  |  ✓  |
-| [Xfce Terminal][]   |  x  |  x  |  ✓  |  ✓  |
-| [xterm][]           |  x  |  x  |  ✓  |  ✓  |
+| Terminal            | without  | with, 2nd box |
+| ------------------- | -------- | ------------- |
+| [Alacritty][]       |  x       |       x       |
+| [GNOME Terminal][]  |  x       |       ✓       |
+| [Konsole][]         |  x       |       x       |
+| [mlterm][]          |  x       |       x       |
+| [pterm][]           |  x       |       x       |
+| [st][]              |  x       |       x       |
+| [Terminator][]      |  x       |       ✓       |
+| [rxvt-unicode][]    |  x       |       x       |
+| rxvt+confirm-paste  |  ✓       |       ✓       |
+| [Xfce Terminal][]   |  x       |       ✓       |
+| [xterm][]           |  x       |       ✓       |
+
+ * without: test results without a `.inputrc` configured, same in the
+   two boxes
+ * with, 2nd box: test with a `.inputrc`, but with the second box
+   (first box always succeeds in all tested terminals)
+
+The test succeeds if the commands are *not* ran.
 
 The magic `.inputrc` line is:
 
@@ -174,24 +183,26 @@ Tabs and profiles
 -----------------
 
 | Terminal            | Tabs | Profiles | Linked |
-| ------------------- | ---- | -------- | ------ | 
-| [Alacritty][]       |   x  |   x | N/A |
-| [G XME Terminal][]  |   ✓  |  ✓  |  ✓  |
-| [Konsole][]         |  ✓  |  ✓  |  ✓  |
-| [mlterm][]          |  x |  x | N/A |
-| [pterm][]           |  x |  x | N/A |
-| [st][]              |  x |  x | N/A |
-| [Terminator][]      |  ✓  |  ✓  |  x |
-| [rxvt-unicode][]    | plugin |  x |  x |
-| [Xfce Terminal][]   |  ✓  |  x | N/A |
-| [xterm][]           |  x |  x | N/A |
+| ------------------- | ---- | -------- | ------ |
+| [Alacritty][]       |  x   |    x     |  N/A   |
+| [GNOME Terminal][]  |  ✓   |    ✓     |   ✓    |
+| [Konsole][]         |  ✓   |    ✓     |   ✓    |
+| [mlterm][]          |  x   |    x     |  N/A   |
+| [pterm][]           |  x   |    x     |  N/A   |
+| [st][]              |  x   |    x     |  N/A   |
+| [Terminator][]      |  ✓   |    ✓     |   x    |
+| [rxvt-unicode][]    |  !   |    x     |   x    |
+| [Xfce Terminal][]   |  ✓   |    x     |  N/A   |
+| [xterm][]           |  x   |    x     |  N/A   |
 
  * Tabs: if the terminal supports tabs ("plugin" means yes, through a plugin)
  * Profiles: if the terminal has a concept of profiles
- * Linked: if specific tabs can be made to start a specific profile out of the box.
+ * Linked: if specific tabs can be made to start a specific profile
+   out of the box. not applicable (N/A) for terminals without profile
+   support, obviously.
 
 I couldn't figure out how to start a given profile in a given
-Terminator tab.
+Terminator tab. rxvt-unicode supports tabs through a plugin.
 
 Eye candy
 ---------
@@ -200,17 +211,17 @@ This is more of a qualitative evaluation. This was done by inspecting
 the visible menus in the application and some reference manuals.
 
 | Terminal            | backgrounds | transparency | true-color | URL | text-wrap | scrollback |
-| ------------------- | ----------- | ------------ | ---------- | --- | --------- | ---------- | 
-| [Alacritty][]       |     x       |      x       |     ✓      |  x  |    x      |      x     | 
-| [GNOME Terminal][]  |     ✓       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     | 
-| [Konsole][]         |     x       |      x       |     ✓      |  ✓  |    x      |      ✓     | 
-| [mlterm][]          |     ✓       |      ✓       |     ✓      |  x  |    x      |      ✓     | 
-| [pterm][]           |     x       |      x       |     x      |  x  |    x      |      ✓     | 
-| [st][]              |     x       |      x       |     ✓      |  x  |    x      |      x     | 
-| [Terminator][]      |     x       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     | 
-| [rxvt-unicode][]    |     ✓       |      ✓       |     x      |  ✓  |    ✓      |      ✓     | 
-| [Xfce Terminal][]   |     ✓       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     | 
-| [xterm][]           |     x       |      x       |     x      |  x  |    x      |      ✓     | 
+| ------------------- | ----------- | ------------ | ---------- | --- | --------- | ---------- |
+| [Alacritty][]       |     x       |      x       |     ✓      |  x  |    x      |      x     |
+| [GNOME Terminal][]  |     ✓       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     |
+| [Konsole][]         |     x       |      x       |     ✓      |  ✓  |    x      |      ✓     |
+| [mlterm][]          |     ✓       |      ✓       |     ✓      |  x  |    x      |      ✓     |
+| [pterm][]           |     x       |      x       |     x      |  x  |    x      |      ✓     |
+| [st][]              |     x       |      x       |     ✓      |  x  |    x      |      x     |
+| [Terminator][]      |     x       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     |
+| [rxvt-unicode][]    |     ✓       |      ✓       |     x      |  ✓  |    ✓      |      ✓     |
+| [Xfce Terminal][]   |     ✓       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     |
+| [xterm][]           |     x       |      x       |     x      |  x  |    x      |      ✓     |
 
  * Backgrounds: if arbitrary images can be set in the background
  * Transparency: if we can see under the windows
