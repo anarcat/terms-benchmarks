@@ -285,6 +285,8 @@ from the review, mostly because:
  * dead upstream:
    * [aterm](http://www.afterstep.org/aterm.php): obsolete rxvt fork, for Afterstep
    * [eterm](https://tracker.debian.org/pkg/eterm): inactive rxvt fork, for Enlightenment
+   * [kterm](https://ja.wikipedia.org/wiki/Kterm): Kagotani term, xterm fork for Japanese
+   * [mrxvt](https://code.google.com/archive/p/mrxvt/): multi-tab rxvt fork
    * [multi-aterm](https://www.nongnu.org/materm/materm.html): fork of aterm, removed from Debian in 2010
    * [Multi GNOME Terminal](http://multignometerm.sourceforge.net/): largely superseded by GNOME Terminal,
      abandoned upstream, removed from Debian in 2008
