@@ -125,10 +125,8 @@ wikipedia page](https://en.wikipedia.org/wiki/Bi-directional_text):
 > (ש) (which appears rightmost), then resh (ר), and finally heh (ה)
 > (which should appear leftmost).
 
-As a reference, the two test strings display up correctly in Firefox
-57 and Emacs 25 on Fedora 27 and Debian 9. Those two programs are
-considered to be correct implementations of this test. The two strings
-should look like this:
+As a reference, the two test strings display up correctly in Emacs 25
+on Fedora 27 and Debian 9. The two strings should look like this:
 
 ![Magic string and Sarah in Hebrew correctly displayed by Emacs 25](magicstring-sarah.png)
 
@@ -147,7 +145,11 @@ with two distinct `cat` commands:
 
 Note that the word "sarah" is surrounded by newlines otherwise it does
 not show up correctly in Emacs, which directions are per paragraph,
-not per line.
+not per line. Also note that Firefox displays the first string
+correctly, but fails to align the sarah string to right. I will not
+try to lose myself in the mists to figure out why this happens: if
+anything, it could be that browsers do this per DOM block or for the
+whole document.
 
 Here are the results of a test performed on Debian 9 and verified on
 Fedora 27:
