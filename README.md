@@ -11,16 +11,18 @@ Those tests were built over a period of 6 months, with variable
 methodology for different tests. Two main family of tests were
 performed: features and performance.
 
-Unless otherwise noted, all tests were performed in July 2017 using
-Debian packages, on Debian stretch 9.0 amd64 with the same hardware
-(Intel i3-6100U CPU @ 2.30GHz, 16GiB DD4 RAM, Intel HD Graphics 520
-controller and 1680x1050 screen @ 59.95Hz). If customization was
-performed on the terminal, a note was added in the summary. Some
-terminals had to use a special font for the latency test to work
-(e.g. using the then-standard `-font
+Unless otherwise noted, all tests were performed with the same
+hardware (Intel i3-6100U CPU @ 2.30GHz, 16GiB DD4 RAM, Intel HD
+Graphics 520 controller and 1680x1050 screen @ 59.95Hz). If
+customization was performed on the terminal, a note was added in the
+summary. Some terminals had to use a special font for the latency test
+to work (e.g. using the then-standard `-font
 '-adobe-courier-medium-r-normal--14-100-100-100-m-90-iso8859-1'`
-argument), but were otherwise using the default font. The locale used
-was `fr_CA.UTF-8` for all tests.
+argument), but were otherwise using the default font. A unicode locale
+(either `fr_CA.UTF-8` or `en_US.UTF-8`) was used for all tests.
+
+A battery of tests were done in July 17 on Debian 9.0, and tests were
+redone in March 2018 on Debian 9.4 and Fedora 27.
 
 | Terminal            | Debian        | Fedora  | Upstream | Notes                    |
 | ------------------- | ------------- | ------- | -------- | ------------------------ |
@@ -86,7 +88,7 @@ Those results cover the first part of the series, the features.
 Unicode
 -------
 
-Unicode rendering tests were performed in a Debian Stretch 9.4.0
+Unicode rendering tests were performed in a Debian Stretch 9.4
 virtual machine, using the following procedure:
 
     vagrant up debian/stretch64
@@ -97,7 +99,9 @@ Then start VirtualBox, login (vagrant/vagrant) and start a GUI:
 
     xinit blackbox
 
-In blackbox, start a terminal and cat the magic file:
+Tests were also performed on a clean, on-disk Fedora 27 install.
+
+Once a GUI is available, start the terminal and cat the magic file:
 
     cat magicstring
 
@@ -174,7 +178,7 @@ Details:
  * From right: the "Sara" word is display from the right margin
 
 Note that mlterm 3.5, as packaged in Debian, does not render all
-characters properly.
+characters properly, most of them being rendered as boxes.
 
 Paste protection
 ----------------
@@ -238,6 +242,9 @@ Tabs and profiles
 I couldn't figure out how to start a given profile in a given
 Terminator tab. rxvt-unicode supports tabs through a plugin.
 
+This was verified by clicking around the terminal's GUI and looking at
+documentation, first on Debian 9 and then confirmed on Fedora 27.
+
 Eye candy
 ---------
 
@@ -259,7 +266,7 @@ the visible menus in the application and some reference manuals.
 
  * Backgrounds: if arbitrary images can be set in the background
  * Transparency: if we can see under the windows
- * True-color: if more than 256 colors are supported. mlterm fails in Debian but succeeds in F27.
+ * True-color: if more than 256 colors are supported
  * URL: if URLs are outlined and clickable
  * text-wrap: if long lines are properly reflowed
  * Scrollback: if there's a scrollback buffer at all
@@ -288,11 +295,14 @@ long lines. A failure is, for example, when characters disappear when
 a window is shrinked and expanded or when an expanded window doesn't
 rejoin long lines previously broken up.
 
-Unless otherwise noted, all tests were confirmed on Debian 9 and
-Fedora 27.
+All tests were done on Debian 9 and verified Fedora 27. mlterm fails
+the true-color test in Debian but succeeds in F27.
 
 Original feature review
 -----------------------
+
+This is a more elaborate table of tests performed on Debian 9 in July,
+but not validated on later versions with Fedora 27.
 
 | Terminal   | backgrounds | transparency | freetype | true-color | profiles | scripting | daemon | tab | URL | paste | text-wrap | scrollback | unicode | version         |
 | ---------- | ----------- | ------------ | -------- | ---------- | -------- | --------- | ------ | --- | --- | ----- | --------- | ---------- | ------- | --------------- |
@@ -308,9 +318,6 @@ Original feature review
 | urxvt      |     ✓       |      ✓       |    ✓     |            |          |     ✓     |    ✓   |     |  ✓  |   ✓   |    ✓      |      ✓     |    ✓    | 9.22-1+b1       |
 | xfce       |     ✓       |      ✓       |    ✓     |     ✓      |          |           |        |  ✓  |  ✓  |       |    ✓      |      ✓     |    ✓    | 0.8.3-1         |
 | xterm      |             |              |    ✓     |            |          |           |        |     |     |       |           |      ✓     |         | 327-2           |
-
-The above was a more elaborate table of tests performed on Debian 9,
-but not validated on later versions with Fedora 27.
 
 Performance tests
 =================
