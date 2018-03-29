@@ -328,11 +328,13 @@ published later.
 Not evaluated
 =============
 
-All terminals were tested on Debian Stretch with a UTF-8 locale, using
-Debian packages. Alacritty is an exception to this, as the poster
-child for GPU-optimized terminals built with trendy new programming
-languages (Rust, in this case). Some terminals in Debian were excluded
-from the review, mostly because:
+Terminals were selected based on their availability in Debian stretch
+at first, and then only if they had an active upstream. Alacritty is
+an exception to this, as the poster child for GPU-optimized terminals
+built with trendy new programming languages (Rust, in this case).
+
+Here is a non-exhaustive list of terminals that were explicitly
+excluded from this review with some extra reasons when relevant:
 
  * dead upstream:
    * [aterm](http://www.afterstep.org/aterm.php): obsolete rxvt fork, for Afterstep
