@@ -13,7 +13,7 @@ xrdb -load /dev/null
 
 echo "terminal,time,cpu,memory" >> times-${samples}x${lines}.csv
 
-for terminal in uxterm xfce4-terminal konsole pterm ; do
+for terminal in konsole gnome-terminal pterm terminator uxterm xfce4-terminal  ; do
     echo "priming $terminal"
     time $terminal -e "seq -f 'the quick brown fox jumps over the lazy dog %g' $lines"
     for i in $(seq $samples); do
@@ -23,7 +23,7 @@ for terminal in uxterm xfce4-terminal konsole pterm ; do
 done
 
 # misquoted
-for terminal in alacritty urxvt stterm mlterm; do
+for terminal in alacritty mlterm stterm urxvt; do
     echo "priming"
     time $terminal -e seq -f "the quick brown fox jumps over the lazy dog %g" $lines
     for i in $(seq $samples); do
