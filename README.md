@@ -245,8 +245,8 @@ Tabs and profiles
 | [mlterm][]          |  x   |    x     |  N/A   |
 | [pterm][]           |  x   |    x     |  N/A   |
 | [st][]              |  x   |    x     |  N/A   |
-| [Terminator][]      |  ✓   |    ✓     |   x    |
-| [rxvt-unicode][]    |  !   |    x     |   x    |
+| [Terminator][]      |  ✓   |    ✓     |   x³   |
+| [rxvt-unicode][]    |  ✓²  |    x     |   x    |
 | [Xfce Terminal][]   |  ✓   |    x     |  N/A   |
 | [xterm][]           |  x   |    x     |  N/A   |
 
@@ -256,8 +256,9 @@ Tabs and profiles
    out of the box. not applicable (N/A) for terminals without profile
    support, obviously.
 
-I couldn't figure out how to start a given profile in a given
-Terminator tab. rxvt-unicode supports tabs through a plugin.
+²: rxvt-unicode supports tabs through a plugin.
+³: I couldn't figure out how to start a given profile in a given
+Terminator tab.
 
 This was verified by clicking around the terminal's GUI and looking at
 documentation, first on Debian 9 and then confirmed on Fedora 27.
@@ -273,7 +274,7 @@ the visible menus in the application and some reference manuals.
 | [Alacritty][]       |     x       |      x       |     ✓      |  x  |    x      |      x     |
 | [GNOME Terminal][]  |     ✓       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     |
 | [Konsole][]         |     x       |      x       |     ✓      |  ✓  |    x      |      ✓     |
-| [mlterm][]          |     ✓       |      ✓       |     ✓      |  x  |    x      |      ✓     |
+| [mlterm][]          |     ✓       |      ✓       |     ✓⁴     |  x  |    x      |      ✓     |
 | [pterm][]           |     x       |      x       |     x      |  x  |    x      |      ✓     |
 | [st][]              |     x       |      x       |     ✓      |  x  |    x      |      x     |
 | [Terminator][]      |     x       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     |
@@ -287,6 +288,8 @@ the visible menus in the application and some reference manuals.
  * URL: if URLs are outlined and clickable
  * text-wrap: if long lines are properly reflowed
  * Scrollback: if there's a scrollback buffer at all
+
+⁴: mlterm fails the true-color test in Debian but succeeds in F27.
 
 The true-color test was the following:
 
@@ -312,8 +315,7 @@ long lines. A failure is, for example, when characters disappear when
 a window is shrinked and expanded or when an expanded window doesn't
 rejoin long lines previously broken up.
 
-All tests were done on Debian 9 and verified Fedora 27. mlterm fails
-the true-color test in Debian but succeeds in F27.
+All tests were done on Debian 9 and verified Fedora 27.
 
 Original feature review
 -----------------------
