@@ -4,6 +4,23 @@ Terminal emulators benchmarking suite
 This repository holds test scripts and results for a LWN article about
 terminal emulators written in 2017-2018.
 
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
+**Table of Contents**
+
+- [Terminal emulators benchmarking suite](#terminal-emulators-benchmarking-suite)
+- [Methodology](#methodology)
+- [Feature tests](#feature-tests)
+    - [Unicode](#unicode)
+    - [Paste protection](#paste-protection)
+    - [Tabs and profiles](#tabs-and-profiles)
+    - [Eye candy](#eye-candy)
+    - [Original feature review](#original-feature-review)
+- [Performance tests](#performance-tests)
+- [Not evaluated](#not-evaluated)
+- [Final notes](#final-notes)
+
+<!-- markdown-toc end -->
+
 Methodology
 ===========
 
