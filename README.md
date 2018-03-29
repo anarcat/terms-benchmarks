@@ -410,6 +410,9 @@ excluded from this review with some extra reasons when relevant:
 A more exhaustive [list of terminal emulators](https://wiki.archlinux.org/index.php/List_of_applications#Terminal_emulators) is also available on
 the Arch wiki.
 
+See also [issue #1](https://github.com/anarcat/terms-benchmarks/issues/1) for a discussion about which terminals were
+selected. Additions to the review are, of course, welcome if verified.
+
 Final notes
 ===========
 
