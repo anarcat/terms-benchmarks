@@ -180,7 +180,7 @@ Fedora 27:
 | [Alacritty][]       |  ✓  |  x    |     x      |
 | [GNOME Terminal][]  |  ✓  |  x    |     x      |
 | [Konsole][]         |  ✓  |  ✓    |     x      |
-| [mlterm][]          |  ✓  |  ✓    |     ✓      |
+| [mlterm][]          |  ✓¹ |  ✓    |     ✓      |
 | [pterm][]           |  ✓  |  ✓    |     ✓      |
 | [rxvt-unicode][]    |  ✓  |  x    |     x      |
 | [st][]              |  ✓  |  x    |     x      |
@@ -194,8 +194,8 @@ Details:
  * Order: The "mem" and "qoph" characters are in the proper order
  * From right: the "Sara" word is display from the right margin
 
-Note that mlterm 3.5, as packaged in Debian, does not render all
-characters properly, most of them being rendered as boxes.
+¹: mlterm 3.5, as packaged in Debian, does not render all characters
+properly, most of them being rendered as boxes.
 
 Paste protection
 ----------------
