@@ -189,7 +189,9 @@ Fedora 27:
 | [xterm][]           |  x  |  x    |     x      |
 
 ¹ mlterm 3.5, as packaged in Debian, does not render all characters
-properly, most of them being rendered as boxes.
+properly, most of them being rendered as boxes:
+
+![mlterm 3.5 in Debian not rendering characters correctly](unicode-mlterm-3.5-fail.png)
 
 Details:
 
