@@ -188,14 +188,14 @@ Fedora 27:
 | [Xfce Terminal][]   |  ✓  |  x    |     x      |
 | [xterm][]           |  x  |  x    |     x      |
 
+¹ mlterm 3.5, as packaged in Debian, does not render all characters
+properly, most of them being rendered as boxes.
+
 Details:
 
  * All: all characters are properly displayed in the default configuration
  * Order: The "mem" and "qoph" characters are in the proper order
  * From right: the "Sara" word is display from the right margin
-
-¹: mlterm 3.5, as packaged in Debian, does not render all characters
-properly, most of them being rendered as boxes.
 
 Paste protection
 ----------------
@@ -250,15 +250,16 @@ Tabs and profiles
 | [Xfce Terminal][]   |  ✓   |    x     |  N/A   |
 | [xterm][]           |  x   |    x     |  N/A   |
 
+² rxvt-unicode supports tabs through a plugin.
+
+³ I couldn't figure out how to start a given profile in a given
+Terminator tab.
+
  * Tabs: if the terminal supports tabs (`!` means through a plugin)
  * Profiles: if the terminal has a concept of profiles
  * Linked: if specific tabs can be made to start a specific profile
    out of the box. not applicable (N/A) for terminals without profile
    support, obviously.
-
-²: rxvt-unicode supports tabs through a plugin.
-³: I couldn't figure out how to start a given profile in a given
-Terminator tab.
 
 This was verified by clicking around the terminal's GUI and looking at
 documentation, first on Debian 9 and then confirmed on Fedora 27.
@@ -282,14 +283,14 @@ the visible menus in the application and some reference manuals.
 | [Xfce Terminal][]   |     ✓       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     |
 | [xterm][]           |     x       |      x       |     x      |  x  |    x      |      ✓     |
 
+⁴ mlterm fails the true-color test in Debian but succeeds in F27.
+
  * Backgrounds: if arbitrary images can be set in the background
  * Transparency: if we can see under the windows
  * True-color: if more than 256 colors are supported
  * URL: if URLs are outlined and clickable
  * text-wrap: if long lines are properly reflowed
  * Scrollback: if there's a scrollback buffer at all
-
-⁴: mlterm fails the true-color test in Debian but succeeds in F27.
 
 The true-color test was the following:
 
