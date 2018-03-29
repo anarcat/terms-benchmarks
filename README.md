@@ -233,7 +233,7 @@ Tabs and profiles
 | [Xfce Terminal][]   |  ✓   |    x     |  N/A   |
 | [xterm][]           |  x   |    x     |  N/A   |
 
- * Tabs: if the terminal supports tabs ("plugin" means yes, through a plugin)
+ * Tabs: if the terminal supports tabs (`!` means through a plugin)
  * Profiles: if the terminal has a concept of profiles
  * Linked: if specific tabs can be made to start a specific profile
    out of the box. not applicable (N/A) for terminals without profile
