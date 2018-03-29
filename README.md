@@ -372,6 +372,7 @@ from the review, mostly because:
  * were too big or hard to install
    * [Gate One](https://github.com/liftoff/GateOne)
    * [anyterm](https://anyterm.org/)
+   * [domterm](https://domterm.org/)
    * [hyper](https://github.com/zeit/hyper)
    * [shellinabox](https://github.com/shellinabox/shellinabox)
    * [terminus](https://github.com/Eugeny/terminus)
