@@ -348,7 +348,7 @@ Those tests are for the second article in the series. Two main kind of
 tests were performed here: latency and resources tests. Latency tests
 aim at evaluating the input latency of the terminals, and resources
 looks at how much bandwidth can be dumped in the terminal, and how
-much CPU and
+much CPU and memory the terminal uses in the process.
 
 Results are in [this iPython notebook](benchmarks.ipynb). To interact with the
 notebook, you can use [mybinder.org](https://mybinder.org/v2/gh/anarcat/terms-benchmarks/master?filepath=benchmarks.ipynb) or download this repository
