@@ -36,7 +36,7 @@ for terminal in konsole pterm terminator uxterm xfce4-terminal  ; do
 done
 
 # misquoted
-for terminal in alacritty mlterm stterm urxvt; do
+for terminal in alacritty mlterm st stterm urxvt; do
     echo "priming"
     /usr/bin/time $terminal -e $test $lines || continue
     for i in $(seq $samples); do
