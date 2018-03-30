@@ -1,0 +1,300 @@
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.90user 0.69system 0:01.28elapsed 124%CPU (0avgtext+0avgdata 12332maxresident)k
+0inputs+16outputs (0major+3612minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.97user 0.67system 0:01.34elapsed 122%CPU (0avgtext+0avgdata 12044maxresident)k
+0inputs+16outputs (0major+3613minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.66system 0:01.31elapsed 122%CPU (0avgtext+0avgdata 12352maxresident)k
+0inputs+16outputs (0major+3618minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.90user 0.68system 0:01.28elapsed 123%CPU (0avgtext+0avgdata 12356maxresident)k
+0inputs+16outputs (0major+3613minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.67system 0:01.29elapsed 123%CPU (0avgtext+0avgdata 12140maxresident)k
+0inputs+16outputs (0major+3609minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.67system 0:01.27elapsed 124%CPU (0avgtext+0avgdata 12208maxresident)k
+0inputs+16outputs (0major+3622minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.66system 0:01.28elapsed 123%CPU (0avgtext+0avgdata 12116maxresident)k
+0inputs+16outputs (0major+3616minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.65system 0:01.31elapsed 121%CPU (0avgtext+0avgdata 12140maxresident)k
+0inputs+16outputs (0major+3615minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.66system 0:01.27elapsed 123%CPU (0avgtext+0avgdata 12108maxresident)k
+0inputs+16outputs (0major+3608minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.90user 0.68system 0:01.29elapsed 122%CPU (0avgtext+0avgdata 12124maxresident)k
+0inputs+16outputs (0major+3622minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.64system 0:01.28elapsed 122%CPU (0avgtext+0avgdata 12020maxresident)k
+0inputs+16outputs (0major+3615minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.67system 0:01.28elapsed 123%CPU (0avgtext+0avgdata 12332maxresident)k
+0inputs+16outputs (0major+3618minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.65system 0:01.27elapsed 125%CPU (0avgtext+0avgdata 12172maxresident)k
+0inputs+16outputs (0major+3614minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.68system 0:01.26elapsed 125%CPU (0avgtext+0avgdata 12120maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.89user 0.68system 0:01.27elapsed 124%CPU (0avgtext+0avgdata 12100maxresident)k
+0inputs+16outputs (0major+3608minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.66system 0:01.29elapsed 123%CPU (0avgtext+0avgdata 12160maxresident)k
+0inputs+16outputs (0major+3605minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.66system 0:01.28elapsed 124%CPU (0avgtext+0avgdata 12136maxresident)k
+0inputs+16outputs (0major+3609minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.67system 0:01.26elapsed 125%CPU (0avgtext+0avgdata 12124maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.96user 0.59system 0:01.27elapsed 122%CPU (0avgtext+0avgdata 12212maxresident)k
+0inputs+16outputs (0major+3612minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.65system 0:01.28elapsed 122%CPU (0avgtext+0avgdata 12192maxresident)k
+0inputs+24outputs (0major+3610minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.66system 0:01.29elapsed 124%CPU (0avgtext+0avgdata 12124maxresident)k
+0inputs+16outputs (0major+3607minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.69system 0:01.30elapsed 123%CPU (0avgtext+0avgdata 12188maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.66system 0:01.27elapsed 124%CPU (0avgtext+0avgdata 12044maxresident)k
+0inputs+16outputs (0major+3606minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.64system 0:01.30elapsed 122%CPU (0avgtext+0avgdata 12060maxresident)k
+0inputs+16outputs (0major+3614minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.90user 0.71system 0:01.30elapsed 123%CPU (0avgtext+0avgdata 12120maxresident)k
+0inputs+16outputs (0major+3614minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.64system 0:01.26elapsed 125%CPU (0avgtext+0avgdata 12104maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.96user 0.65system 0:01.31elapsed 123%CPU (0avgtext+0avgdata 12172maxresident)k
+0inputs+16outputs (0major+3608minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.66system 0:01.30elapsed 123%CPU (0avgtext+0avgdata 12036maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.64system 0:01.25elapsed 125%CPU (0avgtext+0avgdata 12312maxresident)k
+0inputs+16outputs (0major+3615minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.66system 0:01.27elapsed 124%CPU (0avgtext+0avgdata 12192maxresident)k
+0inputs+16outputs (0major+3605minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.68system 0:01.30elapsed 124%CPU (0avgtext+0avgdata 12200maxresident)k
+0inputs+16outputs (0major+3612minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.89user 0.70system 0:01.27elapsed 124%CPU (0avgtext+0avgdata 12060maxresident)k
+0inputs+16outputs (0major+3618minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.95user 0.65system 0:01.29elapsed 123%CPU (0avgtext+0avgdata 12092maxresident)k
+0inputs+16outputs (0major+3608minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.66system 0:01.29elapsed 123%CPU (0avgtext+0avgdata 12140maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.65system 0:01.25elapsed 126%CPU (0avgtext+0avgdata 12084maxresident)k
+0inputs+16outputs (0major+3608minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.88user 0.66system 0:01.25elapsed 123%CPU (0avgtext+0avgdata 12160maxresident)k
+0inputs+16outputs (0major+3612minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.90user 0.68system 0:01.27elapsed 124%CPU (0avgtext+0avgdata 12120maxresident)k
+0inputs+16outputs (0major+3610minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.68system 0:01.29elapsed 123%CPU (0avgtext+0avgdata 12160maxresident)k
+0inputs+16outputs (0major+3620minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.67system 0:01.29elapsed 124%CPU (0avgtext+0avgdata 12076maxresident)k
+0inputs+24outputs (0major+3603minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.65system 0:01.29elapsed 123%CPU (0avgtext+0avgdata 12188maxresident)k
+0inputs+16outputs (0major+3613minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.68system 0:01.34elapsed 120%CPU (0avgtext+0avgdata 12148maxresident)k
+0inputs+16outputs (0major+3607minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.65system 0:01.27elapsed 123%CPU (0avgtext+0avgdata 12204maxresident)k
+0inputs+16outputs (0major+3613minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.68system 0:01.29elapsed 123%CPU (0avgtext+0avgdata 12060maxresident)k
+0inputs+16outputs (0major+3604minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.65system 0:01.30elapsed 123%CPU (0avgtext+0avgdata 12076maxresident)k
+0inputs+16outputs (0major+3613minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.65system 0:01.27elapsed 124%CPU (0avgtext+0avgdata 12132maxresident)k
+0inputs+16outputs (0major+3601minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.64system 0:01.27elapsed 123%CPU (0avgtext+0avgdata 12208maxresident)k
+0inputs+16outputs (0major+3603minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.66system 0:01.28elapsed 123%CPU (0avgtext+0avgdata 12356maxresident)k
+0inputs+16outputs (0major+3614minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.65system 0:01.31elapsed 122%CPU (0avgtext+0avgdata 12088maxresident)k
+0inputs+16outputs (0major+3600minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.88user 0.67system 0:01.25elapsed 124%CPU (0avgtext+0avgdata 12336maxresident)k
+0inputs+16outputs (0major+3618minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.89user 0.69system 0:01.28elapsed 123%CPU (0avgtext+0avgdata 12080maxresident)k
+0inputs+16outputs (0major+3606minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.67system 0:01.32elapsed 121%CPU (0avgtext+0avgdata 12092maxresident)k
+0inputs+16outputs (0major+3612minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.65system 0:01.26elapsed 126%CPU (0avgtext+0avgdata 12176maxresident)k
+0inputs+16outputs (0major+3612minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.66system 0:01.27elapsed 123%CPU (0avgtext+0avgdata 12100maxresident)k
+0inputs+16outputs (0major+3614minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.68system 0:01.30elapsed 122%CPU (0avgtext+0avgdata 12076maxresident)k
+0inputs+16outputs (0major+3615minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.64system 0:01.29elapsed 122%CPU (0avgtext+0avgdata 12052maxresident)k
+0inputs+16outputs (0major+3604minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.64system 0:01.29elapsed 123%CPU (0avgtext+0avgdata 12204maxresident)k
+0inputs+16outputs (0major+3606minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.66system 0:01.27elapsed 124%CPU (0avgtext+0avgdata 12068maxresident)k
+0inputs+16outputs (0major+3608minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.65system 0:01.26elapsed 124%CPU (0avgtext+0avgdata 12088maxresident)k
+0inputs+16outputs (0major+3613minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.96user 0.66system 0:01.28elapsed 126%CPU (0avgtext+0avgdata 12344maxresident)k
+0inputs+16outputs (0major+3605minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.96user 0.65system 0:01.30elapsed 124%CPU (0avgtext+0avgdata 12184maxresident)k
+0inputs+16outputs (0major+3610minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.67system 0:01.28elapsed 123%CPU (0avgtext+0avgdata 12224maxresident)k
+0inputs+16outputs (0major+3614minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.68system 0:01.29elapsed 124%CPU (0avgtext+0avgdata 12096maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.64system 0:01.25elapsed 126%CPU (0avgtext+0avgdata 12120maxresident)k
+0inputs+16outputs (0major+3608minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.64system 0:01.26elapsed 124%CPU (0avgtext+0avgdata 12196maxresident)k
+0inputs+16outputs (0major+3608minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.64system 0:01.28elapsed 122%CPU (0avgtext+0avgdata 12108maxresident)k
+0inputs+16outputs (0major+3613minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.68system 0:01.28elapsed 124%CPU (0avgtext+0avgdata 12104maxresident)k
+0inputs+16outputs (0major+3617minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.68system 0:01.27elapsed 125%CPU (0avgtext+0avgdata 12360maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.66system 0:01.28elapsed 125%CPU (0avgtext+0avgdata 12068maxresident)k
+0inputs+16outputs (0major+3608minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.89user 0.68system 0:01.25elapsed 125%CPU (0avgtext+0avgdata 12196maxresident)k
+0inputs+16outputs (0major+3613minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.96user 0.62system 0:01.30elapsed 122%CPU (0avgtext+0avgdata 12212maxresident)k
+0inputs+16outputs (0major+3620minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.65system 0:01.26elapsed 125%CPU (0avgtext+0avgdata 12348maxresident)k
+0inputs+16outputs (0major+3624minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.90user 0.67system 0:01.27elapsed 124%CPU (0avgtext+0avgdata 12040maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.88user 0.67system 0:01.27elapsed 122%CPU (0avgtext+0avgdata 12120maxresident)k
+0inputs+16outputs (0major+3613minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.67system 0:01.27elapsed 125%CPU (0avgtext+0avgdata 12068maxresident)k
+0inputs+16outputs (0major+3615minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.67system 0:01.28elapsed 124%CPU (0avgtext+0avgdata 12148maxresident)k
+0inputs+16outputs (0major+3621minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.90user 0.67system 0:01.30elapsed 121%CPU (0avgtext+0avgdata 12340maxresident)k
+0inputs+16outputs (0major+3620minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.67system 0:01.28elapsed 124%CPU (0avgtext+0avgdata 12168maxresident)k
+0inputs+16outputs (0major+3616minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.96user 0.65system 0:01.34elapsed 119%CPU (0avgtext+0avgdata 12224maxresident)k
+0inputs+16outputs (0major+3626minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.96user 0.62system 0:01.26elapsed 125%CPU (0avgtext+0avgdata 12152maxresident)k
+0inputs+16outputs (0major+3608minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.67system 0:01.28elapsed 123%CPU (0avgtext+0avgdata 12140maxresident)k
+0inputs+16outputs (0major+3615minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.63system 0:01.28elapsed 122%CPU (0avgtext+0avgdata 12176maxresident)k
+0inputs+16outputs (0major+3613minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.67system 0:01.31elapsed 123%CPU (0avgtext+0avgdata 12148maxresident)k
+0inputs+16outputs (0major+3608minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.66system 0:01.27elapsed 125%CPU (0avgtext+0avgdata 12120maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.97user 0.63system 0:01.29elapsed 123%CPU (0avgtext+0avgdata 12072maxresident)k
+0inputs+16outputs (0major+3618minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.65system 0:01.26elapsed 123%CPU (0avgtext+0avgdata 12152maxresident)k
+0inputs+16outputs (0major+3616minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.67system 0:01.29elapsed 123%CPU (0avgtext+0avgdata 12124maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.64system 0:01.27elapsed 124%CPU (0avgtext+0avgdata 12148maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.91user 0.68system 0:01.28elapsed 123%CPU (0avgtext+0avgdata 12072maxresident)k
+0inputs+16outputs (0major+3618minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.95user 0.69system 0:01.33elapsed 123%CPU (0avgtext+0avgdata 12060maxresident)k
+0inputs+16outputs (0major+3619minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.95user 0.64system 0:01.31elapsed 121%CPU (0avgtext+0avgdata 12064maxresident)k
+0inputs+16outputs (0major+3610minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.95user 0.65system 0:01.30elapsed 124%CPU (0avgtext+0avgdata 12112maxresident)k
+0inputs+16outputs (0major+3605minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.88user 0.72system 0:01.29elapsed 124%CPU (0avgtext+0avgdata 12176maxresident)k
+0inputs+16outputs (0major+3618minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.64system 0:01.29elapsed 123%CPU (0avgtext+0avgdata 12024maxresident)k
+0inputs+16outputs (0major+3618minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.93user 0.65system 0:01.27elapsed 125%CPU (0avgtext+0avgdata 12028maxresident)k
+0inputs+16outputs (0major+3608minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.89user 0.67system 0:01.26elapsed 124%CPU (0avgtext+0avgdata 12096maxresident)k
+0inputs+16outputs (0major+3616minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.66system 0:01.27elapsed 124%CPU (0avgtext+0avgdata 12060maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.94user 0.65system 0:01.28elapsed 124%CPU (0avgtext+0avgdata 12080maxresident)k
+0inputs+16outputs (0major+3612minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.66system 0:01.27elapsed 124%CPU (0avgtext+0avgdata 12060maxresident)k
+0inputs+16outputs (0major+3612minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.66system 0:01.26elapsed 125%CPU (0avgtext+0avgdata 12096maxresident)k
+0inputs+16outputs (0major+3611minor)pagefaults 0swaps
+xterm: cannot load font "-Misc-Fixed-bold-R-*-*-13-120-75-75-C-120-ISO10646-1"
+0.92user 0.68system 0:01.31elapsed 122%CPU (0avgtext+0avgdata 12156maxresident)k
+0inputs+16outputs (0major+3613minor)pagefaults 0swaps
