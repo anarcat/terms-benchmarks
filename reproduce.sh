@@ -27,7 +27,7 @@ echo "terminal,time,cpu,memory" >> times-${samples}x${lines}.csv
 
 for terminal in konsole pterm terminator uxterm xfce4-terminal  ; do
     echo "priming $terminal"
-    time $terminal -e "$test"
+    time $terminal -e "$test" || continue
     for i in $(seq $samples); do
         time $terminal -e "$test" 2>> $terminal-time.txt
     done
@@ -37,7 +37,7 @@ done
 # misquoted
 for terminal in alacritty mlterm stterm urxvt; do
     echo "priming"
-    time $terminal -e $test $lines
+    time $terminal -e $test $lines || continue
     for i in $(seq $samples); do
         time $terminal -e $test $lines 2>> $terminal-time.txt
     done
