@@ -182,7 +182,7 @@ Fedora 27:
 | [Konsole][]         |  ✓  |  ✓    |     x      |
 | [mlterm][]          |  ✓¹ |  ✓    |     ✓      |
 | [pterm][]           |  ✓  |  ✓    |     ✓      |
-| [rxvt-unicode][]    |  ✓  |  x    |     x      |
+| [urxvt][]           |  ✓  |  x    |     x      |
 | [st][]              |  ✓  |  x    |     x      |
 | [Terminator][]      |  ✓  |  x    |     x      |
 | [Xfce Terminal][]   |  ✓  |  x    |     x      |
@@ -218,8 +218,8 @@ configuration in Bash:
 | [pterm][]           |  x       |       x       |
 | [st][]              |  x       |       x       |
 | [Terminator][]      |  x       |       ✓       |
-| [rxvt-unicode][]    |  x       |       x       |
-| rxvt+confirm-paste  |  ✓       |       ✓       |
+| [urxvt][]           |  x       |       x       |
+| urxvt+confirm-paste |  ✓       |       ✓       |
 | [Xfce Terminal][]   |  x       |       ✓       |
 | [xterm][]           |  x       |       ✓       |
 
@@ -248,11 +248,11 @@ Tabs and profiles
 | [pterm][]           |  x   |    x     |  N/A   |
 | [st][]              |  x   |    x     |  N/A   |
 | [Terminator][]      |  ✓   |    ✓     |   x³   |
-| [rxvt-unicode][]    |  ✓²  |    x     |   x    |
+| [urxvt][]           |  ✓²  |    x     |   x    |
 | [Xfce Terminal][]   |  ✓   |    x     |  N/A   |
 | [xterm][]           |  x   |    x     |  N/A   |
 
-² rxvt-unicode supports tabs through a plugin.
+² urxvt supports tabs through a plugin.
 
 ³ I couldn't figure out how to start a given profile in a given
 Terminator tab.
@@ -281,7 +281,7 @@ the visible menus in the application and some reference manuals.
 | [pterm][]           |     x       |      x       |     x      |  x  |    x      |      ✓     |
 | [st][]              |     x       |      x       |     ✓      |  x  |    x      |      x     |
 | [Terminator][]      |     x       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     |
-| [rxvt-unicode][]    |     ✓       |      ✓       |     x      |  ✓  |    ✓      |      ✓     |
+| [urxvt][]           |     ✓       |      ✓       |     x      |  ✓  |    ✓      |      ✓     |
 | [Xfce Terminal][]   |     ✓       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     |
 | [xterm][]           |     x       |      x       |     x      |  x  |    x      |      ✓     |
 
