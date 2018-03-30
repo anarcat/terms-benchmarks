@@ -10,6 +10,8 @@ samples=100
 
 test="$PWD/bw-test.sh $lines"
 
+alias time=/usr/bin/time
+
 echo "setting Xresources to defaults"
 xrdb -load /dev/null
 
