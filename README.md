@@ -41,18 +41,18 @@ argument), but were otherwise using the default font. A unicode locale
 A battery of tests were done in July 17 on Debian 9.0, and tests were
 redone in March 2018 on Debian 9.4 and Fedora 27.
 
-| Terminal            | Debian        | Fedora  | Upstream | Notes                    |
-| ------------------- | ------------- | ------- | -------- | ------------------------ |
-| [Alacritty][]       | 6debc4f       | N/A     | N/A      | No releases, git head    |
-| [GNOME Terminal][]  | 3.22.2        | 3.26.2  | 3.28.0   | uses GTK3, [VTE][]       |
-| [Konsole][]         | 16.12.0       | 17.12.2 | 17.12.3  | uses KDE libraries       |
-| [mlterm][]          | 3.5.0         | 3.7.0   | 3.8.5    | uses VTE, "Multi-lingual terminal" |
-| [pterm][]           | 0.67          | 0.70    | 0.70     | [PuTTY][] without ssh, uses GTK2 |
-| [st][]              | 0.6           | 0.7     | 0.8.1    | "simple terminal"        |
-| [Terminator][]      | 1.90+bzr-1705 | 1.91    | 1.91     | uses GTK3, VTE           |
-| [rxvt-unicode][]    | 9.22          | 9.22    | 9.22     | Main rxvt fork           |
-| [Xfce Terminal][]   | 0.8.3         | 0.8.7   | 0.8.7.2  | uses GTK3, VTE           |
-| [xterm][]           | 327           | 330     | 331      | the original             |
+| Terminal            | Debian        | Fedora  | Upstream | Notes                                      |
+| ------------------- | ------------- | ------- | -------- | ------------------------------------------ |
+| [Alacritty][]       | 6debc4f       | N/A     | N/A      | built from source                          |
+| [GNOME Terminal][]  | 3.22.2        | 3.26.2  | 3.28.0   | uses GTK3, [VTE][]                         |
+| [Konsole][]         | 16.12.0       | 17.12.2 | 17.12.3  | uses KDE libraries                         |
+| [mlterm][]          | 3.5.0         | 3.7.0   | 3.8.5    | uses VTE, "Multi-lingual terminal"         |
+| [pterm][]           | 0.67          | 0.70    | 0.70     | [PuTTY][] without ssh, uses GTK2           |
+| [st][]              | 0.6           | 0.7     | 0.8.1    | "simple terminal"                          |
+| [Terminator][]      | 1.90+bzr-1705 | 1.91    | 1.91     | uses GTK3, VTE                             |
+| [urxvt][]           | 9.22          | 9.22    | 9.22     | main rxvt fork, also known as rxvt-unicode |
+| [Xfce Terminal][]   | 0.8.3         | 0.8.7   | 0.8.7.2  | uses GTK3, VTE                             |
+| [xterm][]           | 327           | 330     | 331      | the original X terminal                    |
 
  [Alacritty]: https://github.com/jwilm/alacritty
  [GNOME Terminal]: https://wiki.gnome.org/Apps/Terminal
@@ -65,7 +65,7 @@ redone in March 2018 on Debian 9.4 and Fedora 27.
  [st]: https://st.suckless.org/
  [Terminator]: https://gnometerminator.blogspot.ca/
  [VTE]: https://github.com/GNOME/vte
- [rxvt-unicode]: http://software.schmorp.de/pkg/rxvt-unicode.html
+ [urxvt]: http://software.schmorp.de/pkg/rxvt-unicode.html
  [Xfce Terminal]: https://docs.xfce.org/apps/terminal/start
  [XTerm]: http://invisible-island.net/xterm/
 
