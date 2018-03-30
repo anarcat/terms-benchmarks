@@ -4,11 +4,22 @@ Terminal emulators benchmarking suite
 This repository holds test scripts and results for a LWN article about
 terminal emulators written in 2017-2018.
 
-Most interesting results are in [this iPython notebook](benchmarks.ipynb). To
-interact with the notebook, you can use [mybinder.org](https://mybinder.org/v2/gh/anarcat/terms-benchmarks/master?filepath=benchmarks.ipynb) or download
-this repository locally and open the notebook with:
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
+**Table of Contents**
 
-    jupyter benchmarks.ipynb
+- [Terminal emulators benchmarking suite](#terminal-emulators-benchmarking-suite)
+- [Methodology](#methodology)
+- [Feature tests](#feature-tests)
+    - [Unicode](#unicode)
+    - [Paste protection](#paste-protection)
+    - [Tabs and profiles](#tabs-and-profiles)
+    - [Eye candy](#eye-candy)
+    - [Original feature review](#original-feature-review)
+- [Performance tests](#performance-tests)
+- [Not evaluated](#not-evaluated)
+- [Final notes](#final-notes)
+
+<!-- markdown-toc end -->
 
 Methodology
 ===========
@@ -17,29 +28,31 @@ Those tests were built over a period of 6 months, with variable
 methodology for different tests. Two main family of tests were
 performed: features and performance.
 
-Unless otherwise noted, all tests were performed in July 2017 using
-Debian packages, on Debian stretch 9.0 amd64 with the same hardware
-(Intel i3-6100U CPU @ 2.30GHz, 16GiB DD4 RAM, Intel HD Graphics 520
-controller and 1680x1050 screen @ 59.95Hz). If customization was
-performed on the terminal, a note was added in the summary. Some
-terminals had to use a special font for the latency test to work
-(e.g. using the then-standard `-font
+Unless otherwise noted, all tests were performed with the same
+hardware (Intel i3-6100U CPU @ 2.30GHz, 16GiB DD4 RAM, Intel HD
+Graphics 520 controller and 1680x1050 screen @ 59.95Hz). If
+customization was performed on the terminal, a note was added in the
+summary. Some terminals had to use a special font for the latency test
+to work (e.g. using the then-standard `-font
 '-adobe-courier-medium-r-normal--14-100-100-100-m-90-iso8859-1'`
-argument), but were otherwise using the default font. The locale used
-was `fr_CA.UTF-8` for all tests.
+argument), but were otherwise using the default font. A unicode locale
+(either `fr_CA.UTF-8` or `en_US.UTF-8`) was used for all tests.
 
-| Terminal            | Debian        | Fedora  | Upstream | Notes                    |
-| ------------------- | ------------- | ------- | -------- | ------------------------ |
-| [Alacritty][]       | 3df394d       | N/A     | N/A      | No releases, git head    |
-| [GNOME Terminal][]  | 3.22.2        | 3.26.2  | 3.28.0   | uses GTK3, [VTE][]       |
-| [Konsole][]         | 16.12.0       | 17.12.2 | 17.12.3  | uses KDE libraries       |
-| [mlterm][]          | 3.5.0         | 3.7.0   | 3.8.5    | uses VTE, "Multi-lingual terminal" |
-| [pterm][]           | 0.67          | 0.70    | 0.70     | [PuTTY][] without ssh, uses GTK2 |
-| [st][]              | 0.6           | 0.7     | 0.8.1    | "simple terminal"        |
-| [Terminator][]      | 1.90+bzr-1705 | 1.91    | 1.91     | uses GTK3, VTE           |
-| [rxvt-unicode][]    | 9.22          | 9.22    | 9.22     | Main rxvt fork           |
-| [Xfce Terminal][]   | 0.8.3         | 0.8.7   | 0.8.7.2  | uses GTK3, VTE           |
-| [xterm][]           | 327           | 330     | 331      | the original             |
+A battery of tests were done in July 17 on Debian 9.0, and tests were
+redone in March 2018 on Debian 9.4 and Fedora 27.
+
+| Terminal            | Debian        | Fedora  | Upstream | Notes                                      |
+| ------------------- | ------------- | ------- | -------- | ------------------------------------------ |
+| [Alacritty][]       | N/A           | N/A     | 6debc4f  | no releases Git head                       |
+| [GNOME Terminal][]  | 3.22.2        | 3.26.2  | 3.28.0   | uses GTK3, [VTE][]                         |
+| [Konsole][]         | 16.12.0       | 17.12.2 | 17.12.3  | uses KDE libraries                         |
+| [mlterm][]          | 3.5.0         | 3.7.0   | 3.8.5    | uses VTE, "Multi-lingual terminal"         |
+| [pterm][]           | 0.67          | 0.70    | 0.70     | [PuTTY][] without ssh, uses GTK2           |
+| [st][]              | 0.6           | 0.7     | 0.8.1    | "simple terminal"                          |
+| [Terminator][]      | 1.90+bzr-1705 | 1.91    | 1.91     | uses GTK3, VTE                             |
+| [urxvt][]           | 9.22          | 9.22    | 9.22     | main rxvt fork, also known as rxvt-unicode |
+| [Xfce Terminal][]   | 0.8.3         | 0.8.7   | 0.8.7.2  | uses GTK3, VTE                             |
+| [xterm][]           | 327           | 330     | 331      | the original X terminal                    |
 
  [Alacritty]: https://github.com/jwilm/alacritty
  [GNOME Terminal]: https://wiki.gnome.org/Apps/Terminal
@@ -52,9 +65,37 @@ was `fr_CA.UTF-8` for all tests.
  [st]: https://st.suckless.org/
  [Terminator]: https://gnometerminator.blogspot.ca/
  [VTE]: https://github.com/GNOME/vte
- [rxvt-unicode]: http://software.schmorp.de/pkg/rxvt-unicode.html
+ [urxvt]: http://software.schmorp.de/pkg/rxvt-unicode.html
  [Xfce Terminal]: https://docs.xfce.org/apps/terminal/start
  [XTerm]: http://invisible-island.net/xterm/
+
+Alacritty was only tested on Debian and doesn't have tagged releases
+yet. The latest commit available at the time of writing was:
+
+    commit 6debc4f3351446417d0c4e38173cd9ef0faa71d5
+    Author: YOSHIOKA Takuma <lo48576@hard-wi.red>
+    Date:   Tue Mar 13 20:16:01 2018 +0900
+
+        Try to create window with different SRGB config when failed
+        
+        This may truly solve #921 (and issue caused by #1178)
+        <https://github.com/jwilm/alacritty/issues/921#issuecomment-372619121>.
+
+mlterm is not shipped with Fedora by default, so this [copr
+repository](https://copr.fedorainfracloud.org/coprs/rabiny/mlterm/) was used as an alternative. Because it only supports
+F26 out of the box, the `.repo` file was modified to hardcode the
+version number:
+
+    --- /etc/yum.repos.d/rabiny-mlterm.repo.orig	2018-03-28 17:06:43.048093670 -0400
+    +++ /etc/yum.repos.d/rabiny-mlterm.repo	2018-03-28 17:06:19.671757651 -0400
+    @@ -1,6 +1,6 @@
+     [rabiny-mlterm]
+     name=Copr repo for mlterm owned by rabiny
+    -baseurl=https://copr-be.cloud.fedoraproject.org/results/rabiny/mlterm/fedora-$releasever-$basearch/
+    +baseurl=https://copr-be.cloud.fedoraproject.org/results/rabiny/mlterm/fedora-26-$basearch/
+     type=rpm-md
+     skip_if_unavailable=True
+     gpgcheck=1
 
 Feature tests
 =============
@@ -64,7 +105,7 @@ Those results cover the first part of the series, the features.
 Unicode
 -------
 
-Unicode rendering tests were performed in a Debian Stretch 9.4.0
+Unicode rendering tests were performed in a Debian Stretch 9.4
 virtual machine, using the following procedure:
 
     vagrant up debian/stretch64
@@ -75,7 +116,9 @@ Then start VirtualBox, login (vagrant/vagrant) and start a GUI:
 
     xinit blackbox
 
-In blackbox, start a terminal and cat the magic file:
+Tests were also performed on a clean, on-disk Fedora 27 install.
+
+Once a GUI is available, start the terminal and cat the magic file:
 
     cat magicstring
 
@@ -103,10 +146,8 @@ wikipedia page](https://en.wikipedia.org/wiki/Bi-directional_text):
 > (ש) (which appears rightmost), then resh (ר), and finally heh (ה)
 > (which should appear leftmost).
 
-As a reference, the two test strings display up correctly in Firefox
-57 and Emacs 25 on Fedora 27 and Debian 9. Those two programs are
-considered to be correct implementations of this test. The two strings
-should look like this:
+As a reference, the two test strings display up correctly in Emacs 25
+on Fedora 27 and Debian 9. The two strings should look like this:
 
 ![Magic string and Sarah in Hebrew correctly displayed by Emacs 25](magicstring-sarah.png)
 
@@ -117,33 +158,46 @@ with two distinct `cat` commands:
 ```
 [anarcat@curiehat terms-benchmarks]$ cat magicstring
 é, Δ, Й, ק ,م, ๗, あ,叶, 葉, and 말
-[anarcat@curiehat terms-benchmarks]$ cat sarah 
+[anarcat@curiehat terms-benchmarks]$ cat sarah
+
 שרה
+
 ```
 
-Here are some results performed on Fedora 27 and Debian 9:
+Note that the word "sarah" is surrounded by newlines otherwise it does
+not show up correctly in Emacs, which directions are per paragraph,
+not per line. Also note that Firefox displays the first string
+correctly, but fails to align the sarah string to right. I will not
+try to lose myself in the mists to figure out why this happens: if
+anything, it could be that browsers do this per DOM block or for the
+whole document.
+
+Here are the results of a test performed on Debian 9 and verified on
+Fedora 27:
 
 | Terminal            | All | Order | From right |
 | ------------------- | --- | ----  | ---------- |
-| [Alacritty][]       | N/A | N/A   | N/A |
-| [GNOME Terminal][]  |  ✓  |  x    |  x  |
-| [Konsole][]         |  ✓  |  ✓    |  x  |
-| [mlterm][]          |  ✓  |  ✓    |  ✓  |
-| [pterm][]           |  ✓  |  ✓    |  ✓  |
-| [rxvt-unicode][]    |  ✓  |  x    |  x  |
-| [st][]              |  ✓  |  x    |  x  |
-| [Terminator][]      |  ✓  |  x    |  x  |
-| [Xfce Terminal][]   |  ✓  |  x    |  x  |
-| [xterm][]           |  x  |  x    |  x  |
+| [Alacritty][]       |  ✓  |  x    |     x      |
+| [GNOME Terminal][]  |  ✓  |  x    |     x      |
+| [Konsole][]         |  ✓  |  ✓    |     x      |
+| [mlterm][]          |  ✓¹ |  ✓    |     ✓      |
+| [pterm][]           |  ✓  |  ✓    |     ✓      |
+| [urxvt][]           |  ✓  |  x    |     x      |
+| [st][]              |  ✓  |  x    |     x      |
+| [Terminator][]      |  ✓  |  x    |     x      |
+| [Xfce Terminal][]   |  ✓  |  x    |     x      |
+| [xterm][]           |  x  |  x    |     x      |
+
+¹ mlterm 3.5, as packaged in Debian, does not render all characters
+properly, most of them being rendered as boxes:
+
+![mlterm 3.5 in Debian not rendering characters correctly](unicode-mlterm-3.5-fail.png)
 
 Details:
 
  * All: all characters are properly displayed in the default configuration
  * Order: The "mem" and "qoph" characters are in the proper order
  * From right: the "Sara" word is display from the right margin
-
-Note that mlterm 3.5, as packaged in Debian, does not render all
-characters properly.
 
 Paste protection
 ----------------
@@ -155,20 +209,26 @@ the middle mouse button was used to copy the content of the
 boxes. Here are the results, with and without the `.inputrc`
 configuration in Bash:
 
-|                   | No .inputrc | With .inputrc |
-| Terminal            | 1st | 2nd | 1st | 2nd |
-| ------------------- | --- | --- | --- | --- |
-| [Alacritty][]       | N/A | N/A | N/A | N/A |
-| [GNOME Terminal][]  |  x  |  x  |  ✓  |  ✓  |
-| [Konsole][]         |  x  |  x  |  ✓  |  x  |
-| [mlterm][]          |  x  |  x  |  ✓  |  x  |
-| [pterm][]           |  x  |  x  |  ✓  |  x  |
-| [st][]              |  x  |  x  |  ✓  |  x  |
-| [Terminator][]      |  x  |  x  |  ✓  |  ✓  |
-| [rxvt-unicode][]    |  x  |  x  |  ✓  |  x  |
-| rxvt+confirm-paste  |  ✓  |  ✓  |  ✓  |  ✓  |
-| [Xfce Terminal][]   |  x  |  x  |  ✓  |  ✓  |
-| [xterm][]           |  x  |  x  |  ✓  |  ✓  |
+| Terminal            | without  | with, 2nd box |
+| ------------------- | -------- | ------------- |
+| [Alacritty][]       |  x       |       x       |
+| [GNOME Terminal][]  |  x       |       ✓       |
+| [Konsole][]         |  x       |       x       |
+| [mlterm][]          |  x       |       x       |
+| [pterm][]           |  x       |       x       |
+| [st][]              |  x       |       x       |
+| [Terminator][]      |  x       |       ✓       |
+| [urxvt][]           |  x       |       x       |
+| urxvt+confirm-paste |  ✓       |       ✓       |
+| [Xfce Terminal][]   |  x       |       ✓       |
+| [xterm][]           |  x       |       ✓       |
+
+ * without: test results without a `.inputrc` configured, same in the
+   two boxes
+ * with, 2nd box: test with a `.inputrc`, but with the second box
+   (first box always succeeds in all tested terminals)
+
+The test succeeds if the commands are *not* ran.
 
 The magic `.inputrc` line is:
 
@@ -180,24 +240,31 @@ Tabs and profiles
 -----------------
 
 | Terminal            | Tabs | Profiles | Linked |
-| ------------------- | ---- | -------- | ------ | 
-| [Alacritty][]       |   x  |   x | N/A |
-| [G XME Terminal][]  |   ✓  |  ✓  |  ✓  |
-| [Konsole][]         |  ✓  |  ✓  |  ✓  |
-| [mlterm][]          |  x |  x | N/A |
-| [pterm][]           |  x |  x | N/A |
-| [st][]              |  x |  x | N/A |
-| [Terminator][]      |  ✓  |  ✓  |  x |
-| [rxvt-unicode][]    | plugin |  x |  x |
-| [Xfce Terminal][]   |  ✓  |  x | N/A |
-| [xterm][]           |  x |  x | N/A |
+| ------------------- | ---- | -------- | ------ |
+| [Alacritty][]       |  x   |    x     |  N/A   |
+| [GNOME Terminal][]  |  ✓   |    ✓     |   ✓    |
+| [Konsole][]         |  ✓   |    ✓     |   ✓    |
+| [mlterm][]          |  x   |    x     |  N/A   |
+| [pterm][]           |  x   |    x     |  N/A   |
+| [st][]              |  x   |    x     |  N/A   |
+| [Terminator][]      |  ✓   |    ✓     |   x³   |
+| [urxvt][]           |  ✓²  |    x     |   x    |
+| [Xfce Terminal][]   |  ✓   |    x     |  N/A   |
+| [xterm][]           |  x   |    x     |  N/A   |
 
- * Tabs: if the terminal supports tabs ("plugin" means yes, through a plugin)
- * Profiles: if the terminal has a concept of profiles
- * Linked: if specific tabs can be made to start a specific profile out of the box.
+² urxvt supports tabs through a plugin.
 
-I couldn't figure out how to start a given profile in a given
+³ I couldn't figure out how to start a given profile in a given
 Terminator tab.
+
+ * Tabs: if the terminal supports tabs (`!` means through a plugin)
+ * Profiles: if the terminal has a concept of profiles
+ * Linked: if specific tabs can be made to start a specific profile
+   out of the box. not applicable (N/A) for terminals without profile
+   support, obviously.
+
+This was verified by clicking around the terminal's GUI and looking at
+documentation, first on Debian 9 and then confirmed on Fedora 27.
 
 Eye candy
 ---------
@@ -206,21 +273,23 @@ This is more of a qualitative evaluation. This was done by inspecting
 the visible menus in the application and some reference manuals.
 
 | Terminal            | backgrounds | transparency | true-color | URL | text-wrap | scrollback |
-| ------------------- | ----------- | ------------ | ---------- | --- | --------- | ---------- | 
-| [Alacritty][]       |     x       |      x       |     ✓      |  x  |    x      |      x     | 
-| [GNOME Terminal][]  |     ✓       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     | 
-| [Konsole][]         |     x       |      x       |     ✓      |  ✓  |    x      |      ✓     | 
-| [mlterm][]          |     ✓       |      ✓       |     ✓      |  x  |    x      |      ✓     | 
-| [pterm][]           |     x       |      x       |     x      |  x  |    x      |      ✓     | 
-| [st][]              |     x       |      x       |     ✓      |  x  |    x      |      x     | 
-| [Terminator][]      |     x       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     | 
-| [rxvt-unicode][]    |     ✓       |      ✓       |     x      |  ✓  |    ✓      |      ✓     | 
-| [Xfce Terminal][]   |     ✓       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     | 
-| [xterm][]           |     x       |      x       |     x      |  x  |    x      |      ✓     | 
+| ------------------- | ----------- | ------------ | ---------- | --- | --------- | ---------- |
+| [Alacritty][]       |     x       |      x       |     ✓      |  x  |    x      |      x     |
+| [GNOME Terminal][]  |     ✓       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     |
+| [Konsole][]         |     x       |      x       |     ✓      |  ✓  |    x      |      ✓     |
+| [mlterm][]          |     ✓       |      ✓       |     ✓⁴     |  x  |    x      |      ✓     |
+| [pterm][]           |     x       |      x       |     x      |  x  |    x      |      ✓     |
+| [st][]              |     x       |      x       |     ✓      |  x  |    x      |      x     |
+| [Terminator][]      |     x       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     |
+| [urxvt][]           |     ✓       |      ✓       |     x      |  ✓  |    ✓      |      ✓     |
+| [Xfce Terminal][]   |     ✓       |      ✓       |     ✓      |  ✓  |    ✓      |      ✓     |
+| [xterm][]           |     x       |      x       |     x      |  x  |    x      |      ✓     |
+
+⁴ mlterm fails the true-color test in Debian but succeeds in F27.
 
  * Backgrounds: if arbitrary images can be set in the background
  * Transparency: if we can see under the windows
- * True-color: if more than 256 colors are supported. mlterm fails in Debian but succeeds in F27.
+ * True-color: if more than 256 colors are supported
  * URL: if URLs are outlined and clickable
  * text-wrap: if long lines are properly reflowed
  * Scrollback: if there's a scrollback buffer at all
@@ -249,11 +318,13 @@ long lines. A failure is, for example, when characters disappear when
 a window is shrinked and expanded or when an expanded window doesn't
 rejoin long lines previously broken up.
 
-Unless otherwise noted, all tests were confirmed on Debian 9 and
-Fedora 27.
+All tests were done on Debian 9 and verified Fedora 27.
 
 Original feature review
 -----------------------
+
+This is a more elaborate table of tests performed on Debian 9 in July,
+but not validated on later versions with Fedora 27.
 
 | Terminal   | backgrounds | transparency | freetype | true-color | profiles | scripting | daemon | tab | URL | paste | text-wrap | scrollback | unicode | version         |
 | ---------- | ----------- | ------------ | -------- | ---------- | -------- | --------- | ------ | --- | --- | ----- | --------- | ---------- | ------- | --------------- |
@@ -270,9 +341,6 @@ Original feature review
 | xfce       |     ✓       |      ✓       |    ✓     |     ✓      |          |           |        |  ✓  |  ✓  |       |    ✓      |      ✓     |    ✓    | 0.8.3-1         |
 | xterm      |             |              |    ✓     |            |          |           |        |     |     |       |           |      ✓     |         | 327-2           |
 
-The above was a more elaborate table of tests performed on Debian 9,
-but not validated on later versions with Fedora 27.
-
 Performance tests
 =================
 
@@ -281,6 +349,12 @@ tests were performed here: latency and resources tests. Latency tests
 aim at evaluating the input latency of the terminals, and resources
 looks at how much bandwidth can be dumped in the terminal, and how
 much CPU and
+
+Results are in [this iPython notebook](benchmarks.ipynb). To interact with the
+notebook, you can use [mybinder.org](https://mybinder.org/v2/gh/anarcat/terms-benchmarks/master?filepath=benchmarks.ipynb) or download this repository
+locally and open the notebook with:
+
+    jupyter benchmarks.ipynb
 
 Latency
 -------
@@ -561,11 +635,13 @@ installed with the Debian package.
 Not evaluated
 =============
 
-All terminals were tested on Debian Stretch with a UTF-8 locale, using
-Debian packages. Alacritty is an exception to this, as the poster
-child for GPU-optimized terminals built with trendy new programming
-languages (Rust, in this case). Some terminals in Debian were excluded
-from the review, mostly because:
+Terminals were selected based on their availability in Debian stretch
+at first, and then only if they had an active upstream. Alacritty is
+an exception to this, as the poster child for GPU-optimized terminals
+built with trendy new programming languages (Rust, in this case).
+
+Here is a non-exhaustive list of terminals that were explicitly
+excluded from this review with some extra reasons when relevant:
 
  * dead upstream:
    * [aterm](http://www.afterstep.org/aterm.php): obsolete rxvt fork, for Afterstep
@@ -610,6 +686,7 @@ from the review, mostly because:
  * were too big or hard to install
    * [Gate One](https://github.com/liftoff/GateOne)
    * [anyterm](https://anyterm.org/)
+   * [domterm](https://domterm.org/)
    * [hyper](https://github.com/zeit/hyper)
    * [shellinabox](https://github.com/shellinabox/shellinabox)
    * [terminus](https://github.com/Eugeny/terminus)
@@ -620,6 +697,9 @@ from the review, mostly because:
 
 A more exhaustive [list of terminal emulators](https://wiki.archlinux.org/index.php/List_of_applications#Terminal_emulators) is also available on
 the Arch wiki.
+
+See also [issue #1](https://github.com/anarcat/terms-benchmarks/issues/1) for a discussion about which terminals were
+selected. Additions to the review are, of course, welcome if verified.
 
 Final notes
 ===========
