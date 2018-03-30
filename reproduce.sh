@@ -15,7 +15,7 @@ xrdb -load /dev/null
 
 echo "terminal,time,cpu,memory" >> times-${samples}x${lines}.csv
 
-for terminal in konsole gnome-terminal pterm terminator uxterm xfce4-terminal  ; do
+for terminal in konsole pterm terminator uxterm xfce4-terminal  ; do
     echo "priming $terminal"
     time $terminal -e "$test"
     for i in $(seq $samples); do
