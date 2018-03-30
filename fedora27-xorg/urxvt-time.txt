@@ -1,0 +1,300 @@
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.30system 0:00.37elapsed 174%CPU (0avgtext+0avgdata 14696maxresident)k
+0inputs+16outputs (0major+2689minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.32system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14896maxresident)k
+0inputs+16outputs (0major+2693minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.31system 0:00.38elapsed 171%CPU (0avgtext+0avgdata 14880maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.33system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14716maxresident)k
+0inputs+16outputs (0major+2686minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.32user 0.32system 0:00.37elapsed 175%CPU (0avgtext+0avgdata 14700maxresident)k
+0inputs+16outputs (0major+2699minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.31system 0:00.38elapsed 172%CPU (0avgtext+0avgdata 14928maxresident)k
+0inputs+16outputs (0major+2696minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.31system 0:00.37elapsed 175%CPU (0avgtext+0avgdata 14820maxresident)k
+0inputs+16outputs (0major+2697minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.30system 0:00.38elapsed 170%CPU (0avgtext+0avgdata 14964maxresident)k
+0inputs+16outputs (0major+2698minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.34system 0:00.39elapsed 176%CPU (0avgtext+0avgdata 14756maxresident)k
+0inputs+16outputs (0major+2688minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.37user 0.29system 0:00.39elapsed 171%CPU (0avgtext+0avgdata 14952maxresident)k
+0inputs+16outputs (0major+2697minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.33system 0:00.38elapsed 173%CPU (0avgtext+0avgdata 14948maxresident)k
+0inputs+16outputs (0major+2693minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.31system 0:00.38elapsed 172%CPU (0avgtext+0avgdata 14960maxresident)k
+0inputs+16outputs (0major+2693minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.33user 0.31system 0:00.37elapsed 171%CPU (0avgtext+0avgdata 14920maxresident)k
+0inputs+16outputs (0major+2698minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.33system 0:00.39elapsed 175%CPU (0avgtext+0avgdata 14856maxresident)k
+0inputs+16outputs (0major+2700minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.37user 0.28system 0:00.37elapsed 176%CPU (0avgtext+0avgdata 14944maxresident)k
+0inputs+16outputs (0major+2698minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.31system 0:00.38elapsed 175%CPU (0avgtext+0avgdata 14772maxresident)k
+0inputs+16outputs (0major+2692minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.32system 0:00.38elapsed 177%CPU (0avgtext+0avgdata 14640maxresident)k
+0inputs+16outputs (0major+2686minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.32system 0:00.38elapsed 173%CPU (0avgtext+0avgdata 14900maxresident)k
+0inputs+16outputs (0major+2697minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.38user 0.29system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14908maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.31system 0:00.39elapsed 174%CPU (0avgtext+0avgdata 14948maxresident)k
+0inputs+24outputs (0major+2697minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.31user 0.34system 0:00.38elapsed 173%CPU (0avgtext+0avgdata 14832maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.37user 0.28system 0:00.37elapsed 175%CPU (0avgtext+0avgdata 14876maxresident)k
+0inputs+16outputs (0major+2689minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.29system 0:00.36elapsed 176%CPU (0avgtext+0avgdata 14816maxresident)k
+0inputs+16outputs (0major+2690minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.30system 0:00.38elapsed 171%CPU (0avgtext+0avgdata 14884maxresident)k
+0inputs+16outputs (0major+2692minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.34system 0:00.39elapsed 174%CPU (0avgtext+0avgdata 14976maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.34system 0:00.39elapsed 173%CPU (0avgtext+0avgdata 14640maxresident)k
+0inputs+16outputs (0major+2683minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.31system 0:00.38elapsed 175%CPU (0avgtext+0avgdata 14852maxresident)k
+0inputs+16outputs (0major+2690minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.33system 0:00.39elapsed 176%CPU (0avgtext+0avgdata 14956maxresident)k
+0inputs+16outputs (0major+2700minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.31system 0:00.38elapsed 173%CPU (0avgtext+0avgdata 14896maxresident)k
+0inputs+16outputs (0major+2693minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.32system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14964maxresident)k
+0inputs+16outputs (0major+2699minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.31system 0:00.38elapsed 175%CPU (0avgtext+0avgdata 14884maxresident)k
+0inputs+16outputs (0major+2692minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.32system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14936maxresident)k
+0inputs+16outputs (0major+2701minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.38user 0.30system 0:00.39elapsed 175%CPU (0avgtext+0avgdata 14856maxresident)k
+0inputs+16outputs (0major+2696minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.32system 0:00.38elapsed 173%CPU (0avgtext+0avgdata 14864maxresident)k
+0inputs+16outputs (0major+2697minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.37user 0.32system 0:00.39elapsed 174%CPU (0avgtext+0avgdata 14836maxresident)k
+0inputs+16outputs (0major+2696minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.29system 0:00.37elapsed 174%CPU (0avgtext+0avgdata 14852maxresident)k
+0inputs+16outputs (0major+2691minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.31system 0:00.39elapsed 172%CPU (0avgtext+0avgdata 14900maxresident)k
+0inputs+16outputs (0major+2699minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.32system 0:00.39elapsed 175%CPU (0avgtext+0avgdata 14748maxresident)k
+0inputs+16outputs (0major+2687minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.32system 0:00.38elapsed 171%CPU (0avgtext+0avgdata 14908maxresident)k
+0inputs+16outputs (0major+2688minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.37user 0.31system 0:00.38elapsed 175%CPU (0avgtext+0avgdata 14920maxresident)k
+0inputs+16outputs (0major+2701minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.32user 0.31system 0:00.36elapsed 172%CPU (0avgtext+0avgdata 14948maxresident)k
+0inputs+16outputs (0major+2701minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.31system 0:00.39elapsed 171%CPU (0avgtext+0avgdata 14872maxresident)k
+0inputs+16outputs (0major+2698minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.30system 0:00.38elapsed 176%CPU (0avgtext+0avgdata 14880maxresident)k
+0inputs+16outputs (0major+2692minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.31system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14728maxresident)k
+0inputs+16outputs (0major+2697minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.30system 0:00.39elapsed 169%CPU (0avgtext+0avgdata 14864maxresident)k
+0inputs+16outputs (0major+2694minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.29system 0:00.37elapsed 174%CPU (0avgtext+0avgdata 14848maxresident)k
+0inputs+16outputs (0major+2698minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.29system 0:00.37elapsed 172%CPU (0avgtext+0avgdata 14712maxresident)k
+0inputs+16outputs (0major+2687minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.31system 0:00.39elapsed 170%CPU (0avgtext+0avgdata 14916maxresident)k
+0inputs+16outputs (0major+2694minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.28system 0:00.38elapsed 171%CPU (0avgtext+0avgdata 14860maxresident)k
+0inputs+16outputs (0major+2691minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.38user 0.30system 0:00.39elapsed 175%CPU (0avgtext+0avgdata 14880maxresident)k
+0inputs+16outputs (0major+2694minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.31system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14656maxresident)k
+0inputs+16outputs (0major+2691minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.31system 0:00.38elapsed 173%CPU (0avgtext+0avgdata 14868maxresident)k
+0inputs+16outputs (0major+2696minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.37user 0.30system 0:00.38elapsed 175%CPU (0avgtext+0avgdata 14920maxresident)k
+0inputs+16outputs (0major+2696minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.32system 0:00.37elapsed 176%CPU (0avgtext+0avgdata 14692maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.29system 0:00.38elapsed 170%CPU (0avgtext+0avgdata 14956maxresident)k
+0inputs+16outputs (0major+2693minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.33system 0:00.39elapsed 175%CPU (0avgtext+0avgdata 14848maxresident)k
+0inputs+16outputs (0major+2694minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.31system 0:00.37elapsed 175%CPU (0avgtext+0avgdata 14892maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.32system 0:00.38elapsed 173%CPU (0avgtext+0avgdata 14804maxresident)k
+0inputs+16outputs (0major+2690minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.30system 0:00.37elapsed 173%CPU (0avgtext+0avgdata 14900maxresident)k
+0inputs+16outputs (0major+2701minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.33user 0.34system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14824maxresident)k
+0inputs+16outputs (0major+2698minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.31system 0:00.38elapsed 176%CPU (0avgtext+0avgdata 14916maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.30system 0:00.37elapsed 174%CPU (0avgtext+0avgdata 14924maxresident)k
+0inputs+16outputs (0major+2694minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.38user 0.28system 0:00.38elapsed 172%CPU (0avgtext+0avgdata 14800maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.32system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14836maxresident)k
+0inputs+16outputs (0major+2692minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.30system 0:00.37elapsed 174%CPU (0avgtext+0avgdata 14624maxresident)k
+0inputs+16outputs (0major+2696minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.37user 0.32system 0:00.40elapsed 173%CPU (0avgtext+0avgdata 14648maxresident)k
+0inputs+16outputs (0major+2684minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.33system 0:00.40elapsed 172%CPU (0avgtext+0avgdata 14672maxresident)k
+0inputs+16outputs (0major+2685minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.37user 0.31system 0:00.38elapsed 175%CPU (0avgtext+0avgdata 14900maxresident)k
+0inputs+16outputs (0major+2693minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.33system 0:00.39elapsed 175%CPU (0avgtext+0avgdata 14820maxresident)k
+0inputs+16outputs (0major+2690minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.31system 0:00.38elapsed 171%CPU (0avgtext+0avgdata 14852maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.30system 0:00.37elapsed 175%CPU (0avgtext+0avgdata 14856maxresident)k
+0inputs+16outputs (0major+2702minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.32system 0:00.38elapsed 177%CPU (0avgtext+0avgdata 14836maxresident)k
+0inputs+16outputs (0major+2690minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.30system 0:00.38elapsed 173%CPU (0avgtext+0avgdata 14748maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.35system 0:00.39elapsed 176%CPU (0avgtext+0avgdata 14836maxresident)k
+0inputs+16outputs (0major+2689minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.29system 0:00.37elapsed 175%CPU (0avgtext+0avgdata 14928maxresident)k
+0inputs+16outputs (0major+2694minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.30system 0:00.38elapsed 175%CPU (0avgtext+0avgdata 14884maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.32system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14840maxresident)k
+0inputs+16outputs (0major+2688minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.33user 0.32system 0:00.38elapsed 171%CPU (0avgtext+0avgdata 14936maxresident)k
+0inputs+16outputs (0major+2689minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.37user 0.28system 0:00.37elapsed 176%CPU (0avgtext+0avgdata 14904maxresident)k
+0inputs+16outputs (0major+2696minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.31system 0:00.37elapsed 175%CPU (0avgtext+0avgdata 14928maxresident)k
+0inputs+16outputs (0major+2697minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.31system 0:00.39elapsed 173%CPU (0avgtext+0avgdata 14648maxresident)k
+0inputs+16outputs (0major+2687minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.30system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14900maxresident)k
+0inputs+16outputs (0major+2696minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.33user 0.32system 0:00.37elapsed 174%CPU (0avgtext+0avgdata 14640maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.39user 0.29system 0:00.39elapsed 175%CPU (0avgtext+0avgdata 14780maxresident)k
+0inputs+16outputs (0major+2693minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.37user 0.32system 0:00.39elapsed 174%CPU (0avgtext+0avgdata 14884maxresident)k
+0inputs+16outputs (0major+2691minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.32system 0:00.38elapsed 175%CPU (0avgtext+0avgdata 14900maxresident)k
+0inputs+16outputs (0major+2691minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.29system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14932maxresident)k
+0inputs+16outputs (0major+2700minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.32system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14852maxresident)k
+0inputs+16outputs (0major+2693minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.33system 0:00.39elapsed 173%CPU (0avgtext+0avgdata 14676maxresident)k
+0inputs+16outputs (0major+2691minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.30system 0:00.37elapsed 176%CPU (0avgtext+0avgdata 14800maxresident)k
+0inputs+16outputs (0major+2691minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.33user 0.34system 0:00.38elapsed 175%CPU (0avgtext+0avgdata 14864maxresident)k
+0inputs+16outputs (0major+2695minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.33system 0:00.39elapsed 173%CPU (0avgtext+0avgdata 14720maxresident)k
+0inputs+16outputs (0major+2689minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.33system 0:00.39elapsed 175%CPU (0avgtext+0avgdata 14740maxresident)k
+0inputs+16outputs (0major+2688minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.32system 0:00.39elapsed 172%CPU (0avgtext+0avgdata 14900maxresident)k
+0inputs+16outputs (0major+2701minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.36user 0.30system 0:00.38elapsed 172%CPU (0avgtext+0avgdata 14968maxresident)k
+0inputs+16outputs (0major+2700minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.34user 0.33system 0:00.39elapsed 173%CPU (0avgtext+0avgdata 14728maxresident)k
+0inputs+16outputs (0major+2689minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.38user 0.29system 0:00.38elapsed 173%CPU (0avgtext+0avgdata 14716maxresident)k
+0inputs+24outputs (0major+2692minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.32system 0:00.38elapsed 174%CPU (0avgtext+0avgdata 14808maxresident)k
+0inputs+16outputs (0major+2696minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.33user 0.31system 0:00.37elapsed 171%CPU (0avgtext+0avgdata 14716maxresident)k
+0inputs+16outputs (0major+2685minor)pagefaults 0swaps
+urxvt: unable to create fontset for input method, try "-pt Root". Continuing.
+0.35user 0.34system 0:00.39elapsed 175%CPU (0avgtext+0avgdata 14784maxresident)k
+0inputs+16outputs (0major+2696minor)pagefaults 0swaps
