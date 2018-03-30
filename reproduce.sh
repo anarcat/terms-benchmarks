@@ -15,10 +15,13 @@ alias time=/usr/bin/time
 echo "setting Xresources to defaults"
 xrdb -load /dev/null
 
-echo "disabling lock screen"
+echo "disabling lock screen in all possible ways damnit"
 gsettings set org.gnome.desktop.lockdown disable-lock-screen true
 gsettings set org.gnome.desktop.screensaver lock-enabled false
 gsettings set org.gnome.desktop.screensaver lock-delay 86400
+xset -dpms
+xset s off
+xset dpms 0 0 0 && xset s noblank && xset s off
 
 echo "starting test in 3 seconds, switch to a blank workspace"
 sleep 3
