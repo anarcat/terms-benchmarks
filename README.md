@@ -43,7 +43,7 @@ redone in March 2018 on Debian 9.4 and Fedora 27.
 
 | Terminal            | Debian        | Fedora  | Upstream | Notes                                      |
 | ------------------- | ------------- | ------- | -------- | ------------------------------------------ |
-| [Alacritty][]       | 6debc4f       | N/A     | N/A      | built from source                          |
+| [Alacritty][]       | N/A           | N/A     | 6debc4f  | built from source                          |
 | [GNOME Terminal][]  | 3.22.2        | 3.26.2  | 3.28.0   | uses GTK3, [VTE][]                         |
 | [Konsole][]         | 16.12.0       | 17.12.2 | 17.12.3  | uses KDE libraries                         |
 | [mlterm][]          | 3.5.0         | 3.7.0   | 3.8.5    | uses VTE, "Multi-lingual terminal"         |
