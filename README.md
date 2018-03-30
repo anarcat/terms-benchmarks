@@ -410,8 +410,13 @@ diffuse effect.
 I have also mostly reproduced Fatin's results in the latency tests, as
 is shown in the `editors.csv` file.
 
+All the latency tests were performed on Debian 9 (stretch) in a Xmonad
+or i3 session.
+
 Resources
 ---------
+
+Resources tests were done in two different ways:
 
  * first tests (`performance.csv` and `performance.py`, also in the
    notebook) were done with:
@@ -420,23 +425,30 @@ Resources
 
    qualitative results of those are also visible below.
 
- * the `times-100x100000.csv` file was generated with
-   [reproduce.sh](https://github.com/anarcat/terms-benchmarks/blob/master/reproduce.sh), which starts each terminal with the above
-   benchmark (but only 100,000 loops instead of a million, to shorten
-   the test time). this series of tests was performed on the same
-   computer, but on Debian stretch 9.4 in March 2018.
+ * then a more formal test was done to generate the
+   `times-100x100000.csv` files, with [reproduce.sh](https://github.com/anarcat/terms-benchmarks/blob/master/reproduce.sh). That starts
+   each terminal with the above benchmark
 
-That number was chosen because our original loop (one million lines)
-means xterm take 30 seconds per test so 100 tests take 40 minutes,
-just for xterm. We shorten this by an order of magnitude: rxvt still
-takes around 40ms and xterm takes 250ms. Printing a *single* line in
-rxvt takes only a fraction of that time (9ms), similar to xterm
-(10ms), which is small enough to be ignored in our tests, so we
-consider that startup time to be negligible.
+In the second test, we only run 100,000 loops because our original
+loop (one million lines) means xterm take 30 seconds per test so 100
+tests take 40 minutes, just for xterm. We shorten this by an order of
+magnitude: rxvt still takes around 40ms and xterm takes
+250ms.
 
-Ideally, that script would do a similar loop with a one-line test, and
-substract the average, but that's getting complicated for probably no
-gain.
+Printing a *single* line in rxvt takes only a fraction of that time
+(9ms), similar to xterm (10ms), which is small enough to be ignored in
+our tests, so we consider that startup time to be negligible. Ideally,
+that script would do a similar loop with a one-line test, and
+substract the average to discount the startup time, but that's getting
+complicated for probably no gain.
+
+Those tests were performed on Debian 9 in Xorg and i3 and Fedora 27 on
+GNOME with Wayland and Xorg backends. There is a separate directory
+for each series of tests.
+
+GNOME Terminal was excluded from those tests because it doesn't wait
+until the command completes before exiting, which makes testing
+unnecessarily hard.
 
 Qualitative evaluation
 ======================
