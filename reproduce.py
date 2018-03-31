@@ -32,7 +32,7 @@ def run_tests(terminal, cmd, samples):
     results = []
     try:
         subprocess.check_call(cmd)
-    except subprocess.CalledProcessError:
+    except FileNotFoundError:
         logging.warning('terminal %s not available, skipping', terminal)
         return results
     for i in range(samples):
