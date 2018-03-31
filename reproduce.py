@@ -1,0 +1,132 @@
+#!/usr/bin/python3
+
+import argparse
+from collections import defaultdict
+import logging
+from multiprocessing import Process, Queue
+import os
+import subprocess
+import time
+
+import resource
+
+
+def worker(cmd, queue):
+    try:
+        subprocess.check_call(cmd)
+    except subprocess.CalledProcessError as e:
+            logging.warning('terminal %s failed with %s',
+                            terminal, e)
+            queue.put(False)
+            return
+    res = resource.getrusage(resource.RUSAGE_CHILDREN)
+    queue.put(res)
+
+
+def run_tests(terminal, cmd, samples):
+    logging.info('priming terminal %s', terminal)
+    logging.debug('running command %s', cmd)
+    results = []
+    try:
+        subprocess.check_call(cmd)
+    except subprocess.CalledProcessError:
+        logging.warning('terminal %s not available, skipping', terminal)
+        return results
+    for i in range(samples):
+        queue = Queue()
+        process = Process(target=worker, args=(cmd, queue,))
+        process.start()
+        res = queue.get()
+        process.join()
+        logging.debug('resources: %s', res)
+        results.append(res)
+    return results
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--lines', default=100000, type=int,
+                        help='how many times to repeat the string')
+    parser.add_argument('--samples', default=100, type=int,
+                        help='how many tests to run')
+    default_level = 'WARNING'
+    parser.add_argument('-v', '--verbose',
+                        dest='loglevel', action='store_const',
+                        const='INFO', default=default_level,
+                        help='enable verbose messages')
+    parser.add_argument('-d', '--debug',
+                        dest='loglevel', action='store_const',
+                        const='DEBUG', default=default_level,
+                        help='enable debugging messages')
+    parser.add_argument('--loglevel',
+                        default=default_level, type=str.upper,
+                        help='expliticly set logging level')
+    parser.add_argument('--wait', default=3, type=int,
+                        help='time to wait before starting tests')
+    parser.add_argument('--output', '-o',
+                        help='output file for tests (default: times-SAMPLESxLINES.csv)')
+    parser.add_argument('--terminal', nargs='*',
+                        default=['konsole', 'pterm', 'terminator', 'uxterm', 'xfce4-terminal'],
+                        help="terminals that need quoting %(default)s")
+    parser.add_argument('--terminal-unquote', nargs='*',
+                        default=['alacritty', 'mlterm', 'st', 'stterm', 'urxvt'],
+                        help="terminals that do not need quoting %(default)s")
+    parser.add_argument('--test', default='bw-test.sh',
+                        help='test to run %(default)s')
+
+    args = parser.parse_args()
+    logging.basicConfig(format="%(levelname)s: %(message)s",
+                        level=args.loglevel)
+
+    if not args.output:
+        args.output = 'times-%dx%d.csv' % (args.samples, args.lines)
+
+    logging.info('disabling lock screen in all possible ways damnit')
+    os.system('''gsettings set org.gnome.desktop.lockdown disable-lock-screen true
+    gsettings set org.gnome.desktop.screensaver lock-enabled false
+    gsettings set org.gnome.desktop.screensaver lock-delay 86400
+    xset -dpms
+    xset s off
+    xset dpms 0 0 0 && xset s noblank && xset s off
+    ''')
+
+    logging.info('loading empty Xresources')
+    os.system('xrdb -load /dev/null')
+
+    logging.info('starting test in %d seconds, switch to a blank workspace',
+                 args.wait)
+    time.sleep(args.wait)
+
+    logging.debug('writing to file %s', args.output)
+
+    results = defaultdict(list)
+    for terminal in args.terminal:
+        cmd = [terminal, '-e', "%s %d" % (args.test, args.lines)]
+        results[terminal] += run_tests(terminal, cmd, args.samples)
+
+    for terminal in args.terminal_unquote:
+        cmd = [terminal, '-e', args.test, args.lines]
+        results[terminal] += run_tests(terminal, cmd, args.samples)
+    
+    logging.debug('resources: %s',
+                  resource.getrusage(resource.RUSAGE_CHILDREN))
+
+    fields = ('ru_utime', 'ru_stime', 'ru_maxrss', 'ru_inblock', 'ru_oublock')
+    i = 0
+    with open(args.output, 'w+') as csv:
+        line = ['n', 'terminal']
+        for field in fields:
+            line.append(field)
+        csv.write(",".join(line) + "\n")
+
+        for terminal, results in results.items():
+            for result in results:
+                line = [str(i), terminal]
+                i += 1
+                for field in fields:
+                    line.append(str(getattr(result, field)))
+                csv.write(",".join(line) + "\n")
+
+
+if __name__ == '__main__':
+    main()
