@@ -29,12 +29,11 @@ def worker(terminal, cmd, queue):
 def run_tests(terminal, cmd, samples):
     logging.info('priming terminal %s', terminal)
     logging.debug('running command %s', cmd)
-    results = []
     try:
         subprocess.check_call(cmd)
     except FileNotFoundError:
         logging.warning('terminal %s not available, skipping', terminal)
-        return results
+        return
     logging.info('running %d tests on %s', samples, terminal)
     for i in range(samples):
         queue = Queue()
@@ -43,8 +42,7 @@ def run_tests(terminal, cmd, samples):
         result = queue.get()
         process.join()
         logging.debug('result: %s', result)
-        results.append(result)
-    return results
+        yield result
 
 
 class Timer(object):
