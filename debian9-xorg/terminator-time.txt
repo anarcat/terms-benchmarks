@@ -1,0 +1,300 @@
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.41system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57544maxresident)k
+0inputs+1192outputs (0major+14462minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.87user 0.42system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57488maxresident)k
+0inputs+1184outputs (0major+14432minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.84user 0.46system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57432maxresident)k
+0inputs+1184outputs (0major+14467minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.42system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 58048maxresident)k
+0inputs+1184outputs (0major+14459minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.43system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 58112maxresident)k
+0inputs+1184outputs (0major+14464minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.84user 0.45system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57640maxresident)k
+0inputs+1184outputs (0major+14457minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.91user 0.39system 0:01.09elapsed 119%CPU (0avgtext+0avgdata 57712maxresident)k
+8inputs+1184outputs (0major+14461minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.40system 0:01.08elapsed 117%CPU (0avgtext+0avgdata 57644maxresident)k
+0inputs+1184outputs (0major+14499minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.96user 0.38system 0:01.13elapsed 118%CPU (0avgtext+0avgdata 57372maxresident)k
+0inputs+1184outputs (0major+14453minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.38system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57716maxresident)k
+0inputs+1184outputs (0major+14444minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.39system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57380maxresident)k
+0inputs+1184outputs (0major+14453minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.43system 0:01.13elapsed 116%CPU (0avgtext+0avgdata 57876maxresident)k
+0inputs+1184outputs (0major+14415minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.43system 0:01.10elapsed 119%CPU (0avgtext+0avgdata 57548maxresident)k
+0inputs+1184outputs (0major+14492minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.44system 0:01.11elapsed 117%CPU (0avgtext+0avgdata 57512maxresident)k
+0inputs+1184outputs (0major+14495minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.87user 0.42system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57760maxresident)k
+0inputs+1184outputs (0major+14459minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.44system 0:01.11elapsed 117%CPU (0avgtext+0avgdata 57704maxresident)k
+0inputs+1184outputs (0major+14552minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.44system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57476maxresident)k
+0inputs+1184outputs (0major+14493minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.42system 0:01.11elapsed 116%CPU (0avgtext+0avgdata 57812maxresident)k
+0inputs+1184outputs (0major+14465minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.87user 0.42system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57684maxresident)k
+0inputs+1184outputs (0major+14465minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.40system 0:01.09elapsed 119%CPU (0avgtext+0avgdata 57780maxresident)k
+0inputs+1184outputs (0major+14486minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.89user 0.40system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57332maxresident)k
+0inputs+1184outputs (0major+14443minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.92user 0.37system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57676maxresident)k
+0inputs+1184outputs (0major+14472minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.40system 0:01.11elapsed 117%CPU (0avgtext+0avgdata 57564maxresident)k
+0inputs+1184outputs (0major+14506minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.83user 0.46system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57708maxresident)k
+0inputs+1184outputs (0major+14502minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.89user 0.40system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57516maxresident)k
+0inputs+1184outputs (0major+14428minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.84user 0.43system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57568maxresident)k
+0inputs+1184outputs (0major+14457minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.41system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 58032maxresident)k
+0inputs+1184outputs (0major+14521minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.39system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57588maxresident)k
+0inputs+1184outputs (0major+14438minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.92user 0.38system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57908maxresident)k
+0inputs+1184outputs (0major+14450minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.87user 0.42system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57468maxresident)k
+0inputs+1184outputs (0major+14433minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.44system 0:01.11elapsed 116%CPU (0avgtext+0avgdata 57444maxresident)k
+0inputs+1184outputs (0major+14443minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.99user 0.31system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 58080maxresident)k
+0inputs+1184outputs (0major+14493minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.37system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57936maxresident)k
+0inputs+1184outputs (0major+14460minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.89user 0.40system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57888maxresident)k
+0inputs+1184outputs (0major+14460minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.93user 0.36system 0:01.09elapsed 119%CPU (0avgtext+0avgdata 57432maxresident)k
+0inputs+1184outputs (0major+14455minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.38system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57604maxresident)k
+0inputs+1184outputs (0major+14473minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.41system 0:01.11elapsed 116%CPU (0avgtext+0avgdata 57412maxresident)k
+0inputs+1184outputs (0major+14473minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.89user 0.39system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57868maxresident)k
+0inputs+1184outputs (0major+14441minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.44system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57804maxresident)k
+0inputs+1184outputs (0major+14448minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.38system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57836maxresident)k
+0inputs+1184outputs (0major+14484minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.92user 0.38system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57444maxresident)k
+0inputs+1184outputs (0major+14432minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.89user 0.41system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57644maxresident)k
+0inputs+1192outputs (0major+14471minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.91user 0.37system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57660maxresident)k
+0inputs+1184outputs (0major+14454minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.40system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57812maxresident)k
+0inputs+1184outputs (0major+14447minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.42system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57948maxresident)k
+0inputs+1184outputs (0major+14455minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.84user 0.43system 0:01.09elapsed 116%CPU (0avgtext+0avgdata 57880maxresident)k
+0inputs+1184outputs (0major+14472minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.92user 0.38system 0:01.11elapsed 117%CPU (0avgtext+0avgdata 57792maxresident)k
+0inputs+1184outputs (0major+14461minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.84user 0.47system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57592maxresident)k
+0inputs+1184outputs (0major+14440minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.94user 0.36system 0:01.11elapsed 117%CPU (0avgtext+0avgdata 57576maxresident)k
+0inputs+1184outputs (0major+14457minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.94user 0.37system 0:01.11elapsed 118%CPU (0avgtext+0avgdata 57904maxresident)k
+0inputs+1176outputs (0major+14488minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.85user 0.45system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57692maxresident)k
+0inputs+1184outputs (0major+14471minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.42system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57720maxresident)k
+0inputs+1184outputs (0major+14439minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.87user 0.42system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57348maxresident)k
+0inputs+1184outputs (0major+14452minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.85user 0.42system 0:01.08elapsed 117%CPU (0avgtext+0avgdata 57520maxresident)k
+0inputs+1184outputs (0major+14497minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.87user 0.42system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57884maxresident)k
+0inputs+1184outputs (0major+14435minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.39system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57808maxresident)k
+0inputs+1192outputs (0major+14511minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.91user 0.40system 0:01.12elapsed 117%CPU (0avgtext+0avgdata 57576maxresident)k
+0inputs+1184outputs (0major+14443minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.82user 0.49system 0:01.09elapsed 120%CPU (0avgtext+0avgdata 57892maxresident)k
+0inputs+1184outputs (0major+14446minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.43system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57564maxresident)k
+0inputs+1184outputs (0major+14500minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.92user 0.36system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57476maxresident)k
+0inputs+1184outputs (0major+14448minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.93user 0.36system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57368maxresident)k
+0inputs+1184outputs (0major+14463minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.91user 0.37system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 58000maxresident)k
+0inputs+1184outputs (0major+14471minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.42system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57924maxresident)k
+0inputs+1184outputs (0major+14481minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.38system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57628maxresident)k
+0inputs+1184outputs (0major+14461minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.87user 0.41system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57784maxresident)k
+0inputs+1184outputs (0major+14456minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.93user 0.35system 0:01.10elapsed 116%CPU (0avgtext+0avgdata 57920maxresident)k
+0inputs+1184outputs (0major+14470minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.38system 0:01.09elapsed 116%CPU (0avgtext+0avgdata 57924maxresident)k
+0inputs+1184outputs (0major+14441minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.38system 0:01.09elapsed 116%CPU (0avgtext+0avgdata 57396maxresident)k
+0inputs+1184outputs (0major+14540minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.94user 0.35system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57728maxresident)k
+0inputs+1184outputs (0major+14472minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.95user 0.36system 0:01.12elapsed 117%CPU (0avgtext+0avgdata 57652maxresident)k
+0inputs+1192outputs (0major+14461minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.94user 0.36system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57524maxresident)k
+0inputs+1184outputs (0major+14482minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.39system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57440maxresident)k
+0inputs+1184outputs (0major+14447minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.42system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57768maxresident)k
+0inputs+1184outputs (0major+14438minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.40system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57760maxresident)k
+0inputs+1184outputs (0major+14479minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.94user 0.36system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57364maxresident)k
+0inputs+1184outputs (0major+14433minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.41system 0:01.08elapsed 118%CPU (0avgtext+0avgdata 57768maxresident)k
+0inputs+1184outputs (0major+14442minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.94user 0.36system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57744maxresident)k
+0inputs+1184outputs (0major+14465minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.43system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57856maxresident)k
+0inputs+1184outputs (0major+14435minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.82user 0.45system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57644maxresident)k
+0inputs+1184outputs (0major+14548minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.89user 0.42system 0:01.10elapsed 118%CPU (0avgtext+0avgdata 57556maxresident)k
+0inputs+1184outputs (0major+14493minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.39system 0:01.08elapsed 117%CPU (0avgtext+0avgdata 58036maxresident)k
+0inputs+1184outputs (0major+14535minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.89user 0.40system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57644maxresident)k
+0inputs+1184outputs (0major+14462minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.93user 0.35system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57964maxresident)k
+0inputs+1184outputs (0major+14443minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.38system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57684maxresident)k
+0inputs+1192outputs (0major+14512minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.92user 0.37system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57984maxresident)k
+0inputs+1184outputs (0major+14448minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.42system 0:01.11elapsed 117%CPU (0avgtext+0avgdata 57800maxresident)k
+0inputs+1184outputs (0major+14467minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.38system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57852maxresident)k
+0inputs+1184outputs (0major+14492minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.38system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57460maxresident)k
+0inputs+1184outputs (0major+14452minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.94user 0.36system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57604maxresident)k
+0inputs+1184outputs (0major+14450minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.39system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57524maxresident)k
+0inputs+1184outputs (0major+14427minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.87user 0.43system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57484maxresident)k
+0inputs+1184outputs (0major+14448minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.89user 0.40system 0:01.08elapsed 119%CPU (0avgtext+0avgdata 57788maxresident)k
+0inputs+1184outputs (0major+14469minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.86user 0.45system 0:01.09elapsed 119%CPU (0avgtext+0avgdata 57860maxresident)k
+0inputs+1184outputs (0major+14534minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.40system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57492maxresident)k
+0inputs+1184outputs (0major+14433minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.38system 0:01.10elapsed 117%CPU (0avgtext+0avgdata 57860maxresident)k
+0inputs+1184outputs (0major+14462minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.41system 0:01.11elapsed 116%CPU (0avgtext+0avgdata 57740maxresident)k
+0inputs+1184outputs (0major+14444minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.40system 0:01.11elapsed 117%CPU (0avgtext+0avgdata 57848maxresident)k
+0inputs+1184outputs (0major+14412minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.91user 0.37system 0:01.09elapsed 118%CPU (0avgtext+0avgdata 57920maxresident)k
+0inputs+1184outputs (0major+14465minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.90user 0.41system 0:01.11elapsed 118%CPU (0avgtext+0avgdata 58012maxresident)k
+0inputs+1184outputs (0major+14482minor)pagefaults 0swaps
+ConfigBase::load: Unable to open /home/test/.config/terminator/config ([Errno 2] Aucun fichier ou dossier de ce type: '/home/test/.config/terminator/config')
+0.88user 0.41system 0:01.09elapsed 117%CPU (0avgtext+0avgdata 57372maxresident)k
+0inputs+1184outputs (0major+14450minor)pagefaults 0swaps

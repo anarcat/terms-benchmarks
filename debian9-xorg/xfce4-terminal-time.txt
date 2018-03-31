@@ -1,500 +1,200 @@
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11664): Gtk-WARNING **: Allocating size to GtkScrollbar 0x563b98f94560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.39system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37440maxresident)k
-0inputs+1192outputs (0major+4966minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11671): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55a8f8834560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.43system 0:00.91elapsed 126%CPU (0avgtext+0avgdata 37084maxresident)k
-0inputs+1184outputs (0major+4921minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11678): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5603dbdd2560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.75user 0.37system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 36836maxresident)k
-0inputs+1184outputs (0major+4958minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11687): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55a192396560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.69user 0.42system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 37024maxresident)k
-0inputs+1184outputs (0major+4969minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11694): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55d440454560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.40system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37268maxresident)k
-0inputs+1184outputs (0major+4944minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11704): Gtk-WARNING **: Allocating size to GtkScrollbar 0x56262f442560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.70user 0.42system 0:00.90elapsed 125%CPU (0avgtext+0avgdata 36856maxresident)k
-0inputs+1184outputs (0major+4938minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11711): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5581df838560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.73user 0.38system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 36896maxresident)k
-0inputs+1184outputs (0major+4951minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11719): Gtk-WARNING **: Allocating size to GtkScrollbar 0x564789be2560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.40system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37196maxresident)k
-0inputs+1184outputs (0major+4991minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11726): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5639547fc560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.69user 0.42system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 36824maxresident)k
+0.75user 0.35system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 37268maxresident)k
+0inputs+1184outputs (0major+4902minor)pagefaults 0swaps
+0.72user 0.36system 0:00.89elapsed 122%CPU (0avgtext+0avgdata 37236maxresident)k
 0inputs+1184outputs (0major+4916minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11734): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55966ed16560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.41system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37572maxresident)k
-0inputs+1184outputs (0major+4979minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11741): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55d2ce6e0560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.40system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 36844maxresident)k
-0inputs+1184outputs (0major+4964minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11749): Gtk-WARNING **: Allocating size to GtkScrollbar 0x561a97b02560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.69user 0.44system 0:00.90elapsed 125%CPU (0avgtext+0avgdata 36688maxresident)k
-0inputs+1184outputs (0major+4891minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11756): Gtk-WARNING **: Allocating size to GtkScrollbar 0x559c64728560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.41system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37140maxresident)k
-0inputs+1184outputs (0major+4954minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11763): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55fd3c9fc560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.76user 0.37system 0:00.90elapsed 125%CPU (0avgtext+0avgdata 36712maxresident)k
-0inputs+1184outputs (0major+4926minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11771): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55d160048560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.40system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 37268maxresident)k
-0inputs+1184outputs (0major+4968minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11778): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55f4f3c1c560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.68user 0.44system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 36996maxresident)k
-0inputs+1184outputs (0major+4970minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11786): Gtk-WARNING **: Allocating size to GtkScrollbar 0x558136b04560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.70user 0.41system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 36884maxresident)k
-0inputs+1184outputs (0major+4955minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11793): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55b92e9a0560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.40system 0:00.90elapsed 124%CPU (0avgtext+0avgdata 36960maxresident)k
-0inputs+1192outputs (0major+4909minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11801): Gtk-WARNING **: Allocating size to GtkScrollbar 0x557a02e16560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.69user 0.44system 0:00.90elapsed 125%CPU (0avgtext+0avgdata 36868maxresident)k
-0inputs+1184outputs (0major+4930minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11808): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55adb91e8560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.39system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 36944maxresident)k
-0inputs+1184outputs (0major+4977minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11816): Gtk-WARNING **: Allocating size to GtkScrollbar 0x556f3f3fa560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.46system 0:00.92elapsed 128%CPU (0avgtext+0avgdata 36788maxresident)k
-0inputs+1184outputs (0major+4943minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11823): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55cc7fdea560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.66user 0.46system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 36932maxresident)k
-0inputs+1184outputs (0major+4954minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11831): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55d9fc464560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.78user 0.35system 0:00.91elapsed 125%CPU (0avgtext+0avgdata 36868maxresident)k
-0inputs+1184outputs (0major+4937minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11839): Gtk-WARNING **: Allocating size to GtkScrollbar 0x556a3eb4c560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.70user 0.41system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 36904maxresident)k
-0inputs+1184outputs (0major+4984minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11846): Gtk-WARNING **: Allocating size to GtkScrollbar 0x556732238560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.70user 0.42system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37468maxresident)k
-0inputs+1184outputs (0major+4962minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11854): Gtk-WARNING **: Allocating size to GtkScrollbar 0x563daecfc560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.68user 0.43system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 36852maxresident)k
-0inputs+1184outputs (0major+4938minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11861): Gtk-WARNING **: Allocating size to GtkScrollbar 0x561519626560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.38system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 37120maxresident)k
-0inputs+1192outputs (0major+4974minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11869): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55c07e726560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.40system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 37056maxresident)k
-0inputs+1184outputs (0major+4950minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11876): Gtk-WARNING **: Allocating size to GtkScrollbar 0x56537fad4560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.73user 0.38system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 37216maxresident)k
-0inputs+1184outputs (0major+4950minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11884): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55ef56728560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.77user 0.36system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37120maxresident)k
-0inputs+1184outputs (0major+4957minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11891): Gtk-WARNING **: Allocating size to GtkScrollbar 0x561f667c0560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.77user 0.38system 0:00.90elapsed 127%CPU (0avgtext+0avgdata 37056maxresident)k
-0inputs+1184outputs (0major+4922minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11898): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5640eaedc560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.68user 0.43system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 37268maxresident)k
-0inputs+1184outputs (0major+4931minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11906): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55703d890560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.70user 0.42system 0:00.88elapsed 127%CPU (0avgtext+0avgdata 37360maxresident)k
-0inputs+1184outputs (0major+4964minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11913): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55aa57dca560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.41system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 36876maxresident)k
-0inputs+1184outputs (0major+4930minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11921): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55f9e5a30560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.75user 0.36system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37116maxresident)k
-0inputs+1184outputs (0major+4961minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11928): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55b6e69ec560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.40system 0:00.88elapsed 127%CPU (0avgtext+0avgdata 37136maxresident)k
-0inputs+1184outputs (0major+4975minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11936): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55faecf4a560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.40system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 37088maxresident)k
-0inputs+1184outputs (0major+4949minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11943): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55d7a1a5c560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.40system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 36860maxresident)k
-0inputs+1184outputs (0major+4967minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11951): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55d44639c560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.40system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 36976maxresident)k
-0inputs+1184outputs (0major+4958minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11958): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5605d0524560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.74user 0.40system 0:00.91elapsed 124%CPU (0avgtext+0avgdata 36984maxresident)k
-0inputs+1184outputs (0major+4935minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11965): Gtk-WARNING **: Allocating size to GtkScrollbar 0x555c6708e560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.77user 0.37system 0:00.90elapsed 126%CPU (0avgtext+0avgdata 36772maxresident)k
-0inputs+1184outputs (0major+4953minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11973): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55b28b98a560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.73user 0.38system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37564maxresident)k
-0inputs+1184outputs (0major+4986minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11980): Gtk-WARNING **: Allocating size to GtkScrollbar 0x558baef4c560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.74user 0.38system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37016maxresident)k
-0inputs+1184outputs (0major+4952minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11988): Gtk-WARNING **: Allocating size to GtkScrollbar 0x561fafeaa560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.40system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37168maxresident)k
-0inputs+1192outputs (0major+4928minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:11995): Gtk-WARNING **: Allocating size to GtkScrollbar 0x556ef63fc560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.39system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 36760maxresident)k
-0inputs+1184outputs (0major+4960minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12005): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55af7e202560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.70user 0.42system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37500maxresident)k
-0inputs+1184outputs (0major+4958minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12012): Gtk-WARNING **: Allocating size to GtkScrollbar 0x556e97016560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.38system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 37692maxresident)k
-0inputs+1184outputs (0major+4979minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12020): Gtk-WARNING **: Allocating size to GtkScrollbar 0x56104e4ec560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.40system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 36980maxresident)k
-0inputs+1184outputs (0major+4953minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12027): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55f836858560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.40system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37032maxresident)k
-0inputs+1184outputs (0major+4960minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12034): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5567058fe560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.74user 0.38system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 36916maxresident)k
-0inputs+1184outputs (0major+4946minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12042): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5633d8372560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.75user 0.36system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 36988maxresident)k
-0inputs+1184outputs (0major+4973minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12049): Gtk-WARNING **: Allocating size to GtkScrollbar 0x556f5ee74560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.68user 0.44system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 36956maxresident)k
-0inputs+1184outputs (0major+4951minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12057): Gtk-WARNING **: Allocating size to GtkScrollbar 0x560f2dcde560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.77user 0.36system 0:00.91elapsed 124%CPU (0avgtext+0avgdata 36660maxresident)k
-0inputs+1192outputs (0major+4910minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12064): Gtk-WARNING **: Allocating size to GtkScrollbar 0x564c6f188560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.74user 0.37system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37428maxresident)k
-0inputs+1184outputs (0major+4968minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12072): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55e2d0da0560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.39system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37132maxresident)k
-0inputs+1184outputs (0major+4960minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12079): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55d320ff6560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.73user 0.39system 0:00.90elapsed 125%CPU (0avgtext+0avgdata 37052maxresident)k
-0inputs+1184outputs (0major+4935minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12087): Gtk-WARNING **: Allocating size to GtkScrollbar 0x557acb954560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.42system 0:00.91elapsed 123%CPU (0avgtext+0avgdata 37272maxresident)k
-0inputs+1184outputs (0major+4925minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12094): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55e39df3a560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.69user 0.42system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 37024maxresident)k
-0inputs+1184outputs (0major+4950minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12105): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55d59d86a560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.75user 0.41system 0:00.92elapsed 126%CPU (0avgtext+0avgdata 36968maxresident)k
-0inputs+1184outputs (0major+4931minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12112): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5563262ba560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.74user 0.38system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37452maxresident)k
-0inputs+1184outputs (0major+4961minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12119): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55661b584560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.70user 0.43system 0:00.88elapsed 127%CPU (0avgtext+0avgdata 37348maxresident)k
-0inputs+1184outputs (0major+4966minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12127): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5651019f8560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.77user 0.34system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37388maxresident)k
-0inputs+1192outputs (0major+4960minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12134): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55b223d12560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.40system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 36896maxresident)k
-0inputs+1184outputs (0major+4959minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12142): Gtk-WARNING **: Allocating size to GtkScrollbar 0x56506e0de560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.40system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37232maxresident)k
-0inputs+1184outputs (0major+4954minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12149): Gtk-WARNING **: Allocating size to GtkScrollbar 0x561bc5d7c560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.38system 0:00.87elapsed 126%CPU (0avgtext+0avgdata 37092maxresident)k
-0inputs+1184outputs (0major+4951minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12157): Gtk-WARNING **: Allocating size to GtkScrollbar 0x560a9b9dc560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.68user 0.44system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37112maxresident)k
-0inputs+1184outputs (0major+4946minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12164): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55d7611b4560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.39system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 36900maxresident)k
-0inputs+1184outputs (0major+4944minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12172): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55cb72efa560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.41system 0:00.90elapsed 125%CPU (0avgtext+0avgdata 37388maxresident)k
-0inputs+1184outputs (0major+4949minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12179): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5645d80e0560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.74user 0.40system 0:00.91elapsed 126%CPU (0avgtext+0avgdata 36792maxresident)k
-0inputs+1184outputs (0major+4924minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12186): Gtk-WARNING **: Allocating size to GtkScrollbar 0x559c35098560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.38system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 37388maxresident)k
-0inputs+1184outputs (0major+4967minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12194): Gtk-WARNING **: Allocating size to GtkScrollbar 0x556bb8be4560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.69user 0.44system 0:00.89elapsed 127%CPU (0avgtext+0avgdata 37024maxresident)k
-0inputs+1184outputs (0major+4951minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12201): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5560e8c14560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.76user 0.35system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37220maxresident)k
-0inputs+1184outputs (0major+4973minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12209): Gtk-WARNING **: Allocating size to GtkScrollbar 0x555a3b6ba560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.74user 0.39system 0:00.92elapsed 122%CPU (0avgtext+0avgdata 36988maxresident)k
+0.68user 0.42system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36904maxresident)k
 0inputs+1184outputs (0major+4920minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12216): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55abd5a96560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.40system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37184maxresident)k
-0inputs+1184outputs (0major+4973minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12224): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55dd33682560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.66user 0.46system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 37464maxresident)k
-0inputs+1184outputs (0major+4955minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12231): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55fcddeb2560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.68user 0.43system 0:00.87elapsed 127%CPU (0avgtext+0avgdata 37388maxresident)k
-0inputs+1184outputs (0major+4967minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12239): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55c7302a43d0 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.73user 0.39system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37056maxresident)k
-0inputs+1184outputs (0major+4958minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12246): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55e7808fe560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.40system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37388maxresident)k
-0inputs+1184outputs (0major+4967minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12253): Gtk-WARNING **: Allocating size to GtkScrollbar 0x555cf7bc6560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.68user 0.44system 0:00.90elapsed 125%CPU (0avgtext+0avgdata 36828maxresident)k
-0inputs+1192outputs (0major+4943minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12261): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55c2b730e560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.73user 0.39system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37336maxresident)k
-0inputs+1184outputs (0major+4958minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12268): Gtk-WARNING **: Allocating size to GtkScrollbar 0x560fc5bd2560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.71user 0.41system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37556maxresident)k
-0inputs+1184outputs (0major+4962minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12276): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5635d0cc6560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.39system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37328maxresident)k
-0inputs+1184outputs (0major+4941minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12283): Gtk-WARNING **: Allocating size to GtkScrollbar 0x563a50ffa560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.74user 0.38system 0:00.90elapsed 125%CPU (0avgtext+0avgdata 36964maxresident)k
-0inputs+1184outputs (0major+4943minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12291): Gtk-WARNING **: Allocating size to GtkScrollbar 0x562eb27a6560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.68user 0.42system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 37228maxresident)k
-0inputs+1184outputs (0major+4967minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12298): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55ddba542560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.75user 0.36system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37256maxresident)k
-0inputs+1184outputs (0major+4954minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12306): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55ec4139e560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.40system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37312maxresident)k
-0inputs+1184outputs (0major+4942minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12313): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5639077e8560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.66user 0.44system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 36920maxresident)k
-0inputs+1184outputs (0major+4978minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12320): Gtk-WARNING **: Allocating size to GtkScrollbar 0x562a90cba560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.78user 0.34system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 36960maxresident)k
-0inputs+1192outputs (0major+4984minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12328): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5651da56a560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.66user 0.46system 0:00.88elapsed 127%CPU (0avgtext+0avgdata 37156maxresident)k
-0inputs+1184outputs (0major+4931minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12335): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55bb273a4560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.40system 0:00.91elapsed 124%CPU (0avgtext+0avgdata 37128maxresident)k
-0inputs+1184outputs (0major+4951minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12343): Gtk-WARNING **: Allocating size to GtkScrollbar 0x56092184c560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.74user 0.37system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 37284maxresident)k
-0inputs+1184outputs (0major+4971minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12350): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55dd7af16560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.76user 0.37system 0:00.90elapsed 126%CPU (0avgtext+0avgdata 37180maxresident)k
-0inputs+1184outputs (0major+4947minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12358): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5624ee008560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.75user 0.39system 0:00.91elapsed 125%CPU (0avgtext+0avgdata 36700maxresident)k
-0inputs+1184outputs (0major+4927minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12365): Gtk-WARNING **: Allocating size to GtkScrollbar 0x5626a2116560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.68user 0.42system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 37188maxresident)k
-0inputs+1184outputs (0major+4970minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12373): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55a04a838560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.78user 0.34system 0:00.90elapsed 125%CPU (0avgtext+0avgdata 37128maxresident)k
-0inputs+1176outputs (0major+4931minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12380): Gtk-WARNING **: Allocating size to GtkScrollbar 0x562011324560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.66user 0.46system 0:00.88elapsed 126%CPU (0avgtext+0avgdata 36676maxresident)k
+0.73user 0.37system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 37024maxresident)k
+0inputs+1184outputs (0major+4915minor)pagefaults 0swaps
+0.73user 0.36system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36728maxresident)k
+0inputs+1184outputs (0major+4908minor)pagefaults 0swaps
+0.72user 0.41system 0:00.90elapsed 124%CPU (0avgtext+0avgdata 36892maxresident)k
+0inputs+1184outputs (0major+4826minor)pagefaults 0swaps
+0.72user 0.38system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36668maxresident)k
+0inputs+1184outputs (0major+4882minor)pagefaults 0swaps
+0.69user 0.41system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36968maxresident)k
+0inputs+1184outputs (0major+4911minor)pagefaults 0swaps
+0.71user 0.37system 0:00.87elapsed 124%CPU (0avgtext+0avgdata 36880maxresident)k
+0inputs+1184outputs (0major+4915minor)pagefaults 0swaps
+0.71user 0.38system 0:00.90elapsed 122%CPU (0avgtext+0avgdata 36856maxresident)k
+0inputs+1184outputs (0major+4903minor)pagefaults 0swaps
+0.73user 0.36system 0:00.89elapsed 121%CPU (0avgtext+0avgdata 37212maxresident)k
+0inputs+1184outputs (0major+4936minor)pagefaults 0swaps
+0.74user 0.36system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 37196maxresident)k
+0inputs+1184outputs (0major+4922minor)pagefaults 0swaps
+0.74user 0.36system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 36996maxresident)k
+0inputs+1184outputs (0major+4915minor)pagefaults 0swaps
+0.71user 0.38system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36872maxresident)k
+0inputs+1184outputs (0major+4907minor)pagefaults 0swaps
+0.72user 0.36system 0:00.90elapsed 119%CPU (0avgtext+0avgdata 37012maxresident)k
+0inputs+1184outputs (0major+4914minor)pagefaults 0swaps
+0.70user 0.40system 0:00.88elapsed 124%CPU (0avgtext+0avgdata 36868maxresident)k
+0inputs+1184outputs (0major+4919minor)pagefaults 0swaps
+0.74user 0.36system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 37172maxresident)k
+0inputs+1184outputs (0major+4938minor)pagefaults 0swaps
+0.70user 0.40system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 37240maxresident)k
 0inputs+1184outputs (0major+4939minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12387): Gtk-WARNING **: Allocating size to GtkScrollbar 0x56013341c560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.74user 0.38system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37136maxresident)k
-0inputs+1184outputs (0major+4966minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12395): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55a787412560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.78user 0.34system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37380maxresident)k
-0inputs+1184outputs (0major+4960minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12402): Gtk-WARNING **: Allocating size to GtkScrollbar 0x562aeeb6a560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.72user 0.39system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 37336maxresident)k
-0inputs+1184outputs (0major+4961minor)pagefaults 0swaps
-Failed to connect to session manager: Impossible de se connecter au gestionnaire de session : SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:12410): Gtk-WARNING **: Allocating size to GtkScrollbar 0x558de3cde560 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
-0.68user 0.44system 0:00.89elapsed 126%CPU (0avgtext+0avgdata 37008maxresident)k
-0inputs+1184outputs (0major+4970minor)pagefaults 0swaps
+0.68user 0.42system 0:00.88elapsed 124%CPU (0avgtext+0avgdata 36892maxresident)k
+0inputs+1176outputs (0major+4919minor)pagefaults 0swaps
+0.74user 0.36system 0:00.89elapsed 125%CPU (0avgtext+0avgdata 36936maxresident)k
+0inputs+1184outputs (0major+4896minor)pagefaults 0swaps
+0.70user 0.39system 0:00.88elapsed 124%CPU (0avgtext+0avgdata 37004maxresident)k
+0inputs+1184outputs (0major+4935minor)pagefaults 0swaps
+0.71user 0.37system 0:00.88elapsed 123%CPU (0avgtext+0avgdata 36760maxresident)k
+0inputs+1184outputs (0major+4900minor)pagefaults 0swaps
+0.69user 0.44system 0:00.90elapsed 125%CPU (0avgtext+0avgdata 36972maxresident)k
+0inputs+1184outputs (0major+4867minor)pagefaults 0swaps
+0.69user 0.39system 0:00.88elapsed 123%CPU (0avgtext+0avgdata 36728maxresident)k
+0inputs+1184outputs (0major+4904minor)pagefaults 0swaps
+0.70user 0.38system 0:00.87elapsed 124%CPU (0avgtext+0avgdata 36932maxresident)k
+0inputs+1184outputs (0major+4952minor)pagefaults 0swaps
+0.74user 0.36system 0:00.90elapsed 122%CPU (0avgtext+0avgdata 37384maxresident)k
+0inputs+1184outputs (0major+4941minor)pagefaults 0swaps
+0.75user 0.36system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 37424maxresident)k
+0inputs+1184outputs (0major+4914minor)pagefaults 0swaps
+0.70user 0.40system 0:00.88elapsed 124%CPU (0avgtext+0avgdata 37124maxresident)k
+0inputs+1184outputs (0major+4910minor)pagefaults 0swaps
+0.72user 0.38system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 37340maxresident)k
+0inputs+1184outputs (0major+4900minor)pagefaults 0swaps
+0.68user 0.39system 0:00.89elapsed 121%CPU (0avgtext+0avgdata 37272maxresident)k
+0inputs+1184outputs (0major+4920minor)pagefaults 0swaps
+0.68user 0.42system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 37180maxresident)k
+0inputs+1184outputs (0major+4907minor)pagefaults 0swaps
+0.73user 0.37system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36912maxresident)k
+0inputs+1184outputs (0major+4891minor)pagefaults 0swaps
+0.75user 0.33system 0:00.88elapsed 123%CPU (0avgtext+0avgdata 37324maxresident)k
+0inputs+1184outputs (0major+4924minor)pagefaults 0swaps
+0.74user 0.34system 0:00.87elapsed 124%CPU (0avgtext+0avgdata 37228maxresident)k
+0inputs+1184outputs (0major+4917minor)pagefaults 0swaps
+0.72user 0.38system 0:00.90elapsed 123%CPU (0avgtext+0avgdata 37388maxresident)k
+0inputs+1184outputs (0major+4925minor)pagefaults 0swaps
+0.70user 0.40system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 36980maxresident)k
+0inputs+1184outputs (0major+4922minor)pagefaults 0swaps
+0.75user 0.34system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 37044maxresident)k
+0inputs+1184outputs (0major+4937minor)pagefaults 0swaps
+0.75user 0.36system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 36844maxresident)k
+0inputs+1184outputs (0major+4909minor)pagefaults 0swaps
+0.75user 0.37system 0:00.90elapsed 124%CPU (0avgtext+0avgdata 36948maxresident)k
+0inputs+1184outputs (0major+4922minor)pagefaults 0swaps
+0.72user 0.38system 0:00.90elapsed 122%CPU (0avgtext+0avgdata 37256maxresident)k
+0inputs+1184outputs (0major+4905minor)pagefaults 0swaps
+0.74user 0.36system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 37100maxresident)k
+0inputs+1184outputs (0major+4920minor)pagefaults 0swaps
+0.77user 0.34system 0:00.90elapsed 123%CPU (0avgtext+0avgdata 37380maxresident)k
+0inputs+1184outputs (0major+4923minor)pagefaults 0swaps
+0.69user 0.40system 0:00.88elapsed 124%CPU (0avgtext+0avgdata 36992maxresident)k
+0inputs+1184outputs (0major+4920minor)pagefaults 0swaps
+0.70user 0.39system 0:00.87elapsed 125%CPU (0avgtext+0avgdata 37208maxresident)k
+0inputs+1176outputs (0major+4905minor)pagefaults 0swaps
+0.72user 0.37system 0:00.88elapsed 123%CPU (0avgtext+0avgdata 36880maxresident)k
+0inputs+1184outputs (0major+4906minor)pagefaults 0swaps
+0.70user 0.39system 0:00.91elapsed 120%CPU (0avgtext+0avgdata 36856maxresident)k
+0inputs+1184outputs (0major+4907minor)pagefaults 0swaps
+0.70user 0.40system 0:00.91elapsed 121%CPU (0avgtext+0avgdata 36968maxresident)k
+0inputs+1184outputs (0major+4910minor)pagefaults 0swaps
+0.74user 0.35system 0:00.89elapsed 122%CPU (0avgtext+0avgdata 37312maxresident)k
+0inputs+1184outputs (0major+4917minor)pagefaults 0swaps
+0.76user 0.35system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 37040maxresident)k
+0inputs+1184outputs (0major+4945minor)pagefaults 0swaps
+0.72user 0.37system 0:00.89elapsed 122%CPU (0avgtext+0avgdata 37420maxresident)k
+0inputs+1184outputs (0major+4965minor)pagefaults 0swaps
+0.70user 0.39system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36924maxresident)k
+0inputs+1184outputs (0major+4915minor)pagefaults 0swaps
+0.68user 0.42system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36684maxresident)k
+0inputs+1184outputs (0major+4915minor)pagefaults 0swaps
+0.74user 0.34system 0:00.88elapsed 124%CPU (0avgtext+0avgdata 37172maxresident)k
+0inputs+1184outputs (0major+4913minor)pagefaults 0swaps
+0.71user 0.38system 0:00.88elapsed 124%CPU (0avgtext+0avgdata 37224maxresident)k
+0inputs+1184outputs (0major+4916minor)pagefaults 0swaps
+0.67user 0.42system 0:00.88elapsed 123%CPU (0avgtext+0avgdata 37368maxresident)k
+0inputs+1184outputs (0major+4911minor)pagefaults 0swaps
+0.72user 0.38system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 37160maxresident)k
+0inputs+1184outputs (0major+4926minor)pagefaults 0swaps
+0.72user 0.37system 0:00.88elapsed 124%CPU (0avgtext+0avgdata 37024maxresident)k
+0inputs+1184outputs (0major+4927minor)pagefaults 0swaps
+0.76user 0.34system 0:00.88elapsed 124%CPU (0avgtext+0avgdata 37144maxresident)k
+0inputs+1184outputs (0major+4919minor)pagefaults 0swaps
+0.72user 0.38system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 36852maxresident)k
+0inputs+1184outputs (0major+4903minor)pagefaults 0swaps
+0.72user 0.38system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 37264maxresident)k
+0inputs+1184outputs (0major+4932minor)pagefaults 0swaps
+0.75user 0.35system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 37324maxresident)k
+0inputs+1184outputs (0major+4946minor)pagefaults 0swaps
+0.70user 0.40system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36776maxresident)k
+0inputs+1184outputs (0major+4911minor)pagefaults 0swaps
+0.71user 0.40system 0:00.90elapsed 124%CPU (0avgtext+0avgdata 36972maxresident)k
+0inputs+1184outputs (0major+4912minor)pagefaults 0swaps
+0.76user 0.34system 0:00.90elapsed 122%CPU (0avgtext+0avgdata 37324maxresident)k
+0inputs+1184outputs (0major+4907minor)pagefaults 0swaps
+0.72user 0.38system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 36868maxresident)k
+0inputs+1184outputs (0major+4914minor)pagefaults 0swaps
+0.69user 0.38system 0:00.87elapsed 123%CPU (0avgtext+0avgdata 36908maxresident)k
+0inputs+1184outputs (0major+4915minor)pagefaults 0swaps
+0.75user 0.37system 0:00.91elapsed 124%CPU (0avgtext+0avgdata 36828maxresident)k
+0inputs+1184outputs (0major+4922minor)pagefaults 0swaps
+0.70user 0.40system 0:00.89elapsed 122%CPU (0avgtext+0avgdata 36912maxresident)k
+0inputs+1184outputs (0major+4937minor)pagefaults 0swaps
+0.75user 0.34system 0:00.88elapsed 123%CPU (0avgtext+0avgdata 37108maxresident)k
+0inputs+1184outputs (0major+4929minor)pagefaults 0swaps
+0.72user 0.37system 0:00.87elapsed 125%CPU (0avgtext+0avgdata 36732maxresident)k
+0inputs+1176outputs (0major+4877minor)pagefaults 0swaps
+0.72user 0.39system 0:00.90elapsed 123%CPU (0avgtext+0avgdata 36804maxresident)k
+0inputs+1184outputs (0major+4919minor)pagefaults 0swaps
+0.70user 0.39system 0:00.88elapsed 123%CPU (0avgtext+0avgdata 37084maxresident)k
+0inputs+1184outputs (0major+4955minor)pagefaults 0swaps
+0.70user 0.41system 0:00.88elapsed 125%CPU (0avgtext+0avgdata 36932maxresident)k
+0inputs+1184outputs (0major+4916minor)pagefaults 0swaps
+0.73user 0.36system 0:00.87elapsed 124%CPU (0avgtext+0avgdata 36840maxresident)k
+0inputs+1184outputs (0major+4906minor)pagefaults 0swaps
+0.69user 0.40system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 36912maxresident)k
+0inputs+1184outputs (0major+4930minor)pagefaults 0swaps
+0.70user 0.39system 0:00.88elapsed 124%CPU (0avgtext+0avgdata 36940maxresident)k
+0inputs+1184outputs (0major+4922minor)pagefaults 0swaps
+0.69user 0.42system 0:00.90elapsed 123%CPU (0avgtext+0avgdata 37364maxresident)k
+0inputs+1184outputs (0major+4926minor)pagefaults 0swaps
+0.70user 0.40system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36844maxresident)k
+0inputs+1184outputs (0major+4897minor)pagefaults 0swaps
+0.68user 0.42system 0:00.90elapsed 122%CPU (0avgtext+0avgdata 37388maxresident)k
+0inputs+1184outputs (0major+4930minor)pagefaults 0swaps
+0.76user 0.36system 0:00.90elapsed 124%CPU (0avgtext+0avgdata 37380maxresident)k
+0inputs+1184outputs (0major+4950minor)pagefaults 0swaps
+0.71user 0.39system 0:00.92elapsed 120%CPU (0avgtext+0avgdata 36752maxresident)k
+0inputs+1184outputs (0major+4916minor)pagefaults 0swaps
+0.74user 0.37system 0:00.90elapsed 123%CPU (0avgtext+0avgdata 37348maxresident)k
+0inputs+1184outputs (0major+4900minor)pagefaults 0swaps
+0.74user 0.39system 0:00.91elapsed 124%CPU (0avgtext+0avgdata 36928maxresident)k
+0inputs+1184outputs (0major+4853minor)pagefaults 0swaps
+0.76user 0.36system 0:00.90elapsed 123%CPU (0avgtext+0avgdata 37276maxresident)k
+0inputs+1184outputs (0major+4897minor)pagefaults 0swaps
+0.70user 0.42system 0:00.90elapsed 123%CPU (0avgtext+0avgdata 37000maxresident)k
+0inputs+1184outputs (0major+4885minor)pagefaults 0swaps
+0.72user 0.38system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36588maxresident)k
+0inputs+1184outputs (0major+4864minor)pagefaults 0swaps
+0.68user 0.42system 0:00.89elapsed 124%CPU (0avgtext+0avgdata 36752maxresident)k
+0inputs+1184outputs (0major+4878minor)pagefaults 0swaps
+0.70user 0.39system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36752maxresident)k
+0inputs+1184outputs (0major+4886minor)pagefaults 0swaps
+0.75user 0.34system 0:00.88elapsed 124%CPU (0avgtext+0avgdata 36732maxresident)k
+0inputs+1184outputs (0major+4880minor)pagefaults 0swaps
+0.70user 0.38system 0:00.87elapsed 124%CPU (0avgtext+0avgdata 36844maxresident)k
+0inputs+1184outputs (0major+4914minor)pagefaults 0swaps
+0.77user 0.36system 0:00.91elapsed 125%CPU (0avgtext+0avgdata 37000maxresident)k
+0inputs+1184outputs (0major+4874minor)pagefaults 0swaps
+0.69user 0.41system 0:00.89elapsed 123%CPU (0avgtext+0avgdata 36716maxresident)k
+0inputs+1184outputs (0major+4867minor)pagefaults 0swaps
+0.77user 0.38system 0:00.94elapsed 122%CPU (0avgtext+0avgdata 36968maxresident)k
+0inputs+1184outputs (0major+4889minor)pagefaults 0swaps
+0.76user 0.45system 0:00.99elapsed 122%CPU (0avgtext+0avgdata 36784maxresident)k
+0inputs+1184outputs (0major+4893minor)pagefaults 0swaps
+0.79user 0.44system 0:01.01elapsed 121%CPU (0avgtext+0avgdata 36936maxresident)k
+0inputs+1184outputs (0major+4903minor)pagefaults 0swaps
+0.78user 0.46system 0:01.02elapsed 121%CPU (0avgtext+0avgdata 37052maxresident)k
+0inputs+1184outputs (0major+4902minor)pagefaults 0swaps
+0.73user 0.48system 0:01.00elapsed 121%CPU (0avgtext+0avgdata 36780maxresident)k
+0inputs+1184outputs (0major+4904minor)pagefaults 0swaps
+0.78user 0.42system 0:00.98elapsed 122%CPU (0avgtext+0avgdata 36728maxresident)k
+0inputs+1184outputs (0major+4881minor)pagefaults 0swaps
+0.76user 0.45system 0:00.99elapsed 122%CPU (0avgtext+0avgdata 36828maxresident)k
+0inputs+1184outputs (0major+4894minor)pagefaults 0swaps
+0.76user 0.40system 0:00.94elapsed 123%CPU (0avgtext+0avgdata 37276maxresident)k
+0inputs+1184outputs (0major+4916minor)pagefaults 0swaps

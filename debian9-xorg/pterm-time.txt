@@ -1,200 +1,300 @@
-2.09user 0.20system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23256maxresident)k
-0inputs+0outputs (0major+2579minor)pagefaults 0swaps
-2.16user 0.18system 0:02.03elapsed 115%CPU (0avgtext+0avgdata 23728maxresident)k
-0inputs+0outputs (0major+2649minor)pagefaults 0swaps
-2.14user 0.20system 0:02.03elapsed 115%CPU (0avgtext+0avgdata 23448maxresident)k
-0inputs+0outputs (0major+2588minor)pagefaults 0swaps
-2.09user 0.24system 0:02.02elapsed 115%CPU (0avgtext+0avgdata 23448maxresident)k
-0inputs+8outputs (0major+2653minor)pagefaults 0swaps
-2.12user 0.22system 0:02.02elapsed 115%CPU (0avgtext+0avgdata 23296maxresident)k
-0inputs+0outputs (0major+2587minor)pagefaults 0swaps
-2.12user 0.20system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23140maxresident)k
-0inputs+0outputs (0major+2582minor)pagefaults 0swaps
-2.11user 0.21system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23288maxresident)k
-0inputs+0outputs (0major+2591minor)pagefaults 0swaps
-2.09user 0.20system 0:02.00elapsed 114%CPU (0avgtext+0avgdata 23428maxresident)k
-0inputs+0outputs (0major+2580minor)pagefaults 0swaps
-2.07user 0.22system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 22956maxresident)k
-0inputs+0outputs (0major+2579minor)pagefaults 0swaps
-2.13user 0.22system 0:02.05elapsed 115%CPU (0avgtext+0avgdata 23248maxresident)k
-0inputs+0outputs (0major+2581minor)pagefaults 0swaps
-2.08user 0.21system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23632maxresident)k
-0inputs+0outputs (0major+2590minor)pagefaults 0swaps
-2.11user 0.18system 0:01.98elapsed 115%CPU (0avgtext+0avgdata 23244maxresident)k
-0inputs+0outputs (0major+2582minor)pagefaults 0swaps
-2.11user 0.18system 0:01.98elapsed 115%CPU (0avgtext+0avgdata 23404maxresident)k
-0inputs+0outputs (0major+2574minor)pagefaults 0swaps
-2.14user 0.20system 0:02.02elapsed 115%CPU (0avgtext+0avgdata 23516maxresident)k
-0inputs+0outputs (0major+2584minor)pagefaults 0swaps
-2.07user 0.20system 0:01.97elapsed 115%CPU (0avgtext+0avgdata 23676maxresident)k
-0inputs+0outputs (0major+2592minor)pagefaults 0swaps
-2.13user 0.24system 0:02.04elapsed 115%CPU (0avgtext+0avgdata 23460maxresident)k
-0inputs+0outputs (0major+2588minor)pagefaults 0swaps
-2.07user 0.23system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23328maxresident)k
-0inputs+0outputs (0major+2586minor)pagefaults 0swaps
-2.05user 0.21system 0:01.97elapsed 114%CPU (0avgtext+0avgdata 23580maxresident)k
-0inputs+0outputs (0major+2588minor)pagefaults 0swaps
-2.08user 0.22system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23404maxresident)k
-0inputs+0outputs (0major+2644minor)pagefaults 0swaps
-2.08user 0.22system 0:02.00elapsed 114%CPU (0avgtext+0avgdata 23560maxresident)k
-0inputs+8outputs (0major+2650minor)pagefaults 0swaps
-2.12user 0.20system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23640maxresident)k
-0inputs+0outputs (0major+2588minor)pagefaults 0swaps
-2.10user 0.19system 0:01.98elapsed 115%CPU (0avgtext+0avgdata 23428maxresident)k
-0inputs+0outputs (0major+2584minor)pagefaults 0swaps
-2.10user 0.20system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23564maxresident)k
-0inputs+0outputs (0major+2651minor)pagefaults 0swaps
-2.10user 0.20system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23620maxresident)k
-0inputs+0outputs (0major+2655minor)pagefaults 0swaps
-2.15user 0.19system 0:02.03elapsed 115%CPU (0avgtext+0avgdata 23616maxresident)k
-0inputs+0outputs (0major+2597minor)pagefaults 0swaps
-0.94user 0.22system 0:00.85elapsed 135%CPU (0avgtext+0avgdata 23188maxresident)k
-0inputs+0outputs (0major+2589minor)pagefaults 0swaps
-2.11user 0.20system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23324maxresident)k
-0inputs+0outputs (0major+2583minor)pagefaults 0swaps
-2.10user 0.22system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23636maxresident)k
-0inputs+0outputs (0major+2579minor)pagefaults 0swaps
-2.07user 0.23system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23388maxresident)k
-0inputs+8outputs (0major+2646minor)pagefaults 0swaps
-2.12user 0.24system 0:02.04elapsed 115%CPU (0avgtext+0avgdata 23776maxresident)k
-0inputs+0outputs (0major+2592minor)pagefaults 0swaps
-2.11user 0.21system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23448maxresident)k
-0inputs+0outputs (0major+2581minor)pagefaults 0swaps
-2.11user 0.20system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23548maxresident)k
-0inputs+0outputs (0major+2589minor)pagefaults 0swaps
-2.13user 0.17system 0:02.01elapsed 114%CPU (0avgtext+0avgdata 23532maxresident)k
-0inputs+0outputs (0major+2586minor)pagefaults 0swaps
-2.10user 0.22system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23244maxresident)k
-0inputs+0outputs (0major+2641minor)pagefaults 0swaps
-2.08user 0.23system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23508maxresident)k
-0inputs+0outputs (0major+2594minor)pagefaults 0swaps
-2.11user 0.19system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23576maxresident)k
-0inputs+0outputs (0major+2595minor)pagefaults 0swaps
-2.11user 0.21system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23652maxresident)k
-0inputs+0outputs (0major+2596minor)pagefaults 0swaps
-2.09user 0.20system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23040maxresident)k
-0inputs+0outputs (0major+2579minor)pagefaults 0swaps
-2.13user 0.17system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23376maxresident)k
-0inputs+0outputs (0major+2582minor)pagefaults 0swaps
-2.14user 0.18system 0:02.02elapsed 115%CPU (0avgtext+0avgdata 23620maxresident)k
-0inputs+0outputs (0major+2590minor)pagefaults 0swaps
-2.09user 0.19system 0:01.98elapsed 115%CPU (0avgtext+0avgdata 23360maxresident)k
-0inputs+8outputs (0major+2643minor)pagefaults 0swaps
-2.10user 0.18system 0:01.98elapsed 114%CPU (0avgtext+0avgdata 23140maxresident)k
-0inputs+0outputs (0major+2579minor)pagefaults 0swaps
-2.12user 0.17system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23584maxresident)k
-0inputs+0outputs (0major+2593minor)pagefaults 0swaps
-2.10user 0.21system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23372maxresident)k
-0inputs+8outputs (0major+2642minor)pagefaults 0swaps
-2.10user 0.20system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23652maxresident)k
-0inputs+0outputs (0major+2650minor)pagefaults 0swaps
-2.10user 0.21system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23628maxresident)k
-0inputs+0outputs (0major+2591minor)pagefaults 0swaps
-2.12user 0.22system 0:02.02elapsed 115%CPU (0avgtext+0avgdata 23492maxresident)k
-0inputs+8outputs (0major+2649minor)pagefaults 0swaps
-2.13user 0.21system 0:02.03elapsed 115%CPU (0avgtext+0avgdata 23540maxresident)k
-0inputs+0outputs (0major+2649minor)pagefaults 0swaps
-2.10user 0.20system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 22964maxresident)k
-0inputs+0outputs (0major+2573minor)pagefaults 0swaps
-2.08user 0.20system 0:01.98elapsed 115%CPU (0avgtext+0avgdata 23380maxresident)k
-0inputs+0outputs (0major+2590minor)pagefaults 0swaps
-2.09user 0.21system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23684maxresident)k
-0inputs+0outputs (0major+2593minor)pagefaults 0swaps
-2.11user 0.18system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23328maxresident)k
-0inputs+0outputs (0major+2588minor)pagefaults 0swaps
-2.10user 0.22system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23060maxresident)k
-0inputs+0outputs (0major+2581minor)pagefaults 0swaps
-2.07user 0.21system 0:01.98elapsed 115%CPU (0avgtext+0avgdata 23444maxresident)k
-0inputs+0outputs (0major+2584minor)pagefaults 0swaps
-2.12user 0.20system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23604maxresident)k
-0inputs+0outputs (0major+2596minor)pagefaults 0swaps
-2.14user 0.18system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23592maxresident)k
-0inputs+0outputs (0major+2594minor)pagefaults 0swaps
-1.43user 0.22system 0:01.34elapsed 123%CPU (0avgtext+0avgdata 23212maxresident)k
-0inputs+0outputs (0major+2590minor)pagefaults 0swaps
-2.12user 0.19system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23044maxresident)k
-0inputs+0outputs (0major+2582minor)pagefaults 0swaps
-2.12user 0.22system 0:02.03elapsed 115%CPU (0avgtext+0avgdata 23096maxresident)k
-0inputs+0outputs (0major+2577minor)pagefaults 0swaps
-2.07user 0.20system 0:01.97elapsed 115%CPU (0avgtext+0avgdata 23608maxresident)k
-0inputs+0outputs (0major+2588minor)pagefaults 0swaps
-2.12user 0.22system 0:02.03elapsed 115%CPU (0avgtext+0avgdata 23116maxresident)k
-0inputs+0outputs (0major+2577minor)pagefaults 0swaps
-2.10user 0.21system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23296maxresident)k
-0inputs+0outputs (0major+2579minor)pagefaults 0swaps
-2.14user 0.18system 0:02.01elapsed 114%CPU (0avgtext+0avgdata 23456maxresident)k
-0inputs+0outputs (0major+2585minor)pagefaults 0swaps
-2.10user 0.20system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23044maxresident)k
-0inputs+0outputs (0major+2578minor)pagefaults 0swaps
-2.10user 0.22system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23480maxresident)k
-0inputs+0outputs (0major+2654minor)pagefaults 0swaps
-2.08user 0.20system 0:01.98elapsed 114%CPU (0avgtext+0avgdata 23028maxresident)k
-0inputs+0outputs (0major+2580minor)pagefaults 0swaps
-2.08user 0.22system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23412maxresident)k
-0inputs+0outputs (0major+2581minor)pagefaults 0swaps
-2.10user 0.21system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23552maxresident)k
-0inputs+0outputs (0major+2583minor)pagefaults 0swaps
-2.12user 0.18system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23144maxresident)k
-0inputs+0outputs (0major+2644minor)pagefaults 0swaps
-2.12user 0.20system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23532maxresident)k
-0inputs+0outputs (0major+2587minor)pagefaults 0swaps
-2.08user 0.23system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23380maxresident)k
-0inputs+0outputs (0major+2579minor)pagefaults 0swaps
-2.13user 0.16system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23344maxresident)k
-0inputs+0outputs (0major+2577minor)pagefaults 0swaps
-2.08user 0.22system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23588maxresident)k
-0inputs+0outputs (0major+2588minor)pagefaults 0swaps
-2.11user 0.20system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23364maxresident)k
-0inputs+0outputs (0major+2590minor)pagefaults 0swaps
-2.11user 0.21system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23040maxresident)k
-0inputs+0outputs (0major+2570minor)pagefaults 0swaps
-2.12user 0.19system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23360maxresident)k
-0inputs+0outputs (0major+2646minor)pagefaults 0swaps
-2.11user 0.23system 0:02.03elapsed 115%CPU (0avgtext+0avgdata 23688maxresident)k
-0inputs+0outputs (0major+2591minor)pagefaults 0swaps
-2.13user 0.21system 0:02.03elapsed 115%CPU (0avgtext+0avgdata 23768maxresident)k
-0inputs+0outputs (0major+2593minor)pagefaults 0swaps
-2.12user 0.18system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23576maxresident)k
-0inputs+0outputs (0major+2592minor)pagefaults 0swaps
-2.13user 0.23system 0:02.04elapsed 115%CPU (0avgtext+0avgdata 23044maxresident)k
-0inputs+0outputs (0major+2577minor)pagefaults 0swaps
-2.10user 0.22system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23408maxresident)k
-0inputs+0outputs (0major+2580minor)pagefaults 0swaps
-2.10user 0.22system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23696maxresident)k
-0inputs+0outputs (0major+2591minor)pagefaults 0swaps
-2.16user 0.19system 0:02.59elapsed 91%CPU (0avgtext+0avgdata 23168maxresident)k
-0inputs+0outputs (0major+2582minor)pagefaults 0swaps
-2.07user 0.21system 0:01.98elapsed 115%CPU (0avgtext+0avgdata 23480maxresident)k
-0inputs+0outputs (0major+2580minor)pagefaults 0swaps
-2.14user 0.16system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23352maxresident)k
-0inputs+0outputs (0major+2582minor)pagefaults 0swaps
-2.13user 0.18system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 22964maxresident)k
-0inputs+0outputs (0major+2579minor)pagefaults 0swaps
-2.11user 0.19system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23480maxresident)k
-0inputs+0outputs (0major+2579minor)pagefaults 0swaps
-2.12user 0.22system 0:02.03elapsed 115%CPU (0avgtext+0avgdata 23500maxresident)k
-0inputs+0outputs (0major+2586minor)pagefaults 0swaps
-2.08user 0.21system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23432maxresident)k
-0inputs+0outputs (0major+2585minor)pagefaults 0swaps
-2.09user 0.20system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23668maxresident)k
-0inputs+0outputs (0major+2592minor)pagefaults 0swaps
-2.09user 0.22system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23372maxresident)k
-0inputs+0outputs (0major+2590minor)pagefaults 0swaps
-2.11user 0.18system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23364maxresident)k
-0inputs+0outputs (0major+2580minor)pagefaults 0swaps
-2.14user 0.20system 0:02.03elapsed 115%CPU (0avgtext+0avgdata 23460maxresident)k
-0inputs+0outputs (0major+2649minor)pagefaults 0swaps
-2.13user 0.19system 0:02.01elapsed 115%CPU (0avgtext+0avgdata 23356maxresident)k
-0inputs+0outputs (0major+2586minor)pagefaults 0swaps
-2.11user 0.20system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23476maxresident)k
-0inputs+0outputs (0major+2585minor)pagefaults 0swaps
-2.16user 0.18system 0:02.03elapsed 115%CPU (0avgtext+0avgdata 23636maxresident)k
-0inputs+0outputs (0major+2591minor)pagefaults 0swaps
-2.11user 0.20system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23500maxresident)k
-0inputs+0outputs (0major+2591minor)pagefaults 0swaps
-2.08user 0.22system 0:01.99elapsed 115%CPU (0avgtext+0avgdata 23152maxresident)k
-0inputs+0outputs (0major+2584minor)pagefaults 0swaps
-2.13user 0.18system 0:02.00elapsed 115%CPU (0avgtext+0avgdata 23412maxresident)k
-0inputs+0outputs (0major+2586minor)pagefaults 0swaps
-2.15user 0.18system 0:02.02elapsed 115%CPU (0avgtext+0avgdata 23424maxresident)k
-0inputs+0outputs (0major+2585minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.05user 0.18system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 21028maxresident)k
+0inputs+8outputs (0major+2054minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.99user 0.24system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 21128maxresident)k
+0inputs+0outputs (0major+2064minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.98user 0.23system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 20720maxresident)k
+0inputs+0outputs (0major+2053minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.98user 0.22system 0:00.90elapsed 133%CPU (0avgtext+0avgdata 21132maxresident)k
+0inputs+0outputs (0major+2060minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.98user 0.24system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21200maxresident)k
+0inputs+0outputs (0major+2062minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.00user 0.21system 0:00.91elapsed 132%CPU (0avgtext+0avgdata 21244maxresident)k
+0inputs+0outputs (0major+2067minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.22system 0:00.94elapsed 132%CPU (0avgtext+0avgdata 20788maxresident)k
+0inputs+0outputs (0major+2057minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.18system 0:00.91elapsed 132%CPU (0avgtext+0avgdata 21268maxresident)k
+0inputs+0outputs (0major+2063minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.21system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 20840maxresident)k
+0inputs+0outputs (0major+2059minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.20system 0:00.91elapsed 134%CPU (0avgtext+0avgdata 21240maxresident)k
+0inputs+0outputs (0major+2115minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.17system 0:00.90elapsed 133%CPU (0avgtext+0avgdata 21420maxresident)k
+0inputs+0outputs (0major+2062minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.07user 0.16system 0:00.93elapsed 133%CPU (0avgtext+0avgdata 21344maxresident)k
+0inputs+0outputs (0major+2070minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.19system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21232maxresident)k
+0inputs+0outputs (0major+2070minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.04user 0.20system 0:00.93elapsed 133%CPU (0avgtext+0avgdata 21192maxresident)k
+0inputs+0outputs (0major+2063minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.18system 0:00.91elapsed 132%CPU (0avgtext+0avgdata 21224maxresident)k
+0inputs+0outputs (0major+2068minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.18system 0:00.90elapsed 133%CPU (0avgtext+0avgdata 21264maxresident)k
+0inputs+0outputs (0major+2066minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.18system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21344maxresident)k
+0inputs+0outputs (0major+2063minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.07user 0.17system 0:00.94elapsed 132%CPU (0avgtext+0avgdata 21200maxresident)k
+0inputs+0outputs (0major+2065minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.98user 0.22system 0:00.91elapsed 132%CPU (0avgtext+0avgdata 21148maxresident)k
+0inputs+0outputs (0major+2069minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.06user 0.16system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21072maxresident)k
+0inputs+0outputs (0major+2058minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.20system 0:00.90elapsed 133%CPU (0avgtext+0avgdata 20692maxresident)k
+0inputs+0outputs (0major+2044minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.06user 0.19system 0:00.94elapsed 133%CPU (0avgtext+0avgdata 21020maxresident)k
+0inputs+0outputs (0major+2058minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.19system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21092maxresident)k
+0inputs+0outputs (0major+2057minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.19system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 20724maxresident)k
+0inputs+0outputs (0major+2046minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.21system 0:00.93elapsed 132%CPU (0avgtext+0avgdata 21252maxresident)k
+0inputs+0outputs (0major+2061minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.21system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 21328maxresident)k
+0inputs+0outputs (0major+2074minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.17system 0:00.90elapsed 134%CPU (0avgtext+0avgdata 20724maxresident)k
+0inputs+0outputs (0major+2046minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.21system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 21224maxresident)k
+0inputs+0outputs (0major+2068minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.19system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21120maxresident)k
+0inputs+0outputs (0major+2058minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.04user 0.21system 0:00.94elapsed 133%CPU (0avgtext+0avgdata 20808maxresident)k
+0inputs+0outputs (0major+2052minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.04user 0.20system 0:00.93elapsed 133%CPU (0avgtext+0avgdata 21284maxresident)k
+0inputs+0outputs (0major+2066minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.00user 0.22system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21076maxresident)k
+0inputs+0outputs (0major+2068minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.98user 0.24system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 20820maxresident)k
+0inputs+0outputs (0major+2056minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.21system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21308maxresident)k
+0inputs+0outputs (0major+2057minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.00user 0.20system 0:00.91elapsed 132%CPU (0avgtext+0avgdata 21060maxresident)k
+0inputs+0outputs (0major+2064minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.00user 0.22system 0:00.91elapsed 134%CPU (0avgtext+0avgdata 21044maxresident)k
+0inputs+0outputs (0major+2058minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.21system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 21300maxresident)k
+0inputs+0outputs (0major+2063minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.20system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21140maxresident)k
+0inputs+0outputs (0major+2062minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.23system 0:00.94elapsed 131%CPU (0avgtext+0avgdata 21260maxresident)k
+0inputs+0outputs (0major+2070minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.20system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 21128maxresident)k
+0inputs+0outputs (0major+2060minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.00user 0.22system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 20824maxresident)k
+0inputs+0outputs (0major+2050minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.21system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21260maxresident)k
+0inputs+0outputs (0major+2064minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.19system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21260maxresident)k
+0inputs+0outputs (0major+2060minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.04user 0.20system 0:00.94elapsed 133%CPU (0avgtext+0avgdata 21184maxresident)k
+0inputs+0outputs (0major+2062minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.19system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21388maxresident)k
+0inputs+0outputs (0major+2073minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.19system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 21308maxresident)k
+0inputs+8outputs (0major+2131minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.06user 0.16system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21308maxresident)k
+0inputs+0outputs (0major+2136minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.98user 0.24system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21432maxresident)k
+0inputs+0outputs (0major+2065minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.99user 0.22system 0:00.91elapsed 132%CPU (0avgtext+0avgdata 21288maxresident)k
+0inputs+0outputs (0major+2059minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.05user 0.19system 0:00.94elapsed 132%CPU (0avgtext+0avgdata 21416maxresident)k
+0inputs+0outputs (0major+2053minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.21system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21132maxresident)k
+0inputs+0outputs (0major+2063minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.06user 0.17system 0:00.93elapsed 133%CPU (0avgtext+0avgdata 21164maxresident)k
+0inputs+0outputs (0major+2059minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.23system 0:00.93elapsed 133%CPU (0avgtext+0avgdata 21256maxresident)k
+0inputs+0outputs (0major+2061minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.98user 0.22system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21156maxresident)k
+0inputs+0outputs (0major+2072minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.19system 0:00.93elapsed 132%CPU (0avgtext+0avgdata 21036maxresident)k
+0inputs+0outputs (0major+2056minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.21system 0:00.93elapsed 132%CPU (0avgtext+0avgdata 21364maxresident)k
+0inputs+0outputs (0major+2065minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.04user 0.20system 0:00.94elapsed 132%CPU (0avgtext+0avgdata 21352maxresident)k
+0inputs+0outputs (0major+2069minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.07user 0.17system 0:00.94elapsed 132%CPU (0avgtext+0avgdata 21152maxresident)k
+0inputs+0outputs (0major+2060minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.20system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21164maxresident)k
+0inputs+0outputs (0major+2068minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.21system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21112maxresident)k
+0inputs+0outputs (0major+2122minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.20system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 21132maxresident)k
+0inputs+0outputs (0major+2066minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.97user 0.25system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 20704maxresident)k
+0inputs+0outputs (0major+2052minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.22system 0:00.93elapsed 132%CPU (0avgtext+0avgdata 21200maxresident)k
+0inputs+0outputs (0major+2061minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.04user 0.19system 0:00.93elapsed 132%CPU (0avgtext+0avgdata 21148maxresident)k
+0inputs+0outputs (0major+2058minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.20system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 20788maxresident)k
+0inputs+0outputs (0major+2050minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.21system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21380maxresident)k
+0inputs+0outputs (0major+2066minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.22system 0:00.93elapsed 132%CPU (0avgtext+0avgdata 21060maxresident)k
+0inputs+0outputs (0major+2117minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.98user 0.22system 0:00.90elapsed 133%CPU (0avgtext+0avgdata 20812maxresident)k
+0inputs+0outputs (0major+2061minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.98user 0.24system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21132maxresident)k
+0inputs+0outputs (0major+2057minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.04user 0.20system 0:00.94elapsed 132%CPU (0avgtext+0avgdata 21136maxresident)k
+0inputs+0outputs (0major+2060minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.00user 0.21system 0:00.91elapsed 132%CPU (0avgtext+0avgdata 21204maxresident)k
+0inputs+0outputs (0major+2057minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.20system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 20832maxresident)k
+0inputs+0outputs (0major+2052minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.20system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21136maxresident)k
+0inputs+0outputs (0major+2061minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.99user 0.22system 0:00.90elapsed 134%CPU (0avgtext+0avgdata 21348maxresident)k
+0inputs+0outputs (0major+2073minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.00user 0.21system 0:00.91elapsed 134%CPU (0avgtext+0avgdata 21312maxresident)k
+0inputs+0outputs (0major+2076minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.22system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 21144maxresident)k
+0inputs+0outputs (0major+2059minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.20system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21132maxresident)k
+0inputs+0outputs (0major+2067minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.00user 0.20system 0:00.90elapsed 133%CPU (0avgtext+0avgdata 21260maxresident)k
+0inputs+0outputs (0major+2065minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.06user 0.19system 0:00.95elapsed 132%CPU (0avgtext+0avgdata 21344maxresident)k
+0inputs+0outputs (0major+2061minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.19system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 21136maxresident)k
+0inputs+0outputs (0major+2060minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.06user 0.16system 0:00.93elapsed 132%CPU (0avgtext+0avgdata 21356maxresident)k
+0inputs+0outputs (0major+2060minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.20system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21344maxresident)k
+0inputs+0outputs (0major+2063minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.06user 0.18system 0:00.93elapsed 132%CPU (0avgtext+0avgdata 21288maxresident)k
+0inputs+0outputs (0major+2069minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.20system 0:00.93elapsed 132%CPU (0avgtext+0avgdata 21204maxresident)k
+0inputs+0outputs (0major+2057minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.20system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 21332maxresident)k
+0inputs+0outputs (0major+2059minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.20system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21132maxresident)k
+0inputs+0outputs (0major+2055minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.23system 0:00.94elapsed 133%CPU (0avgtext+0avgdata 21016maxresident)k
+0inputs+0outputs (0major+2058minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.22system 0:00.94elapsed 132%CPU (0avgtext+0avgdata 21200maxresident)k
+0inputs+0outputs (0major+2063minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.18system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21220maxresident)k
+0inputs+0outputs (0major+2059minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.03user 0.20system 0:00.92elapsed 133%CPU (0avgtext+0avgdata 21344maxresident)k
+0inputs+0outputs (0major+2057minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.20system 0:00.92elapsed 132%CPU (0avgtext+0avgdata 21188maxresident)k
+0inputs+0outputs (0major+2061minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.22system 0:00.94elapsed 131%CPU (0avgtext+0avgdata 21148maxresident)k
+0inputs+0outputs (0major+2058minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+0.99user 0.23system 0:00.91elapsed 133%CPU (0avgtext+0avgdata 21224maxresident)k
+0inputs+0outputs (0major+2065minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.20system 0:00.91elapsed 132%CPU (0avgtext+0avgdata 21124maxresident)k
+0inputs+0outputs (0major+2061minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.21system 0:00.93elapsed 132%CPU (0avgtext+0avgdata 21360maxresident)k
+0inputs+0outputs (0major+2063minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.18system 0:00.90elapsed 132%CPU (0avgtext+0avgdata 21280maxresident)k
+0inputs+0outputs (0major+2067minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.02user 0.18system 0:00.90elapsed 134%CPU (0avgtext+0avgdata 21228maxresident)k
+0inputs+0outputs (0major+2065minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.22system 0:00.93elapsed 132%CPU (0avgtext+0avgdata 21116maxresident)k
+0inputs+0outputs (0major+2057minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.00user 0.23system 0:00.93elapsed 133%CPU (0avgtext+0avgdata 21120maxresident)k
+0inputs+0outputs (0major+2062minor)pagefaults 0swaps
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1.01user 0.21system 0:00.93elapsed 131%CPU (0avgtext+0avgdata 20748maxresident)k
+0inputs+0outputs (0major+2058minor)pagefaults 0swaps
