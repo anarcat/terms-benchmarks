@@ -120,33 +120,35 @@ def main():
 
     logging.debug('writing to file %s', args.output)
 
-    results = defaultdict(list)
-    for terminal in args.terminal:
-        cmd = [terminal, '-e', "%s %d" % (args.test, args.lines)]
-        results[terminal] += run_tests(terminal, cmd, args.samples)
-
-    for terminal in args.terminal_unquote:
-        cmd = [terminal, '-e', args.test, str(args.lines)]
-        results[terminal] += run_tests(terminal, cmd, args.samples)
-    
-    logging.debug('resources: %s',
-                  resource.getrusage(resource.RUSAGE_CHILDREN))
-
     fields = ('ru_utime', 'ru_stime', 'ru_maxrss', 'ru_inblock', 'ru_oublock')
     i = 0
-    with open(args.output, 'w+') as csv:
-        line = ['n', 'terminal', 'wtime']
-        for field in fields:
-            line.append(field)
-        csv.write(",".join(line) + "\n")
 
-        for terminal, results in results.items():
-            for res, diff in results:
-                line = [str(i), terminal, str(diff.total_seconds())]
-                i += 1
-                for field in fields:
-                    line.append(str(getattr(res, field)))
-                csv.write(",".join(line) + "\n")
+    with open(args.output, 'a') as csv:
+        def write_result(terminal, result, diff):
+            nonlocal i
+            line = ['n', 'terminal', 'wtime']
+            for field in fields:
+                line.append(field)
+            csv.write(",".join(line) + "\n")
+
+            line = [str(i), terminal, str(diff.total_seconds())]
+            i += 1
+            for field in fields:
+                line.append(str(getattr(result, field)))
+            csv.write(",".join(line) + "\n")
+
+        for terminal in args.terminal:
+            cmd = [terminal, '-e', "%s %d" % (args.test, args.lines)]
+            for result, diff in run_tests(terminal, cmd, args.samples):
+                write_result(terminal, result, diff)
+
+        for terminal in args.terminal_unquote:
+            cmd = [terminal, '-e', args.test, str(args.lines)]
+            for result, diff in run_tests(terminal, cmd, args.samples):
+                write_result(terminal, result, diff)
+
+    logging.debug('resources: %s',
+                  resource.getrusage(resource.RUSAGE_CHILDREN))
 
 
 if __name__ == '__main__':
