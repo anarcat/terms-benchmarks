@@ -417,18 +417,42 @@ or i3 session.
 
 This is a rerun of the latency test, in a clean Debian 9 profile.
 
-| Terminal            | Debian 9 xorg |
-| ------------------- | --------------|
-| [Alacritty][]       | ✓             |
-| [GNOME Terminal][]  | ✓             |
-| [Konsole][]         | ✓             |
-| [mlterm][]          | ✓             |
-| [pterm][]           | ✓             |
-| [st][]              | ✓             |
-| [Terminator][]      | ✓             |
-| [urxvt][]           | `-font` req'd |
-| [Xfce Terminal][]   | ✓             |
-| [xterm][]           | "large" font  |
+| Terminal            | Debian 9 xorg | Fedora 27 xorg  |
+| ------------------- | ------------- | --------------- |
+| [Alacritty][]       | ✓             | N/A             |
+| [GNOME Terminal][]  | ✓             |                 |
+| [Konsole][]         | ✓             |                 |
+| [mlterm][]          | ✓             |                 |
+| [pterm][]           | Courier 12    | courier 10-pitch 12 font |
+| [st][]              | ✓             |                 |
+| [Terminator][]      | ✓             |                 |
+| [urxvt][]           | `-font` req'd | `-font` special `-*-fixed-*-*-*-*-16-*-*-*-*-*` |
+| [Xfce Terminal][]   | ✓             |                 |
+| [xterm][]           | "large" font  | "large font"    |
+
+All tests failed in Wayland (Fedora 27), as the JRE completely crashed:
+
+```
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007fde3f5115f9, pid=4558, tid=0x00007fde3c155700
+#
+# JRE version: OpenJDK Runtime Environment (8.0_161-b14) (build 1.8.0_161-b14)
+# Java VM: OpenJDK 64-Bit Server VM (25.161-b14 mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# C  [libawt_xawt.so+0x415f9]
+#
+# Core dump written. Default location: /home/anarcat/Downloads/typometer-1.0/core or core.4558
+#
+# An error report file with more information is saved as:
+# /home/anarcat/Downloads/typometer-1.0/hs_err_pid4558.log
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+```
 
 Resources
 ---------
