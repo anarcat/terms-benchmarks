@@ -122,7 +122,9 @@ def main():
 
     logging.debug('writing to file %s', args.output)
 
-    fields = ('ru_utime', 'ru_stime', 'ru_maxrss', 'ru_inblock', 'ru_oublock')
+    res = resource.getrusage(resource.RUSAGE_SELF)
+    # just record all fields
+    fields = [ f for f in dir(res) if not (f.startswith('_') or f.startswith('n')) ]
     i = 0
 
     with open(args.output, 'a') as csv:
