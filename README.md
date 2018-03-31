@@ -412,6 +412,11 @@ excluded from this review with some extra reasons when relevant:
      would require me to change the Y scale to be logarithmic, which
      would be silly
 
+The Linux console itself wasn't directly tested, as it was too
+difficult to instrument performance tests, which would have been
+mostly meaningless, except for the bandwidth tests, which is the least
+important.
+
 A more exhaustive [list of terminal emulators](https://wiki.archlinux.org/index.php/List_of_applications#Terminal_emulators) is also available on
 the Arch wiki.
 
