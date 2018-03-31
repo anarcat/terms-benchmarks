@@ -92,7 +92,7 @@ def main():
     parser.add_argument('--terminal-unquote', nargs='*',
                         default=['alacritty', 'mlterm', 'st', 'stterm', 'urxvt'],
                         help="terminals that do not need quoting %(default)s")
-    parser.add_argument('--test', default='bw-test.sh',
+    parser.add_argument('--test', default=os.path.abspath('bw-test.sh'),
                         help='test to run %(default)s')
 
     args = parser.parse_args()
