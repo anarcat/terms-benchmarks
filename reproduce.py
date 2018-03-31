@@ -35,6 +35,7 @@ def run_tests(terminal, cmd, samples):
     except FileNotFoundError:
         logging.warning('terminal %s not available, skipping', terminal)
         return results
+    logging.info('running %d tests on %s', samples, terminal)
     for i in range(samples):
         queue = Queue()
         process = Process(target=worker, args=(terminal, cmd, queue))
