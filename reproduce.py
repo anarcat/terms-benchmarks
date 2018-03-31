@@ -65,6 +65,7 @@ class Timer(object):
 
 
 def main():
+    default_test_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'bw-test.sh'))
     parser = argparse.ArgumentParser()
     parser.add_argument('--lines', default=100000, type=int,
                         help='how many times to repeat the string')
@@ -92,7 +93,7 @@ def main():
     parser.add_argument('--terminal-unquote', nargs='*',
                         default=['alacritty', 'mlterm', 'st', 'stterm', 'urxvt'],
                         help="terminals that do not need quoting %(default)s")
-    parser.add_argument('--test', default=os.path.abspath('bw-test.sh'),
+    parser.add_argument('--test', default=default_test_path,
                         help='test to run %(default)s')
 
     args = parser.parse_args()
