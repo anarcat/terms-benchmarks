@@ -2,6 +2,7 @@
 
 import argparse
 from collections import defaultdict
+import datetime
 import logging
 from multiprocessing import Process, Queue
 import os
@@ -11,7 +12,8 @@ import time
 import resource
 
 
-def worker(cmd, queue):
+def worker(terminal, cmd, queue):
+    timer = Timer()
     try:
         subprocess.check_call(cmd)
     except subprocess.CalledProcessError as e:
@@ -19,8 +21,9 @@ def worker(cmd, queue):
                             terminal, e)
             queue.put(False)
             return
+    diff = timer.diff()
     res = resource.getrusage(resource.RUSAGE_CHILDREN)
-    queue.put(res)
+    queue.put((res, diff))
 
 
 def run_tests(terminal, cmd, samples):
@@ -34,13 +37,31 @@ def run_tests(terminal, cmd, samples):
         return results
     for i in range(samples):
         queue = Queue()
-        process = Process(target=worker, args=(cmd, queue,))
+        process = Process(target=worker, args=(terminal, cmd, queue))
         process.start()
-        res = queue.get()
+        result = queue.get()
         process.join()
-        logging.debug('resources: %s', res)
-        results.append(res)
+        logging.debug('result: %s', result)
+        results.append(result)
     return results
+
+
+class Timer(object):
+    """this class is to track time
+
+    golfed from ecdysis"""
+
+    def __init__(self):
+        """initialize the timstamp"""
+        self.stamp = datetime.datetime.now()
+
+    def diff(self):
+        """a datediff between the creation of the object and now"""
+        return datetime.datetime.now() - self.stamp
+
+    def __str__(self):
+        """return a string representing the time passed"""
+        return 'elasped: %s' % str(self.diff())
 
 
 def main():
@@ -114,17 +135,17 @@ def main():
     fields = ('ru_utime', 'ru_stime', 'ru_maxrss', 'ru_inblock', 'ru_oublock')
     i = 0
     with open(args.output, 'w+') as csv:
-        line = ['n', 'terminal']
+        line = ['n', 'terminal', 'wtime']
         for field in fields:
             line.append(field)
         csv.write(",".join(line) + "\n")
 
         for terminal, results in results.items():
-            for result in results:
-                line = [str(i), terminal]
+            for res, diff in results:
+                line = [str(i), terminal, str(diff.total_seconds())]
                 i += 1
                 for field in fields:
-                    line.append(str(getattr(result, field)))
+                    line.append(str(getattr(res, field)))
                 csv.write(",".join(line) + "\n")
 
 
