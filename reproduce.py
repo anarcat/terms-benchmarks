@@ -126,10 +126,11 @@ def main():
     with open(args.output, 'a') as csv:
         def write_result(terminal, result, diff):
             nonlocal i
-            line = ['n', 'terminal', 'wtime']
-            for field in fields:
-                line.append(field)
-            csv.write(",".join(line) + "\n")
+            if not csv.tell():
+                line = ['n', 'terminal', 'wtime']
+                for field in fields:
+                    line.append(field)
+                csv.write(",".join(line) + "\n")
 
             line = [str(i), terminal, str(diff.total_seconds())]
             i += 1
