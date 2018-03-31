@@ -413,6 +413,23 @@ is shown in the `editors.csv` file.
 All the latency tests were performed on Debian 9 (stretch) in a Xmonad
 or i3 session.
 
+### Reroll
+
+This is a rerun of the latency test, in a clean Debian 9 profile.
+
+| Terminal            | Debian 9 xorg |
+| ------------------- | --------------|
+| [Alacritty][]       | ✓             |
+| [GNOME Terminal][]  | ✓             |
+| [Konsole][]         | ✓             |
+| [mlterm][]          | ✓             |
+| [pterm][]           | ✓             |
+| [st][]              | ✓             |
+| [Terminator][]      | ✓             |
+| [urxvt][]           | `-font` req'd |
+| [Xfce Terminal][]   | ✓             |
+| [xterm][]           | "large" font  |
+
 Resources
 ---------
 
