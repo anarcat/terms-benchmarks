@@ -26,6 +26,13 @@ sleep 3
 
 echo "terminal,time,cpu,memory" >> times-${samples}x${lines}.csv
 
+# gnome-terminal fails because it returns immediately. bad bad.
+#
+# also, we don't monitor disk I/O. turns out this could matter,
+# because some emulators actually write the backlog to disk.
+#
+# this would need psutil to DTRT.
+
 for terminal in konsole pterm terminator uxterm xfce4-terminal  ; do
     echo "priming $terminal"
     /usr/bin/time $terminal -e "$test" || continue
