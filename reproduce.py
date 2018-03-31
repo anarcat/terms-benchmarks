@@ -126,7 +126,7 @@ def main():
         results[terminal] += run_tests(terminal, cmd, args.samples)
 
     for terminal in args.terminal_unquote:
-        cmd = [terminal, '-e', args.test, args.lines]
+        cmd = [terminal, '-e', args.test, str(args.lines)]
         results[terminal] += run_tests(terminal, cmd, args.samples)
     
     logging.debug('resources: %s',
