@@ -417,18 +417,18 @@ or i3 session.
 
 This is a rerun of the latency test, in a clean Debian 9 profile.
 
-| Terminal            | Debian 9 xorg | Fedora 27 xorg  |
-| ------------------- | ------------- | --------------- |
-| [Alacritty][]       | ✓             | N/A             |
-| [GNOME Terminal][]  | ✓             |                 |
-| [Konsole][]         | ✓             |                 |
-| [mlterm][]          | ✓             |                 |
-| [pterm][]           | Courier 12    | courier 10-pitch 12 font |
-| [st][]              | ✓             |                 |
-| [Terminator][]      | ✓             |                 |
-| [urxvt][]           | `-font` req'd | `-font` special `-*-fixed-*-*-*-*-16-*-*-*-*-*` |
-| [Xfce Terminal][]   | ✓             |                 |
-| [xterm][]           | "large" font  | "large font"    |
+| Terminal            | Debian 9 xorg | Fedora 27 xorg  | Debian xorg i3 |
+| ------------------- | ------------- | --------------- | -------------- |
+| [Alacritty][]       | ✓             | N/A             | |
+| [GNOME Terminal][]  | ✓             |                 | |
+| [Konsole][]         | ✓             |                 | |
+| [mlterm][]          | ✓             |                 | |
+| [pterm][]           | Courier 12    | courier 10-pitch 12 font | Courier 12 |
+| [st][]              | ✓             |                 | |
+| [Terminator][]      | ✓             |                 | |
+| [urxvt][]           | `-font` req'd | `-font` special `-*-fixed-*-*-*-*-16-*-*-*-*-*` | |
+| [Xfce Terminal][]   | ✓             |                 | |
+| [xterm][]           | "large" font  | "large font"    | same |
 
 All tests failed in Wayland (Fedora 27), as the JRE completely crashed:
 
