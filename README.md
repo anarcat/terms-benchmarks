@@ -454,6 +454,9 @@ All tests failed in Wayland (Fedora 27), as the JRE completely crashed:
 #
 ```
 
+tests were rerun in i3 on Debian, in a clean session, to see the
+effects of GNOME and its compositor, which seems significant as well.
+
 Resources
 ---------
 
