@@ -257,8 +257,9 @@ Tabs and profiles
 ³ I couldn't figure out how to start a given profile in a given
 Terminator tab.
 
- * Tabs: if the terminal supports tabs (`!` means through a plugin)
- * Profiles: if the terminal has a concept of profiles
+ * Tabs: display and manage multiple tabs (`!` means through a plugin)
+ * Profiles: if custom settings or command can be retained in
+   different profiles
  * Linked: if specific tabs can be made to start a specific profile
    out of the box. not applicable (N/A) for terminals without profile
    support, obviously.
@@ -289,10 +290,12 @@ the visible menus in the application and some reference manuals.
 
  * Backgrounds: if arbitrary images can be set in the background
  * Transparency: if we can see under the windows
- * True-color: if more than 256 colors are supported
- * URL: if URLs are outlined and clickable
- * text-wrap: if long lines are properly reflowed
- * Scrollback: if there's a scrollback buffer at all
+ * True-color: does the terminal display more than 256 colors?
+ * URL: detect URLs and make them clickable or activate with a
+   keybinding
+ * text-wrap: properly reflow long lines instead of trimming or
+   stripping them
+ * Scrollback: if screen history is preserved
 
 The true-color test was the following:
 
@@ -340,6 +343,199 @@ but not validated on later versions with Fedora 27.
 | urxvt      |     ✓       |      ✓       |    ✓     |            |          |     ✓     |    ✓   |     |  ✓  |   ✓   |    ✓      |      ✓     |    ✓    | 9.22-1+b1       |
 | xfce       |     ✓       |      ✓       |    ✓     |     ✓      |          |           |        |  ✓  |  ✓  |       |    ✓      |      ✓     |    ✓    | 0.8.3-1         |
 | xterm      |             |              |    ✓     |            |          |           |        |     |     |       |           |      ✓     |         | 327-2           |
+
+What follows is a very rough/early draft of the first part of the
+series giving a qualitative review of each terminal emulator.
+
+### alacritty ###
+
+Alphabetical order forces me to start with an apology: I have
+added [alacritty](https://github.com/jwilm/alacritty) to this list even though it is not
+actually [packaged in Debian](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=851639). It seemed to me it had a novel
+approach of using GPU acceleration that merited further
+inspection. Like other projects, its focus is not on features (it
+doesn't even have a scrollback buffer!) but on performance. It does
+feature excellent unicode and color support, but unfortunately fails
+the line-wrapping and bracketed paste tests.
+
+Compiling alacritty was a little bit of a challenge. I wanted to avoid
+using [rustup.sh](https://rustup.rs/) because I do not endorse sites telling users to
+blindly run `curl | sh` commandlines. Instead, I installed alacritty
+using the following sequence:
+
+    sudo apt install -t unstable rustc # need 1.15 or later
+    sudo apt install cargo cmake libfreetype6-dev libfontconfig1-dev xclip
+    git clone https://github.com/jwilm/alacritty && cd alacritty
+    cargo build --release
+
+Since there are no public releases of alacritty, this ended up testing
+the 08b5ae52c1c7dc3587ad31eee3036b58c3df394d git version.
+
+### Eterm ###
+
+[Eterm](http://www.eterm.org/) was the default emulator for the [Englightenment][] desktop
+environment, a long time ago. It is derived from rxvt and is designed
+as a "feature rich replacement for xterm", which also shows a bit of
+its age. Its unicode support is poor: only the latin1 character is
+displayed properly, and it has trouble displaying a simple sudo prompt
+in the test locale. It is unclear if freetype fonts are supported as
+the font choices are limited to "font 1, 2, 3 and 4"...
+
+ [Enlightenment]: https://en.wikipedia.org/wiki/Enlightenment_(software)
+
+### gnome-terminal ###
+
+[GNOME terminal](https://en.wikipedia.org/wiki/GNOME_Terminal) is the default terminal emulator shipped with
+the [GNOME desktop environment](https://en.wikipedia.org/wiki/GNOME). gnome-terminal supports tabs, URL
+detection, text-wrapping, customizable backgrounds, freetype fonts and
+multiple profiles. gnome-terminal claims to have several
+"compatibility features" but, in my experience, it sometimes struggles
+to display exotic escape sequences. I had, in particular, trouble
+operating menus on the serial console of a HP ProCurve switch, for
+which I had to revert to xterm.
+
+gnome-terminal is, like many other terminals evaluated here, based on
+the [libvte](https://wiki.gnome.org/Apps/Terminal/VTE) library which handles the basic terminal emulation
+features, and so will act as a poster child for the other emulators
+derived from that library.
+
+### konsole ###
+
+[konsole](https://konsole.kde.org/) is the default terminal emulator of the KDE desktop
+environment. Using libvte brings it good unicode support but it
+doesn't have as good line-wrap support as gnome-terminal: expanding a
+window doesn't flow the lines back again. Like gnome-terminal, it also
+features profile support but also includes interesting features like
+bookmarks and activity / silence notifications.
+
+### kterm ###
+
+[kterm](https://ja.wikipedia.org/wiki/Kterm), also known as "Kagotani term" (not to be confused with
+the [kindle terminale emulator](https://github.com/bfabiszewski/kterm)) is another old terminal emulator
+derived from xterm to enable multiple language support, especially
+japanese. It fails the unicode test, but that may be because of
+limitations in the default "fixed" font chosen by the terminal.
+
+The custom font was used for the latency test.
+
+### mlterm ###
+
+[mlterm](http://mlterm.sourceforge.net/) is one of the only terminals supporting right-to-left
+languages. It supports a graphical preferences dialog where features
+like input methods, background image or transparency can be set. The
+dialog also features a crude [scp](https://en.wikipedia.org/wiki/Secure_copy) client. It failed to unicode
+test because the asian characters were displayed as boxes, probably an
+issue with the default font chosen.
+
+### mrxvt ###
+
+[mrxvt](https://en.wikipedia.org/wiki/Mrxvt) is a fork of rxvt from 2004 that aims to provide multiple
+tabs support. It claims multi-language support, but unicode support is
+actually not implemented and it had trouble displaying a simple sudo
+prompt in the test locale. Profiles are implemented, in a way, by
+having custom commands per tab.
+
+The custom font was used for the latency test.
+
+### pterm ###
+
+pterm is the terminal emulator of the famous [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) ssh client,
+mostly designed for the Windows operating system, but also ported to
+UNIX. It has excellent unicode support and has a graphical preferences
+dialog, but fails the true-color test and is otherwise generally
+limited in terms of feature.
+
+A custom font (Courier 12) was used for the latency test.
+
+### rxvt-unicode ###
+
+[rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) "is a fork of the well known terminal
+emulator [rxvt](https://en.wikipedia.org/wiki/Rxvt)" (acronym for ou*r* e*x*tended *v*irtual
+*t*erminal), designed as a simplified version
+of [xterm](https://en.wikipedia.org/wiki/Xterm). rxvt-unicode naturally supports unicode but also adds a
+significant number of features over the base rxvt terminal:
+
+ * daemon mode: improves startup time and memory usage
+ * embeded perl customization, which allows for:
+   * tab support
+   * regex scrollback searches
+   * popup menus
+   * URL detection
+   * copy-paste injection protection
+ * improved line-wrap support
+ * freetype font support
+
+rxvt-unicode claims to have an "improved and corrected terminfo", but
+in reality, certain key escapes do not work really reliably across
+operating systems. For example, "control-left" and "control-right"
+skip words correctly on a urxvt terminal, but when you start a screen
+session, those keybindings stop working. gnome-terminal and xterm do
+not show the same behavior.
+
+I have some customization in rxvt which may have affected the early
+tests, including:
+
+ * scrollbar disabled (`URxvt*scrollBar: False`)
+ * 10 000 lines scrollback buffer (`URxvt*saveLines: 10000`)
+ * plugins: URL matching and paste protection (`URxvt.perl-ext-common:
+   default,matcher,confirm-paste`)
+
+As you can see, rxvt-unicode is my primary terminal and that may bias
+the results and conclusions shown in this article. I would argue it
+would be difficult for any seasoned UNIX operator to *not* be biased
+in writing such an article, unfortunately.
+
+### st ###
+
+[st](http://st.suckless.org/) or "simple terminal", is the (very) basic terminal emulator
+from the [suckless tools](http://suckless.org/) project. It features excellent unicode
+and color support, but doesn't have a scrollback buffer at all,
+claiming that is the task of a terminal multiplexer like tmux or
+screen. It doesn't, unfortunately, handle line wrapping very well.
+
+### terminator ###
+
+[terminator](https://gnometerminator.blogspot.ca/) is another terminal emulator based on libvte which
+brings the usual excellent unicode and color support, but adds
+interesting features like typing to multiple terminals and tiling
+tabs.
+
+### xfce4-terminal ###
+
+Like gnome-terminal, XFCE's terminal default terminal emulator has
+excellent unicode and color support thanks to the libvte backend. It
+makes up for the lack of profile support by supporting background
+images and transparency out of the box.
+
+### xterm ###
+
+[xterm](https://en.wikipedia.org/wiki/Xterm) is the "standard terminal emulator" for the X Window
+System. It's one of the oldest terminal emulators out there, written
+in 1984 when the work on X started.
+
+Xterm has obscure features like [Tektronix](https://en.wikipedia.org/wiki/Tektronix_4010) emulation, which allows
+to display graphics in the terminal. Unicode support is provided by a
+separate binary, `uxterm`. xterm has support for "bracketed paste",
+but fails the advanced Jann Horn test. Otherwise, Xterm's feature set
+is fairly limited by modern standards: it has only 256 colors support,
+the background color can be changed, but no transparency or background
+image support.
+
+I had a slightly customized xterm configuration:
+
+ * font changed to Monospace Regular (freetype font)
+ * scrollback history of 6 000 lines
+
+### xvt ###
+
+xvt is yet another xterm derivatives that aims to remove the extra
+features of xterm. It seems like a mostly abandoned project: I
+couldn't find a home page and the only reason it's mentioned here is
+because it is available in Debian. It hasn't seen an upstream update
+in Debian as far back as 2006, according to the [snapshot archive](http://snapshot.debian.org/package/xvt/),
+which makes it pretty old indeed.
+
+The custom font was used for the latency test.
 
 Performance tests
 =================
