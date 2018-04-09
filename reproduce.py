@@ -5,6 +5,7 @@ import datetime
 import logging
 from multiprocessing import Process, Queue
 import os
+import shlex
 import subprocess
 import time
 
@@ -65,8 +66,6 @@ class Timer(object):
 def main():
     default_test_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'bw-test.sh'))
     parser = argparse.ArgumentParser()
-    parser.add_argument('--lines', default=100000, type=int,
-                        help='how many times to repeat the string')
     parser.add_argument('--samples', default=100, type=int,
                         help='how many tests to run')
     default_level = 'WARNING'
@@ -84,22 +83,23 @@ def main():
     parser.add_argument('--wait', default=3, type=int,
                         help='time to wait before starting tests')
     parser.add_argument('--output', '-o',
-                        help='output file for tests (default: times-SAMPLESxLINES.csv)')
+                        help='output file for tests (default: times-SAMPLES.csv)')
     parser.add_argument('--terminal', nargs='*',
                         default=['konsole', 'pterm', 'terminator', 'uxterm', 'xfce4-terminal'],
                         help="terminals that need quoting %(default)s")
     parser.add_argument('--terminal-unquote', nargs='*',
                         default=['alacritty', 'mlterm', 'st', 'stterm', 'urxvt'],
                         help="terminals that do not need quoting %(default)s")
-    parser.add_argument('--test', default=default_test_path,
+    parser.add_argument('--test', default='%s 100000' % default_test_path,
                         help='test to run %(default)s')
 
     args = parser.parse_args()
     logging.basicConfig(format="%(levelname)s: %(message)s",
                         level=args.loglevel)
 
+    args.test = shlex.split(args.test)
     if not args.output:
-        args.output = 'times-%dx%d.csv' % (args.samples, args.lines)
+        args.output = 'times-%d.csv' % (args.samples)
 
     logging.info('disabling lock screen in all possible ways damnit')
     os.system('''gsettings set org.gnome.desktop.lockdown disable-lock-screen true
@@ -140,12 +140,12 @@ def main():
             csv.write(",".join(line) + "\n")
 
         for terminal in args.terminal:
-            cmd = [terminal, '-e', "%s %d" % (args.test, args.lines)]
+            cmd = [terminal, '-e', " ".join(args.test)]
             for result, diff in run_tests(terminal, cmd, args.samples):
                 write_result(terminal, result, diff)
 
         for terminal in args.terminal_unquote:
-            cmd = [terminal, '-e', args.test, str(args.lines)]
+            cmd = [terminal, '-e', args.test]
             for result, diff in run_tests(terminal, cmd, args.samples):
                 write_result(terminal, result, diff)
 
