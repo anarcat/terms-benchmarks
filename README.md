@@ -501,12 +501,18 @@ until the command completes before exiting, which makes testing
 unnecessarily hard.
 
 After reviewing the Danluu article, I tested other bandwidth tests,
-but results seemed consistent with the `seq` results for
-gnome-terminal, xfce4-terminal, urxvt and xterm, based on by-hand
-tests. We did confirm a problem with `cat $largefile` in Emacs
-`eshell`, but that seems particular to the `cat` command there: a
-shell script wrapping the *same* command takes 3 times less time, and
-is perfectly interruptible.
+but results seemed consistent with the `seq` results during anecdotal
+tests of gnome-terminal, xfce4-terminal, urxvt and xterm. We did
+confirm a problem with `cat $largefile` in Emacs `eshell`, but that
+seems particular to the `cat` command there: a shell script wrapping
+the *same* command takes 3 times less time, and is perfectly
+interruptible. The script is in `test-cat-src.sh`. A similar test is
+simply to run `cat bytes.raw` after bootstraping a large file with
+`test-bytes-helper.sh` script. A file about as large as the default
+`seq` test can be built with 5000000 bytes of entropy (`sh bytes.sh
+5000000`). One final test that was designed is the
+`test-cat-src-100.sh`, which aims at replicating the xterm test. It
+shows similar result to the largefile tests.
 
 Qualitative evaluation
 ======================

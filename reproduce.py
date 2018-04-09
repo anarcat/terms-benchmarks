@@ -64,7 +64,7 @@ class Timer(object):
 
 
 def main():
-    default_test_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'bw-test.sh'))
+    default_test_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'test-seq.sh'))
     parser = argparse.ArgumentParser()
     parser.add_argument('--samples', default=100, type=int,
                         help='how many tests to run')
