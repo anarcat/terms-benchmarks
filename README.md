@@ -18,22 +18,7 @@ terminal emulators written in 2017-2018.
 - [Performance tests](#performance-tests)
     - [Latency](#latency)
     - [Resources](#resources)
-- [Qualitative evaluation](#qualitative-evaluation)
-    - [urxvt](#urxvt)
-    - [gnome-termixnal](#gnome-termixnal)
-    - [xterm](#xterm)
-    - [xvt](#xvt)
-    - [pterm (putty)](#pterm-putty)
-    - [kterm](#kterm)
-    - [mrxvt](#mrxvt)
-    - [mlterm](#mlterm)
-    - [xfce4-terminal](#xfce4-terminal)
-    - [eterm](#eterm)
-    - [st](#st)
-    - [alacritty](#alacritty)
-    - [konsole](#konsole)
-    - [Terminator](#terminator)
-    - [Terminus](#terminus)
+    - [Qualitative evaluation](#qualitative-evaluation)
 - [Not evaluated](#not-evaluated)
 - [Final notes](#final-notes)
 - [Future work](#future-work)
@@ -816,22 +801,20 @@ the three test platforms, which are fairly consistent overall.
 | ('xfce4-terminal', 'max')   |   43572     | 1184         |   0.451037  |   0.854767  |   1.02524   |
 
 Qualitative evaluation
-======================
+----------------------
 
 This is the result of manual tests, which were turned (by hand) into
 `performance.csv`. Note that CPU and memory usage here represent the
 [seq(1)](https://manpages.debian.org/seq) command, not the terminal itself, so they are irrelevant.
 
-urxvt
------
+### urxvt ###
 
 1.02user 1.64system 0:02.79elapsed 95%CPU (0avgtext+0avgdata 1824maxresident)k
 0inputs+0outputs (0major+78minor)pagefaults 0swaps
 
 clean display
 
-gnome-termixnal
---------------
+### gnome-termixnal ###
 
 (libvte)
 
@@ -840,16 +823,14 @@ gnome-termixnal
 
 clean display
 
-xterm
------
+### xterm ###
 
     1.23user 2.15system 0:26.05elapsed 13%CPU (0avgtext+0avgdata 1876maxresident)k
     0inputs+0outputs (0major+82minor)pagefaults 0swaps
 
 lots of jitter in the display
 
-xvt
----
+### xvt ###
 
     5.22user 7.16system 5:27.89elapsed 3%CPU (0avgtext+0avgdata 1804maxresident)k
     0inputs+0outputs (0major+77minor)pagefaults 0swaps
@@ -863,8 +844,7 @@ success with this font:
 
     xvt -font '-adobe-courier-medium-r-normal--14-100-100-100-m-90-iso8859-1'
 
-pterm (putty)
--------------
+### pterm (putty) ###
 
     1.25user 1.40system 0:18.67elapsed 14%CPU (0avgtext+0avgdata 1888maxresident)k
     0inputs+0outputs (0major+78minor)pagefaults 0swaps
@@ -874,8 +854,7 @@ only jitter on last line
 had to switch font to Courier 12 (from fixed) for latency test to work
 as well.
 
-kterm
------
+### kterm ###
 
     2.50user 4.58system 0:24.17elapsed 29%CPU (0avgtext+0avgdata 1820maxresident)k
     0inputs+0outputs (0major+77minor)pagefaults 0swaps
@@ -886,8 +865,7 @@ also font problem, startup:
 
     kterm -font '-adobe-courier-medium-r-normal--14-100-100-100-m-90-iso8859-1'
 
-mrxvt
------
+### mrxvt ###
 
     1.13user 1.57system 0:02.71elapsed 99%CPU (0avgtext+0avgdata 2000maxresident)k
     0inputs+0outputs (0major+83minor)pagefaults 0swaps
@@ -898,16 +876,14 @@ also font problem:
 
     mrxvt -font '-adobe-courier-medium-r-normal--14-100-100-100-m-90-iso8859-1'
 
-mlterm
-------
+### mlterm ###
 
     1.12user 1.68system 0:09.08elapsed 30%CPU (0avgtext+0avgdata 1984maxresident)k
     0inputs+0outputs (0major+82minor)pagefaults 0swaps
 
 some jitter here and there
 
-xfce4-terminal
---------------
+### xfce4-terminal ###
 
     0.92user 1.72system 0:06.94elapsed 38%CPU (0avgtext+0avgdata 1884maxresident)k
     0inputs+0outputs (0major+80minor)pagefaults 0swaps
@@ -916,8 +892,7 @@ xfce4-terminal
 
 no jitter
 
-eterm
------
+### eterm ###
 
     1.22user 1.75system 0:55.65elapsed 5%CPU (0avgtext+0avgdata 1888maxresident)k
     0inputs+0outputs (0major+80minor)pagefaults 0swaps
@@ -927,16 +902,14 @@ no jitter, but slow
 latency test completely failed with errors: "available line length too
 short" and "cannot detect reference pattern". given up.
 
-st
---
+### st ###
 
     1.04user 1.44system 0:03.15elapsed 79%CPU (0avgtext+0avgdata 1800maxresident)k
     0inputs+0outputs (0major+76minor)pagefaults 0swaps
 
 some jitter on last line
 
-alacritty
----------
+### alacritty ###
 
     0.90user 1.60system 0:02.52elapsed 99%CPU (0avgtext+0avgdata 2000maxresident)k
     0inputs+0outputs (0major+81minor)pagefaults 0swaps
@@ -959,8 +932,7 @@ tried to rerun the tests, but rebuild of july code segfaults in
 march. ended up pulling in new code for the formal resource tests
 (6debc4f3351446417d0c4e38173cd9ef0faa71d5).
 
-konsole
--------
+### konsole ###
 
     1.16user 1.40system 0:05.32elapsed 48%CPU (0avgtext+0avgdata 1880maxresident)k
     0inputs+0outputs (0major+83minor)pagefaults 0swaps
@@ -970,8 +942,7 @@ performance tests because it doesn't display the whole lot.
 
 right-click pops a menu instead of extending primary selection
 
-Terminator
-----------
+### Terminator ###
 
     1.00user 1.84system 0:07.18elapsed 39%CPU (0avgtext+0avgdata 1984maxresident)k
     0inputs+0outputs (0major+82minor)pagefaults 0swaps
@@ -980,8 +951,7 @@ Terminator
 
 no visible jitter
 
-Terminus
---------
+### Terminus ###
 
     1.34user 2.31system 0:03.83elapsed 95%CPU (0avgtext+0avgdata 1944maxresident)k
     0inputs+0outputs (0major+96minor)pagefaults 0swaps
