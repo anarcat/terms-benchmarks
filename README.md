@@ -1111,16 +1111,9 @@ xterm. This is how I was able to run it for 3 seconds:
 
     timeout -s ALRM 3 /usr/lib/ncurses/examples/dots
 
-No comparison was done on detailed dependencies lists: some of those
-programs require the whole kitchen sink (e.g. I was surprised to see
-Konsole links against libFLAC) and that might matter to some people.
-
-We haven't examined the advantage (or not) of "daemon" mode. In fact,
-it's caused more problems than it solved for the purpose of those
-tests, because GNOME Terminal couldn't behave properly. It might save
-memory for large number of terminals, however, but I am really not
-sure it's still worth doing anymore, apart for features like
-Terminator's multi-terminal entry support.
+Further debugging of eshell would seem important to try and figure out
+why it fails to `cat` a 1MB file reasonably, while it can call a
+script that does without problems.
 
 Resource tests are only performed on the ASCII character set. It would
 be interesting to have results for wider unicode, indeed Luu quotes
@@ -1132,9 +1125,16 @@ Testing latency under Wayland would seem critical, in general.
 Terminal multiplexers like screen or tmux were not tested as Dan Luu
 claims it has no effect, and I did not verify that claim.
 
-Further debugging of eshell would seem important to try and figure out
-why it fails to `cat` a 1MB file reasonably, while it can call a
-script that does without problems.
+No comparison was done on detailed dependencies lists: some of those
+programs require the whole kitchen sink (e.g. I was surprised to see
+Konsole links against libFLAC) and that might matter to some people.
+
+We haven't examined the advantage (or not) of "daemon" mode. In fact,
+it's caused more problems than it solved for the purpose of those
+tests, because GNOME Terminal couldn't behave properly. It might save
+memory for large number of terminals, however, but I am really not
+sure it's still worth doing anymore, apart for features like
+Terminator's multi-terminal entry support.
 
 A whole article could be written about compatibility issues. It's
 tricky, because ncurse and xterm seem to have the same maintainer
