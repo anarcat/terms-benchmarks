@@ -460,18 +460,24 @@ effects of GNOME and its compositor, which seems significant as well.
 Resources
 ---------
 
-Resources tests were done in two different ways:
+Resources tests were done in three different ways:
 
- * first tests (`performance.csv` and `performance.py`, also in the
-   notebook) were done with:
+ 1. first tests (`performance.csv` and `performance.py`, also in the
+    notebook) were done with:
  
         time seq -f "the quick brown fox jumps over the lazy dog %g" 1000000
 
-   qualitative results of those are also visible below.
+    qualitative results of those are also visible below.
 
- * then a more formal test was done to generate the
-   `times-100x100000.csv` files, with [reproduce.sh](https://github.com/anarcat/terms-benchmarks/blob/master/reproduce.sh). That starts
-   each terminal with the above benchmark
+ 2. then a more formal test was done to generate the
+    `times-100x100000.csv` files, with [reproduce.sh](https://github.com/anarcat/terms-benchmarks/blob/master/reproduce.sh). That starts
+    each terminal with the above benchmark and collects the results
+    automatically. it is better than the above because it gets the
+    metrics from the terminal, not the `seq` command.
+
+ 3. finally, this was all re-written in Python to also extract some
+    I/O statiatics, and allow custom tests to be used. the default
+    test is the old `bw-test.sh` which still runs the `seq` command.
 
 In the second test, we only run 100,000 loops because our original
 loop (one million lines) means xterm take 30 seconds per test so 100
@@ -493,6 +499,14 @@ for each series of tests.
 GNOME Terminal was excluded from those tests because it doesn't wait
 until the command completes before exiting, which makes testing
 unnecessarily hard.
+
+After reviewing the Danluu article, I tested other bandwidth tests,
+but results seemed consistent with the `seq` results for
+gnome-terminal, xfce4-terminal, urxvt and xterm, based on by-hand
+tests. We did confirm a problem with `cat $largefile` in Emacs
+`eshell`, but that seems particular to the `cat` command there: a
+shell script wrapping the *same* command takes 3 times less time, and
+is perfectly interruptible.
 
 Qualitative evaluation
 ======================
