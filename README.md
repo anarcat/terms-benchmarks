@@ -1111,6 +1111,10 @@ xterm. This is how I was able to run it for 3 seconds:
 
     timeout -s ALRM 3 /usr/lib/ncurses/examples/dots
 
+Luu tests "responsiveness" in the bandwidth test: that's a good metric
+which we should use as well, although most terminals were responsive
+in an informal review.
+
 Further debugging of eshell would seem important to try and figure out
 why it fails to `cat` a 1MB file reasonably, while it can call a
 script that does without problems.
