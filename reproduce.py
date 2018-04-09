@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 import argparse
-from collections import defaultdict
 import datetime
 import logging
 from multiprocessing import Process, Queue
@@ -122,7 +121,7 @@ def main():
 
     res = resource.getrusage(resource.RUSAGE_SELF)
     # just record all fields
-    fields = [ f for f in dir(res) if not (f.startswith('_') or f.startswith('n')) ]
+    fields = [f for f in dir(res) if not (f.startswith('_') or f.startswith('n'))]
     i = 0
 
     with open(args.output, 'a') as csv:
