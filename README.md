@@ -16,8 +16,27 @@ terminal emulators written in 2017-2018.
     - [Eye candy](#eye-candy)
     - [Original feature review](#original-feature-review)
 - [Performance tests](#performance-tests)
+    - [Latency](#latency)
+    - [Resources](#resources)
+- [Qualitative evaluation](#qualitative-evaluation)
+    - [urxvt](#urxvt)
+    - [gnome-termixnal](#gnome-termixnal)
+    - [xterm](#xterm)
+    - [xvt](#xvt)
+    - [pterm (putty)](#pterm-putty)
+    - [kterm](#kterm)
+    - [mrxvt](#mrxvt)
+    - [mlterm](#mlterm)
+    - [xfce4-terminal](#xfce4-terminal)
+    - [eterm](#eterm)
+    - [st](#st)
+    - [alacritty](#alacritty)
+    - [konsole](#konsole)
+    - [Terminator](#terminator)
+    - [Terminus](#terminus)
 - [Not evaluated](#not-evaluated)
 - [Final notes](#final-notes)
+- [Future work](#future-work)
 
 <!-- markdown-toc end -->
 
@@ -514,6 +533,92 @@ simply to run `cat bytes.raw` after bootstraping a large file with
 `test-cat-src-100.sh`, which aims at replicating the xterm test. It
 shows similar result to the largefile tests.
 
+Here's a table of raw results extracted from the summed results across
+the three test platforms, which are fairly consistent overall.
+
+|                             |   ru_maxrss |   ru_oublock |    ru_stime |    ru_utime |       wtime |
+|:----------------------------|------------:|-------------:|------------:|------------:|------------:|
+| ('alacritty', 'count')      |     100     |  100         | 100         | 100         | 100         |
+| ('alacritty', 'mean')       |   29032.9   |    0         |   0.325     |   0.4596    |   0.507643  |
+| ('alacritty', 'std')        |     138.183 |    0         |   0.0247908 |   0.0255809 |   0.0102557 |
+| ('alacritty', 'min')        |   28688     |    0         |   0.268     |   0.392     |   0.495524  |
+| ('alacritty', '25%')        |   28975     |    0         |   0.312     |   0.447     |   0.497395  |
+| ('alacritty', '50%')        |   29072     |    0         |   0.322     |   0.456     |   0.512563  |
+| ('alacritty', '75%')        |   29121     |    0         |   0.34      |   0.477     |   0.513512  |
+| ('alacritty', 'max')        |   29276     |    0         |   0.396     |   0.516     |   0.531364  |
+| ('konsole', 'count')        |     300     |  300         | 300         | 300         | 300         |
+| ('konsole', 'mean')         |   67052.1   |  165.733     |   0.25238   |   0.786072  |   0.796996  |
+| ('konsole', 'std')          |    2397     |  218.71      |   0.0279437 |   0.0593575 |   0.0956878 |
+| ('konsole', 'min')          |   62804     |   16         |   0.16      |   0.644     |   0.629088  |
+| ('konsole', '25%')          |   63842     |   16         |   0.235     |   0.724     |   0.681252  |
+| ('konsole', '50%')          |   68462     |  160         |   0.260084  |   0.808827  |   0.842763  |
+| ('konsole', '75%')          |   68816     |  256         |   0.271715  |   0.832518  |   0.870078  |
+| ('konsole', 'max')          |   69344     | 3456         |   0.299398  |   0.899943  |   1.01311   |
+| ('mlterm', 'count')         |     300     |  300         | 300         | 300         | 300         |
+| ('mlterm', 'mean')          |   11194.4   |   10.7733    |   0.235726  |   1.30324   |   1.22129   |
+| ('mlterm', 'std')           |     181.409 |   15.6753    |   0.0240466 |   0.200891  |   0.214469  |
+| ('mlterm', 'min')           |   10868     |    8         |   0.164     |   0.976     |   0.896805  |
+| ('mlterm', '25%')           |   11075     |    8         |   0.22      |   1.036     |   0.927594  |
+| ('mlterm', '50%')           |   11144     |    8         |   0.243056  |   1.42194   |   1.34766   |
+| ('mlterm', '75%')           |   11340     |    8         |   0.253074  |   1.44889   |   1.37469   |
+| ('mlterm', 'max')           |   11652     |  104         |   0.283942  |   1.56153   |   1.51145   |
+| ('pterm', 'count')          |     300     |  300         | 300         | 300         | 300         |
+| ('pterm', 'mean')           |   20495.5   |    0.0266667 |   0.228238  |   1.02114   |   0.942887  |
+| ('pterm', 'std')            |     688.35  |    0.46188   |   0.0205183 |   0.0205105 |   0.0140266 |
+| ('pterm', 'min')            |   19652     |    0         |   0.168     |   0.96      |   0.906282  |
+| ('pterm', '25%')            |   19984     |    0         |   0.216     |   1.00629   |   0.934427  |
+| ('pterm', '50%')            |   20198     |    0         |   0.23211   |   1.021     |   0.942802  |
+| ('pterm', '75%')            |   21364     |    0         |   0.241572  |   1.03492   |   0.950668  |
+| ('pterm', 'max')            |   21728     |    8         |   0.272556  |   1.096     |   0.996606  |
+| ('st', 'count')             |     400     |  400         | 400         | 400         | 400         |
+| ('st', 'mean')              |    8546.45  |    0         |   0.228084  |   0.425877  |   0.379305  |
+| ('st', 'std')               |     543.254 |    0         |   0.0249238 |   0.0232423 |   0.0194043 |
+| ('st', 'min')               |    7972     |    0         |   0.144     |   0.364     |   0.343919  |
+| ('st', '25%')               |    8020     |    0         |   0.211     |   0.409088  |   0.361444  |
+| ('st', '50%')               |    8564     |    0         |   0.23385   |   0.424     |   0.382305  |
+| ('st', '75%')               |    9088     |    0         |   0.247756  |   0.440013  |   0.395147  |
+| ('st', 'max')               |    9092     |    0         |   0.280568  |   0.496     |   0.430994  |
+| ('terminator', 'count')     |     300     |  300         | 300         | 300         | 300         |
+| ('terminator', 'mean')      |   58244.9   |  394.667     |   0.432336  |   0.919492  |   1.13815   |
+| ('terminator', 'std')       |    1514.5   |  559.076     |   0.0282115 |   0.0375346 |   0.0380507 |
+| ('terminator', 'min')       |   56224     |    0         |   0.34      |   0.796     |   1.0715    |
+| ('terminator', '25%')       |   56744     |    0         |   0.42      |   0.896     |   1.09723   |
+| ('terminator', '50%')       |   58048     |    0         |   0.437202  |   0.916     |   1.1408    |
+| ('terminator', '75%')       |   59020     | 1184         |   0.451546  |   0.950913  |   1.17833   |
+| ('terminator', 'max')       |   61420     | 1184         |   0.512     |   1.00872   |   1.20074   |
+| ('terminology', 'count')    |     100     |  100         | 100         | 100         | 100         |
+| ('terminology', 'mean')     |   39741     |    0         |   0.249679  |   0.910518  |   0.946191  |
+| ('terminology', 'std')      |     170.984 |    0         |   0.010446  |   0.0242553 |   0.021832  |
+| ('terminology', 'min')      |   39452     |    0         |   0.226138  |   0.857567  |   0.901255  |
+| ('terminology', '25%')      |   39614     |    0         |   0.242244  |   0.894095  |   0.930945  |
+| ('terminology', '50%')      |   39716     |    0         |   0.248625  |   0.908481  |   0.946308  |
+| ('terminology', '75%')      |   39824     |    0         |   0.256544  |   0.927138  |   0.958987  |
+| ('terminology', 'max')      |   40520     |    0         |   0.280706  |   0.976524  |   1.00419   |
+| ('urxvt', 'count')          |     300     |  300         | 300         | 300         | 300         |
+| ('urxvt', 'mean')           |   14473.2   |    0         |   0.308003  |   0.359081  |   0.383335  |
+| ('urxvt', 'std')            |     514.304 |    0         |   0.0228774 |   0.0184779 |   0.0109748 |
+| ('urxvt', 'min')            |   13536     |    0         |   0.236     |   0.312     |   0.359382  |
+| ('urxvt', '25%')            |   13876     |    0         |   0.292287  |   0.347372  |   0.374747  |
+| ('urxvt', '50%')            |   14746     |    0         |   0.311347  |   0.356969  |   0.384102  |
+| ('urxvt', '75%')            |   14888     |    0         |   0.324     |   0.369813  |   0.391614  |
+| ('urxvt', 'max')            |   15012     |    0         |   0.359364  |   0.424     |   0.414664  |
+| ('uxterm', 'count')         |     300     |  300         | 300         | 300         | 300         |
+| ('uxterm', 'mean')          |   12297.3   |    2.66667   |   0.649174  |   0.99156   |   1.76237   |
+| ('uxterm', 'std')           |     247.806 |    3.77754   |   0.0554543 |   0.459216  |   0.980181  |
+| ('uxterm', 'min')           |   11540     |    0         |   0.532     |   0.860386  |   1.25165   |
+| ('uxterm', '25%')           |   12100     |    0         |   0.627363  |   0.914027  |   1.29637   |
+| ('uxterm', '50%')           |   12184     |    0         |   0.652574  |   0.940229  |   1.31515   |
+| ('uxterm', '75%')           |   12556     |    8         |   0.670218  |   0.972128  |   2.4007    |
+| ('uxterm', 'max')           |   12756     |    8         |   1.148     |   5.68      |   9.98895   |
+| ('xfce4-terminal', 'count') |     300     |  300         | 300         | 300         | 300         |
+| ('xfce4-terminal', 'mean')  |   40117.7   |  394.533     |   0.401163  |   0.760122  |   0.940509  |
+| ('xfce4-terminal', 'std')   |    2233.5   |  558.888     |   0.0219745 |   0.0394285 |   0.0412715 |
+| ('xfce4-terminal', 'min')   |   36844     |    0         |   0.328     |   0.672     |   0.869974  |
+| ('xfce4-terminal', '25%')   |   37547     |    0         |   0.388     |   0.732     |   0.89688   |
+| ('xfce4-terminal', '50%')   |   40410     |    0         |   0.404     |   0.754603  |   0.941148  |
+| ('xfce4-terminal', '75%')   |   42498     | 1184         |   0.41695   |   0.797209  |   0.984026  |
+| ('xfce4-terminal', 'max')   |   43572     | 1184         |   0.451037  |   0.854767  |   1.02524   |
+
 Qualitative evaluation
 ======================
 
@@ -769,7 +874,17 @@ excluded from this review with some extra reasons when relevant:
    * [upterm](https://github.com/railsware/upterm)
    * ... or any Electron/web apps: adding those to the benchmarks
      would require me to change the Y scale to be logarithmic, which
-     would be silly
+     would be silly. preliminary results for Terminus were
+     catastrophic: 100ms latency, 100MB memory usage, 2min test run
+     time, completely hangs during test, etc.
+ * others:
+   * Emacs. Yes, it runs in a terminal, but it can also *be* a
+     terminal. There are (at least) two modes (`term-mode` and
+     `eshell-mode`) that allow such functionality and I simply forgot
+     to test those. Preliminary tests didn't show good performance,
+     and I've always had serious compatibility issues with those,
+     enough that I never use them so it never crossed my mind to
+     seriously consider this. Sorry fellow Emacs fans!
 
 A more exhaustive [list of terminal emulators](https://wiki.archlinux.org/index.php/List_of_applications#Terminal_emulators) is also available on
 the Arch wiki.
@@ -782,3 +897,49 @@ Final notes
 
 This would be hosted on GitLab, like my other repos, but they have
 [trouble rendering the images here](https://gitlab.com/gitlab-org/gitlab-ce/issues/32784#note_63703633) so this will have to do.
+
+Future work
+===========
+
+This is not exhaustive, as we've seen above, and there are probably
+some serious problems with the bandwidth test, as explained in the
+article. One way to fix this would be to perform a test with the
+`dots` command from the ncurses package, but (1) it's not well
+instrumeted for benchmarking and (2) it may be biased towards
+xterm. This is how I was able to run it for 3 seconds:
+
+    timeout -s ALRM 3 /usr/lib/ncurses/examples/dots
+
+No comparison was done on detailed dependencies lists: some of those
+programs require the whole kitchen sink (e.g. I was surprised to see
+Konsole links against libFLAC) and that might matter to some people.
+
+We haven't examined the advantage (or not) of "daemon" mode. In fact,
+it's caused more problems than it solved for the purpose of those
+tests, because GNOME Terminal couldn't behave properly. It might save
+memory for large number of terminals, however, but I am really not
+sure it's still worth doing anymore, apart for features like
+Terminator's multi-terminal entry support.
+
+Resource tests are only performed on the ASCII character set. It would
+be interesting to have results for wider unicode, indeed Luu quotes
+someone saying there are slow downs on Terminal.app on latin1
+characters. Memory usage could also suffer.
+
+Testing latency under Wayland would seem critical, in general.
+
+Terminal multiplexers like screen or tmux were not tested as Dan Luu
+claims it has no effect, and I did not verify that claim.
+
+Further debugging of eshell would seem important to try and figure out
+why it fails to `cat` a 1MB file reasonably, while it can call a
+script that does without problems.
+
+A whole article could be written about compatibility issues. It's
+tricky, because ncurse and xterm seem to have the same maintainer
+which could mean one has a bias towards the other which could skew
+results. There are also OS-specific (or at least Debian-specific)
+changes in termcap and so on which confuse things. Future tests here
+should include using the `vttest` package but preliminary tests showed
+that even xterm failed to run some tests in there. Tests on serial
+console hardware like Procurve switches should be performed as well.
