@@ -613,6 +613,24 @@ is shown in the `editors.csv` file.
 All the latency tests were performed on Debian 9 (stretch) in a Xmonad
 or i3 session.
 
+Like Fatin, I ignored load in the tests but Luu actually added load as
+a test component, doing a series of test with, and another without
+load. I don't know if that's really useful: while his tests show that
+load impact terminals differently, I am not sure this is caused by the
+terminals themselves as much as the actual load used:
+
+> The loaded measurements were done while compiling Rust (as before,
+> with full battery and running off of A/C power, and in order to make
+> the measurements reproducible, each measurement started 15s after a
+> clean build of Rust after downloading all dependencies, with enough
+> time between runs to avoid thermal throttling interference across
+> runs).
+
+Compiling rust, while maybe deterministic, certainly creates a
+variable load during the test period, so the test bed is not as
+uniform as (say) a busy loop. So I haven't tried reproducing those
+results.
+
 ### Reroll
 
 This is a rerun of the latency test, in a clean Debian 9 profile.
