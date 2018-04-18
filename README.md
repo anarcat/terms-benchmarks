@@ -578,7 +578,12 @@ The results were saved in the `latency.csv` file.
 Some notes:
 
  * typometer wasn't configured in any special way: we used the default
-   settings
+   settings, which are:
+   
+   * Chars: 200
+   * Delay: 150ms
+   * Native API
+   * Sync (async unchecked)
 
  * ran a bunch of tests first by hand, then re-ran the whole list
    systematically
